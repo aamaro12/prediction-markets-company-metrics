@@ -1,0 +1,112 @@
+{
+  "ladder": "KXPBR-26NOVPROD",
+  "report_date": "2026-11-06",
+  "filed_at": "2026-10-12T15:08:09.024647+00:00",
+  "chances": [
+    {
+      "strike": 2950,
+      "above": 0.99986705
+    },
+    {
+      "strike": 3000,
+      "above": 0.99953868
+    },
+    {
+      "strike": 3050,
+      "above": 0.9985577
+    },
+    {
+      "strike": 3100,
+      "above": 0.99593284
+    },
+    {
+      "strike": 3150,
+      "above": 0.98964169
+    },
+    {
+      "strike": 3200,
+      "above": 0.97613566
+    },
+    {
+      "strike": 3250,
+      "above": 0.95016369
+    },
+    {
+      "strike": 3300,
+      "above": 0.90542697
+    },
+    {
+      "strike": 3350,
+      "above": 0.83640169
+    },
+    {
+      "strike": 3400,
+      "above": 0.74100369
+    },
+    {
+      "strike": 3450,
+      "above": 0.62290126
+    },
+    {
+      "strike": 3500,
+      "above": 0.4919324
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/abril.pdf",
+      "locator": "page-015",
+      "excerpt": "Produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s por consorciado\nConcession\u00e1rio Petr\u00f3leo\n(bbl/d)\nG\u00e1s Natural\n(Mm\u00b3/d)\nProdu\u00e7\u00e3o Total\n(boe/d)\n\ue116 \nPETROBRAS 2.621.925,12 127.148,23 3.421.663,33",
+      "claim": "Abril 2026 Petrobras concessionaire production: oil 2,621,925.12 b/d, gas 127,148.23 thousand m3/d, and total 3,421,663.33 boe/d, using the regulator's own gas-to-boe conversion."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/maio.pdf",
+      "locator": "page-015",
+      "excerpt": "Produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s por consorciado\nConcession\u00e1rio Petr\u00f3leo\n(bbl/d)\nG\u00e1s Natural\n(Mm\u00b3/d)\nProdu\u00e7\u00e3o Total\n(boe/d)\n\ue116 \nPETROBRAS 2.545.175,50 124.699,92 3.329.514,30",
+      "claim": "Maio 2026 Petrobras concessionaire production: oil 2,545,175.50 b/d, gas 124,699.92 thousand m3/d, and total 3,329,514.30 boe/d, using the regulator's own gas-to-boe conversion."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/junho.pdf",
+      "locator": "page-015",
+      "excerpt": "Produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s por consorciado\nConcession\u00e1rio Petr\u00f3leo\n(bbl/d)\nG\u00e1s Natural\n(Mm\u00b3/d)\nProdu\u00e7\u00e3o Total\n(boe/d)\n\ue116 \nPETROBRAS 2.618.480,89 130.205,05 3.437.445,92",
+      "claim": "Junho 2026 Petrobras concessionaire production: oil 2,618,480.89 b/d, gas 130,205.05 thousand m3/d, and total 3,437,445.92 boe/d, using the regulator's own gas-to-boe conversion."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/julho.pdf",
+      "locator": "page-015",
+      "excerpt": "Produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s por consorciado\nConcession\u00e1rio Petr\u00f3leo\n(bbl/d)\nG\u00e1s Natural\n(Mm\u00b3/d)\nProdu\u00e7\u00e3o Total\n(boe/d)\n\ue116 \nPETROBRAS 2.625.405,62 131.544,87 3.452.797,83",
+      "claim": "Julho 2026 Petrobras concessionaire production: oil 2,625,405.62 b/d, gas 131,544.87 thousand m3/d, and total 3,452,797.83 boe/d, using the regulator's own gas-to-boe conversion."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/agosto.pdf",
+      "locator": "page-015",
+      "excerpt": "Produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s por consorciado\nConcession\u00e1rio Petr\u00f3leo\n(bbl/d)\nG\u00e1s Natural\n(Mm\u00b3/d)\nProdu\u00e7\u00e3o Total\n(boe/d)\n\ue116 \nPETROBRAS 2.756.163,28 134.768,89 3.603.834,00",
+      "claim": "Agosto 2026 Petrobras concessionaire production: oil 2,756,163.28 b/d, gas 134,768.89 thousand m3/d, and total 3,603,834.00 boe/d, using the regulator's own gas-to-boe conversion."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/arquivos-bmppgn/2026/agosto.pdf",
+      "locator": "page-004",
+      "excerpt": "Na tabela \u201cDistribui\u00e7\u00e3o da produ\u00e7\u00e3o de petr\u00f3leo e g\u00e1s natural por consorciado\u201d, a Pr\u00e9-Sal Petr\u00f3leo \nS.A. (PPSA) representa o volume de petr\u00f3leo e g\u00e1s natural apropriado \u00e0 Uni\u00e3o conforme contratos de \npartilha da produ\u00e7\u00e3o. Tal volume n\u00e3o \u00e9 contabilizado nos valores atribu\u00eddos aos demais contratados, \nnestes casos.",
+      "claim": "ANP concessionaire allocation excludes the government share attributed to PPSA from the other contractors' volumes."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/petrobras-q2-profit-nearly-doubles-024500571.html",
+      "locator": "paragraph-0004",
+      "excerpt": "Petrobras' own oil output in Brazil reached 2.7 million barrels per day, 15% above the second quarter of 2025. Total oil and natural gas production reached a record 3.34 million barrels of oil equivalent per day, while operated production hit 4.87 million boed.",
+      "claim": "Read secondary report of the Q2 2026 company production baseline distinguishes own oil, total oil/gas and operated production; own-oil counts do not match the ANP Q2 concessionaire average exactly."
+    },
+    {
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/PBR/pressreleases/3737246/petrobras-posts-record-output-and-refining-utilization-in-2q26-advances-pre-salt-and-esg-agenda/",
+      "locator": "paragraph-0007",
+      "excerpt": "In the second quarter of 2026, Petrobras reported record total oil and natural gas production of 3.34 MMboed",
+      "claim": "Independent read secondary summary corroborates the Q2 2026 total production baseline and its million-boe/day units; this is not a primary issuer definition."
+    },
+    {
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletins/boletim-mensal-da-producao-de-petroleo-e-gas-natural?asof=2026-10-12",
+      "locator": "paragraph-0004",
+      "excerpt": "Janeiro - Fevereiro - Mar\u00e7o - Abril - Maio - Junho - Julho - Agosto",
+      "claim": "The refreshed 2026 regulator bulletin index lists January through August, with no September observation verified."
+    }
+  ],
+  "method": "Use the ANP concessionaire series, whose totals already convert gas to boe and exclude the PPSA government share, to form a day-weighted Q2 rate of 3395.474954 Mboed and calibrate an additive gap of -55.474954 Mboed to the 3,340 Mboed company total reported in two read secondary summaries; day-weight July and August plus assumed September persistence at August to project Q3 at 3497.466424 Mboed. Assume this additive bridge remains stable and use a normal latent quarter-average rate with a subjective 150 Mboed standard deviation, not a fitted confidence interval, covering the missing month, preliminary/source uncertainty and unidentified gas/reinjection/CO2, ownership and overseas scope differences; the reported own-Brazil-oil baseline also differs from the ANP concessionaire Q2 average, so the series are not treated as identical metrics. Assume quarterly reporting rounds to the nearest 1 Mboed and compute strictly-above chances from each strike plus 0.5 Mboed, with the rounded Q2 baseline uncertainty absorbed in the subjective standard deviation. November 6, 2026 is an unverified expected report date used only as a scheduling assumption; the refreshed ANP 2026 index ends at August and checked searches supplied no September numeric observation."
+}

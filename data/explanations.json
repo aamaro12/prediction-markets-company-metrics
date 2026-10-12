@@ -1,0 +1,309 @@
+{
+  "explained": [
+    {
+      "ladder": "KXPLTR-26AUGCUST",
+      "explanation": "Despite the study's total-customer miss, Palantir raised annual revenue guidance to $8.150–$8.158 billion. Reuters linked the positive share reaction to the higher forecast and strong government and commercial demand.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/palantir-reports-q2-2026-u-s-comm-revenue-growth-of-149-y-y-and-revenue-growth-of-93-y-y-raises-ce7f50d9dc8df321",
+          "locator": "item-0256",
+          "excerpt": "We are raising our revenue guidance to between $8.150 – $8.158 billion.",
+          "sha256": "42b08cf8a6f8f8a4a2a8035ef55f35ea3165cc8244f1ec6138b5ae1cf727c844",
+          "published_at": "2026-08-03T22:06:04+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/palantir-raises-annual-revenue-forecast-on-strong-demand-from-us-government-commercial-customers-ce7f50d9dc8cf720",
+          "locator": "paragraph-0003",
+          "excerpt": "signaling strong government and commercial demand for its data analytics software, sending its shares up 14% in extended trading.",
+          "sha256": "b10474cb45e37c08c4f6ffd9a8c865926d548b03904810ae6da7a9d6da9c7cc6",
+          "published_at": "2026-08-03T22:07:17+02:00"
+        }
+      ],
+      "company": "PLTR",
+      "results_day": "2026-08-04",
+      "outcome": "miss",
+      "move": 0.2765193913896209
+    },
+    {
+      "ladder": "KXKLAR-26MAYCONS",
+      "explanation": "Despite the study's active-consumer miss, Klarna reported $1.0 billion revenue, up 44%, and $68 million adjusted operating profit, up from $3 million. Reuters reported operating profit and revenue above analyst expectations, while TT linked the positive share reaction to a stronger-than-expected report.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/klarna-delivers-strong-start-to-2026-with-1bn-revenue-and-68m-adj-operating-profit-ce7f5bdddd89f12c",
+          "locator": "paragraph-0003",
+          "excerpt": "revenue $1.0 billion (+44% YoY)",
+          "sha256": "0e0120181adbdfc8dd5244374f64fceb8946e058f2fe16da223c151687fae117",
+          "published_at": "2026-05-14T13:31:05+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/klarna-delivers-strong-start-to-2026-with-1bn-revenue-and-68m-adj-operating-profit-ce7f5bdddd89f12c",
+          "locator": "item-0240",
+          "excerpt": "Adjusted operating profit: $68 million, up from $3 million a year ago",
+          "sha256": "0e0120181adbdfc8dd5244374f64fceb8946e058f2fe16da223c151687fae117",
+          "published_at": "2026-05-14T13:31:05+02:00"
+        },
+        {
+          "url": "https://www.rte.ie/news/business/2026/0514/1573350-klarna-quarterly-results/",
+          "locator": "paragraph-0001",
+          "excerpt": "posted first-quarter operating profit and revenue ahead of analysts' expectations today, helped by growth in US markets.",
+          "sha256": "25f5abf060f88c2b8de253280169fa889ecc039e8a3517da40611ea4dd589c22",
+          "published_at": "2026-05-14T12:58:22+01:00"
+        },
+        {
+          "url": "https://www.svd.se/a/wrRJQ5/klarnas-rapport-intakterna-okar-med-44-procent",
+          "locator": "paragraph-0003",
+          "excerpt": "Klarna levererade en starkare rapport än väntat – och aktien rusar tvåsiffrigt vid börsöppning.",
+          "sha256": "d9f2985fbd369ae7570117da58aaac557a848b8ce047a99f9123b56bf1a7ee6e",
+          "published_at": "2026-05-14T12:02:36+00:00"
+        }
+      ],
+      "company": "KLAR",
+      "results_day": "2026-05-14",
+      "outcome": "miss",
+      "move": 0.1951736568213185
+    },
+    {
+      "ladder": "KXSNOWFLAKE-26AUGCUST1M",
+      "explanation": "Despite the study's miss on customers generating over $1 million, Snowflake raised annual product-revenue guidance to $6.07 billion from $5.84 billion. Reuters linked the positive share reaction to the raised forecast as demand increased for its cloud data platform and AI offerings.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/snowflake-reports-financial-results-for-the-second-quarter-of-fiscal-2027-ce7858d3db8efe25",
+          "locator": "item-0244",
+          "excerpt": "Product revenue of $6,070 million, representing 36% year-over-year growth, up from previous guidance of $5,840 million",
+          "sha256": "17327c366dce7857c1cb3f2932198513ecbc0295e48e938b8bbb594e09bf9faf",
+          "published_at": "2026-09-02T22:06:06+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/snowflake-lifts-annual-product-revenue-forecast-on-demand-for-cloud-data-platform-ce7858d3db81f42c",
+          "locator": "paragraph-0003",
+          "excerpt": "raised its full-year product revenue forecast as demand rises for its cloud data platform and AI offerings, sending shares surging",
+          "sha256": "d2f97032044b4ab852f6420628ea866edad9231a08819572be7db61ff58523a6",
+          "published_at": "2026-09-02T22:07:11+02:00"
+        }
+      ],
+      "company": "SNOW",
+      "results_day": "2026-09-03",
+      "outcome": "miss",
+      "move": 0.15507567656723698
+    },
+    {
+      "ladder": "KXCBVOLUME-Q2-25",
+      "explanation": "The volume beat did not translate into strong earnings: Reuters attributed the sell-off to a trading slowdown and a drop in adjusted profit, which was $33.2 million. CNBC also reported transaction revenue of $764 million below the $787 million StreetAccount estimate.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/coinbase-global-second-quarter-2025-shareholder-letter-ce7c5fd2d88bff20",
+          "locator": "paragraph-0133",
+          "excerpt": "Q2 transaction revenue was $764 million, down 39% Q/Q",
+          "sha256": "4e5fcad878488086887c254ce0b280e4efb8db8f96b5739cfcced90f8283ade9",
+          "published_at": "2025-08-01T00:33:08+02:00"
+        },
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2025/08/01/coinbase-shares-fall-112-after-profit-drop",
+          "locator": "paragraph-0002",
+          "excerpt": "reported a drop in second-quarter adjusted profit due to a slowdown in trading.",
+          "sha256": "78734a09f8b8d24b3e37882ddcd10ee970845617be675c999f2d6e988ee5a3a0",
+          "published_at": "2025-08-01T14:54:00+00:00"
+        },
+        {
+          "url": "https://www.thestar.com.my/tech/tech-news/2025/08/01/coinbase-shares-fall-112-after-profit-drop",
+          "locator": "paragraph-0008",
+          "excerpt": "Coinbase posted adjusted profit of $33.2 million",
+          "sha256": "78734a09f8b8d24b3e37882ddcd10ee970845617be675c999f2d6e988ee5a3a0",
+          "published_at": "2025-08-01T14:54:00+00:00"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/07/31/coinbase-coin-earnings-q2-2025.html",
+          "locator": "paragraph-0007",
+          "excerpt": "Revenue tied to transactions came in at $764 million, missing StreetAccount estimates of $787 million.",
+          "sha256": "9b68e7dd38099412ed7a74f64b92c3ce8f5c8c684dedd0b24d83f75089d5ba53",
+          "published_at": "2025-07-31T20:45:52+00:00"
+        }
+      ],
+      "company": "COIN",
+      "results_day": "2025-08-01",
+      "outcome": "beat",
+      "move": -0.15056752650239003
+    },
+    {
+      "ladder": "KXVSXY-26AUGCOMP",
+      "explanation": "The 9% comparable-sales beat was overshadowed by a weak third-quarter profit outlook: news reported a $15 million operating-income guidance midpoint against a roughly $24.4 million Street estimate. Management said it was increasing marketing investment, a near-term cost.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/victoriaa-s-secret-co-reports-second-quarter-2026-results-ce7858d3d18bf42d",
+          "locator": "paragraph-0007",
+          "excerpt": "Total comparable sales for the second quarter of 2026 increased 9%.",
+          "sha256": "70d5ff972e8186d3959c1ac34a5ccabd6a153a521d10812c364cbe4352c01199",
+          "published_at": "2026-09-03T13:00:13+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/victoriaa-s-secret-co-reports-second-quarter-2026-results-ce7858d3d18bf42d",
+          "locator": "paragraph-0005",
+          "excerpt": "We are increasing our strategic marketing investment",
+          "sha256": "70d5ff972e8186d3959c1ac34a5ccabd6a153a521d10812c364cbe4352c01199",
+          "published_at": "2026-09-03T13:00:13+02:00"
+        },
+        {
+          "url": "https://earningsdispatch.com/victorias-secret-q2-2026-raises-year-guides-quarter-light/",
+          "locator": "paragraph-0008",
+          "excerpt": "Investing.com reported that the roughly $15 million midpoint fell short of a Street estimate near $24.4 million;",
+          "sha256": "aa9fbb6cf130eb0657a8bea0da7f4819e065bae8344a03beabebffdd42b73be4",
+          "published_at": "2026-09-03T12:00:00+00:00"
+        }
+      ],
+      "company": "VSXY",
+      "results_day": "2026-09-03",
+      "outcome": "beat",
+      "move": -0.142174565491893
+    },
+    {
+      "ladder": "KXCAVA-26AUGREST",
+      "explanation": "The restaurant-count miss coincided with stronger demand: the release reported 9.0% same-restaurant sales growth, including 5.3% guest-traffic growth. Same-day reporting said the traffic-led comparable-sales beat, against expectations near 7.1%, drove the positive reaction.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/cava-group-reports-second-quarter-2026-results-ce7859dbdf8af121",
+          "locator": "item-0239",
+          "excerpt": "Same Restaurant Sales increased 9.0%, including Guest Traffic growth of 5.3%.",
+          "sha256": "477515f2f9081e3e88c4cdc108e3d3f09feb7fcf177e81c214c0c7f6f7dc8487",
+          "published_at": "2026-08-11T22:11:04+02:00"
+        },
+        {
+          "url": "https://earningsdispatch.com/cava-traffic-led-comp-beat-market-reaction-august-12/",
+          "locator": "paragraph-0003",
+          "excerpt": "The comp line did the work. Same-restaurant sales grew 9.0% versus expectations closer to 7.1%,",
+          "sha256": "28896c62671adcf2007289068379d683f55ddd4a7a37f30e05d2f4c9466ccfd4",
+          "published_at": "2026-08-12T12:00:00+00:00"
+        },
+        {
+          "url": "https://earningsdispatch.com/cava-traffic-led-comp-beat-market-reaction-august-12/",
+          "locator": "paragraph-0009",
+          "excerpt": "That the stock rose anyway",
+          "sha256": "28896c62671adcf2007289068379d683f55ddd4a7a37f30e05d2f4c9466ccfd4",
+          "published_at": "2026-08-12T12:00:00+00:00"
+        }
+      ],
+      "company": "CAVA",
+      "results_day": "2026-08-12",
+      "outcome": "miss",
+      "move": 0.13990611577248102
+    },
+    {
+      "ladder": "KXHIMS-26MAYSUBS",
+      "explanation": "The subscriber beat coincided with a drop in gross margin to 65% from 73%. Reuters linked the fall to the pivot to branded weight-loss drugs, which increased costs and produced a surprise quarterly loss.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/hims-hers-health-inc-reports-first-quarter-2026-financial-results-ce7f5bd9dd8df326",
+          "locator": "item-0238",
+          "excerpt": "Gross margin was 65% for the first quarter of 2026 compared to 73% for the first quarter of 2025.",
+          "sha256": "6375d994e1d75dca64933da02a4029bdff9722773999b7766665339d7b7bf89b",
+          "published_at": "2026-05-11T22:07:07+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/hims-hers-plunges-after-weight-loss-pivot-hits-quarterly-results-ce7f5bdedb89f22d",
+          "locator": "paragraph-0003",
+          "excerpt": "pivot to branded weight-loss drugs drove up costs and led to a surprise loss in the first quarter.",
+          "sha256": "54a1710abac390fb2296623389632c591c32880295af08f69313701db304aae6",
+          "published_at": "2026-05-12T12:18:33+02:00"
+        }
+      ],
+      "company": "HIMS",
+      "results_day": "2026-05-12",
+      "outcome": "beat",
+      "move": -0.1395282929622068
+    },
+    {
+      "ladder": "KXNCLH-26JULPAX",
+      "explanation": "The passenger beat came with a weaker outlook: Norwegian projected a roughly 5% full-year decline in net yield at constant currency. Reuters reported lower annual profit forecasts and weak bookings for the coming year, providing a plausible explanation for the fall.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/norwegian-cruise-line-holdings-reports-second-quarter-2026-financial-results-ce7f50dadb89f721",
+          "locator": "item-0248",
+          "excerpt": "2026 full year Net Yield on a Constant Currency basis is expected to be down approximately 5% versus 2025.",
+          "sha256": "29c8ce5bc65203baa9e0c6e9a5aabc8953a43639d77610d98a04926d1b29627a",
+          "published_at": "2026-07-30T12:31:27+02:00"
+        },
+        {
+          "url": "https://www.boursorama.com/bourse/actualites-amp/norwegian-cruise-revoit-a-la-baisse-ses-previsions-de-benefices-en-raison-d-un-recul-des-reservations-lie-au-conflit-au-moyen-orient-2ba60dcfcd2d59b7e1a22ea51110f0d7",
+          "locator": "paragraph-0002",
+          "excerpt": "a revu à la baisse jeudi ses prévisions de bénéfice annuel",
+          "sha256": "049026ba94f2514ab5363311374ba4d00244a773339fea8f7dc679dcce1fb49e",
+          "published_at": "2026-07-30T16:52:33+02:00"
+        },
+        {
+          "url": "https://www.boursorama.com/bourse/actualites-amp/norwegian-cruise-revoit-a-la-baisse-ses-previsions-de-benefices-en-raison-d-un-recul-des-reservations-lie-au-conflit-au-moyen-orient-2ba60dcfcd2d59b7e1a22ea51110f0d7",
+          "locator": "paragraph-0002",
+          "excerpt": "les réservations resteraient faibles pour l'année à venir",
+          "sha256": "049026ba94f2514ab5363311374ba4d00244a773339fea8f7dc679dcce1fb49e",
+          "published_at": "2026-07-30T16:52:33+02:00"
+        }
+      ],
+      "company": "NCLH",
+      "results_day": "2026-07-30",
+      "outcome": "beat",
+      "move": -0.11459715207717625
+    },
+    {
+      "ladder": "KXMO-26JULCIGSHIP",
+      "explanation": "The negative news was an earnings miss: adjusted EPS of $1.48 fell short of analysts’ $1.50 forecast. The oral-tobacco business also weakened, with revenue down 5.3% and adjusted operating income down 8.0% as lower shipments and greater promotional spending hurt profitability.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/altria-2q-profit-falls-on-softer-oral-tobacco-performance-ce7f50dada8bf12d",
+          "locator": "paragraph-0006",
+          "excerpt": "adjusted per-share earnings were $1.48, behind the $1.50 anticipated by analysts",
+          "sha256": "76317864e38f65366f91e9a783d6f361960d2bf27bf3ac33943945fdf20ba2c7",
+          "published_at": "2026-07-30T13:43:18+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/altria-2q-profit-falls-on-softer-oral-tobacco-performance-ce7f50dada8bf12d",
+          "locator": "paragraph-0009",
+          "excerpt": "oral-tobacco business, which includes on! nicotine pouches, fell 5.3%",
+          "sha256": "76317864e38f65366f91e9a783d6f361960d2bf27bf3ac33943945fdf20ba2c7",
+          "published_at": "2026-07-30T13:43:18+02:00"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/altria-reports-2026-second-quarter-and-first-half-results-narrows-2026-full-year-earnings-guidance-ce7f50dadb8df025",
+          "locator": "item-0268",
+          "excerpt": "Adjusted OCI decreased 8.0%, primarily driven by lower shipment volume and higher promotional investments",
+          "sha256": "5904d2c232b0f69c641b817e9897701dd9db203501c8b72d4cfee12eea5b4f63",
+          "published_at": "2026-07-30T13:01:06+02:00"
+        }
+      ],
+      "company": "MO",
+      "results_day": "2026-07-30",
+      "outcome": "beat",
+      "move": -0.10993187055600351
+    },
+    {
+      "ladder": "KXCHWY-26SEPACTIVECUST",
+      "explanation": "Same-day reporting attributed the fall to a free cash flow shortfall that outweighed the raised full-year outlook: quarterly free cash flow fell to $89.5 million from $105.9 million as capital spending rose to $47.9 million from $28.0 million. Management also described pressure on discretionary purchases, with treat sales growth slowing more sharply than core food.",
+      "citations": [
+        {
+          "url": "https://www.marketscreener.com/news/chewy-announces-second-quarter-2026-financial-results-ce785bd9dc8df62c",
+          "locator": "table-009",
+          "excerpt": "Capital expenditures (47.9 ) (28.0 ) (85.6 ) (65.7 ) Free Cash Flow $ 89.5 $ 105.9",
+          "sha256": "86ba24baede6630da350db27e245c439de6ae9eddb8c9ee055d1701eb81ebefe",
+          "published_at": "2026-09-09T13:06:06+02:00"
+        },
+        {
+          "url": "https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/",
+          "locator": "paragraph-0004",
+          "excerpt": "free cash flow shortfall large enough to swamp a raised full-year outlook",
+          "sha256": "925911f1e41f04dc6cd935240324ec28c6fda1feb85870b767d638d533033a9e",
+          "published_at": "2026-09-09T19:05:56+00:00"
+        },
+        {
+          "url": "https://finwires.com/en/article/chewy-delivers-in-line-second-quarter-amid-weak-7232957",
+          "locator": "paragraph-0003",
+          "excerpt": "treat sales growth slowed more sharply than growth in core food, reflecting moderation in discretionary purchases",
+          "sha256": "75561e1fe1e85d22ed3e529ddc9d2c0c98b017555facade8408b55e4fdd6ebf8",
+          "published_at": "2026-09-09T15:29:15+00:00"
+        }
+      ],
+      "company": "CHWY",
+      "results_day": "2026-09-09",
+      "outcome": "beat",
+      "move": -0.10364617841093837
+    }
+  ],
+  "unexplained": [],
+  "failed": []
+}

@@ -1,0 +1,140 @@
+{
+  "ladder": "KXLUV-26OCTSEATS",
+  "report_date": "2026-10-21",
+  "filed_at": "2026-10-12T15:08:08.949224+00:00",
+  "chances": [
+    {
+      "strike": 56000000,
+      "above": 0.8641031
+    },
+    {
+      "strike": 56500000,
+      "above": 0.72539389
+    },
+    {
+      "strike": 57000000,
+      "above": 0.53940745
+    },
+    {
+      "strike": 57500000,
+      "above": 0.34418835
+    },
+    {
+      "strike": 58000000,
+      "above": 0.18377848
+    },
+    {
+      "strike": 58500000,
+      "above": 0.08059822
+    },
+    {
+      "strike": 59000000,
+      "above": 0.02864714
+    },
+    {
+      "strike": 59500000,
+      "above": 0.00817385
+    },
+    {
+      "strike": 60000000,
+      "above": 0.00185952
+    },
+    {
+      "strike": 60500000,
+      "above": 0.00033563
+    },
+    {
+      "strike": 61000000,
+      "above": 4.789e-05
+    },
+    {
+      "strike": 61500000,
+      "above": 5.39e-06
+    },
+    {
+      "strike": 62000000,
+      "above": 4.8e-07
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-003",
+      "excerpt": "Southwest Airlines (WN) Scheduled Services Only BTS Data as of 10/12/2026",
+      "claim": "Selected BTS WN operating carrier, scheduled services; acquired through the public POST form, not an ignored GET carrier selection."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2026; Number of Seats: 19959",
+      "claim": "Latest in-quarter July 2026 WN available-seat chart measurement; use its ratio to July 2025 without assuming chart units match the issuer units."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2025; Number of Seats: 20149",
+      "claim": "Same-carrier July 2025 denominator for current-quarter capacity growth."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: August 2025; Number of Seats: 18491",
+      "claim": "Historical August WN chart available seats for baseline bridge."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: September 2025; Number of Seats: 17831",
+      "claim": "Historical September WN chart available seats for baseline bridge."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2024; Number of Seats: 20305",
+      "claim": "Historical July WN chart available seats for baseline bridge stability check."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: August 2024; Number of Seats: 18751",
+      "claim": "Historical August WN chart available seats for baseline bridge stability check."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: September 2024; Number of Seats: 17888",
+      "claim": "Historical September WN chart available seats for baseline bridge stability check."
+    },
+    {
+      "url": "https://investors.southwest.com/news-events/press-releases/detail/1901/southwest-airlines-reports-record-third-quarter-revenue-strong-execution-of-transformational-initiatives-continues",
+      "locator": "table-007",
+      "excerpt": "Three months ended Nine months ended September 30, Percent September 30, Percent 2025 2024 Change 2025 2024 Change",
+      "claim": "Operating-statistics table period and year column order."
+    },
+    {
+      "url": "https://investors.southwest.com/news-events/press-releases/detail/1901/southwest-airlines-reports-record-third-quarter-revenue-strong-execution-of-transformational-initiatives-continues",
+      "locator": "table-007",
+      "excerpt": "Seats flown (000s) (d) 57,643 58,119 (0.8) 170,145 173,588 (2.0)",
+      "claim": "Issuer Q3 2025 seats flown 57,643,000; Q3 2024 seats flown 58,119,000, distinct from ASMs and passengers."
+    },
+    {
+      "url": "https://investors.southwest.com/news-events/press-releases/detail/1901/southwest-airlines-reports-record-third-quarter-revenue-strong-execution-of-transformational-initiatives-continues",
+      "locator": "paragraph-0949",
+      "excerpt": "(d) Seats flown is calculated using total number of seats available by aircraft type multiplied by the total trips flown by the same aircraft type during a particular period.",
+      "claim": "Target definition uses seats multiplied by trips; this is seats flown, not seat miles or passengers."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=WN&End_YearMonth=24319",
+      "locator": "table-004/row-001/cell-001",
+      "excerpt": "Summary Data (U.S. Airports, 12 Months Ending July)",
+      "claim": "BTS carrier page identifies U.S.-airport summary coverage; prior-year calibration bridges the available-seat proxy to issuer-wide reporting instead of assuming equality."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+      "locator": "table-001/row-005/cell-003",
+      "excerpt": "10/9/2026: 7/2026 added 4/2026 updated",
+      "claim": "July is the latest released BTS T-100 domestic segment month as of this run; no August/September observation is asserted."
+    }
+  ],
+  "method": "Multiply the issuer's Q3 2025 seats flown of 57,643,000 by the latest in-quarter BTS WN July available-seat ratio 19,959/20,149 to project 57,099,441 seats for Q3 2026. The BTS chart Q3 totals are 56,471 in 2025 and 56,944 in 2024, versus issuer seats flown of 57,643 and 58,119 thousand, giving stable historical bridge factors 1.02075 and 1.02063; anchoring on the issuer baseline preserves this carrier/perimeter difference rather than treating the BTS chart as the reported figure. Use a Normal predictive distribution with this mean and judgemental SD 1,000,000 seats to allow for unobserved August/September capacity growth, reporting coverage, and changes in the bridge; July is the latest released month and this SD is not presented as empirically estimated. Because the issuer reports seats in thousands and contracts require strictly above, calculate each chance as the Normal survival probability at strike plus 500 seats, using a continuity correction for the reported rounding grid."
+}

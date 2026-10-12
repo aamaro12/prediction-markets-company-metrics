@@ -1,0 +1,88 @@
+{
+  "ladder": "KXSCHW-26OCTACCTS",
+  "report_date": "2026-10-15",
+  "filed_at": "2026-10-12T15:08:09.128450+00:00",
+  "chances": [
+    {
+      "strike": 39900000,
+      "above": 0.99995965
+    },
+    {
+      "strike": 40000000,
+      "above": 0.99599905
+    },
+    {
+      "strike": 40100000,
+      "above": 0.91555257
+    },
+    {
+      "strike": 40200000,
+      "above": 0.54398781
+    },
+    {
+      "strike": 40300000,
+      "above": 0.12430051
+    },
+    {
+      "strike": 40400000,
+      "above": 0.00759888
+    },
+    {
+      "strike": 40500000,
+      "above": 0.00010139
+    },
+    {
+      "strike": 40600000,
+      "above": 2.6e-07
+    },
+    {
+      "strike": 40700000,
+      "above": 0.0
+    },
+    {
+      "strike": 40800000,
+      "above": 0.0
+    },
+    {
+      "strike": 40900000,
+      "above": 0.0
+    },
+    {
+      "strike": 41000000,
+      "above": 0.0
+    },
+    {
+      "strike": 41100000,
+      "above": 0.0
+    },
+    {
+      "strike": 41200000,
+      "above": 0.0
+    },
+    {
+      "strike": 41300000,
+      "above": 0.0
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://uk.finance.yahoo.com/news/schwab-reports-monthly-activity-highlights-124500174.html",
+      "locator": "table-001",
+      "excerpt": "2025 2026 Change Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Mo. Yr.",
+      "claim": "The monthly table columns identify June, July and August 2026."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/schwab-reports-monthly-activity-highlights-124500174.html",
+      "locator": "table-001",
+      "excerpt": "Client Accounts (at month end, in thousands) Active Brokerage Accounts 37,798 37,963 38,145 38,266 38,506 38,730 38,925 39,099 39,300 39,536 39,802 39,940 40,090",
+      "claim": "June, July and August active brokerage account counts are 39.802m, 39.940m and 40.090m; the observed Q3 month-end series measures the contract metric."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/schwab-announces-fall-business-124500390.html",
+      "locator": "paragraph-0002",
+      "excerpt": "The Charles Schwab Corporation announced today that it has scheduled a Fall Business Update for institutional investors on Thursday, October 15th.",
+      "claim": "October 15 is the announced Fall Business Update date; it is not an explicitly verified earnings-release date."
+    }
+  ],
+  "method": "Project the unobserved September account count from August's 40.090 million plus the mean of the July and August net additions (138,000 and 150,000), giving a normal latent count with mean 40.234 million and a subjective 75,000 standard deviation for missing-month and revision uncertainty, not a fitted confidence interval. For reporting precision uncertainty, equally weight rounding to the nearest 1,000 and nearest 100,000 accounts, and calculate strict-above chances using each strike plus half its rounding step. October 15, 2026 is an expected report date inferred from the announced Fall Business Update, not a verified earnings-release announcement; the latest checked public measurement is August, with refreshed issuer pages blocked and no newer measurement in the checked searches."
+}

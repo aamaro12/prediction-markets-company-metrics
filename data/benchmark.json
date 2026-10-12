@@ -1,0 +1,35 @@
+{
+  "kept": 138,
+  "year_ago": {
+    "n": 137,
+    "market_median_gap_share": 0.012145470715121892,
+    "forecast_median_gap_share": 0.13425499231950844,
+    "market_closer": 124,
+    "forecast_closer": 13,
+    "ties": 0,
+    "rates": {
+      "n": 23,
+      "market_median_gap_points": 0.7376811594202897,
+      "forecast_median_gap_points": 3.3,
+      "market_closer": 18,
+      "forecast_closer": 5,
+      "ties": 0
+    }
+  },
+  "previous_quarter": {
+    "n": 135,
+    "market_median_gap_share": 0.012145470715121892,
+    "forecast_median_gap_share": 0.0672782874617737,
+    "market_closer": 118,
+    "forecast_closer": 17,
+    "ties": 0,
+    "rates": {
+      "n": 23,
+      "market_median_gap_points": 0.7376811594202897,
+      "forecast_median_gap_points": 1.0999999999999996,
+      "market_closer": 16,
+      "forecast_closer": 7,
+      "ties": 0
+    }
+  }
+}

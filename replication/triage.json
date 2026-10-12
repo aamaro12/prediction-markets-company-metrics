@@ -1,0 +1,3024 @@
+{
+  "triage": [
+    {
+      "ladder": "KXDPZ-26OCTSTORES",
+      "report_date": "2026-10-13",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/dominos-announces-q3-2026-earnings-webcast-302875721.html",
+        "locator": "paragraph-0020",
+        "excerpt": "Results and supplemental material will be distributed at 6:05 a.m. ET on October 13, 2026, and will be available on our website."
+      },
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/dominos-announces-q3-2026-earnings-webcast-302875721.html",
+          "locator": "paragraph-0022",
+          "excerpt": "Domino's had global retail sales of over $20.6 billion in the trailing four quarters ended June 14, 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[0].contract_rules",
+        "excerpt": "If Domino's Pizza Inc reports Above 7240 total us stores in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDPZ-26OCTSSSG",
+      "report_date": "2026-10-13",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/dominos-announces-q3-2026-earnings-webcast-302875721.html",
+        "locator": "paragraph-0020",
+        "excerpt": "Results and supplemental material will be distributed at 6:05 a.m. ET on October 13, 2026, and will be available on our website."
+      },
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/dominos-announces-q3-2026-earnings-webcast-302875721.html",
+          "locator": "paragraph-0022",
+          "excerpt": "Domino's had global retail sales of over $20.6 billion in the trailing four quarters ended June 14, 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[1].contract_rules",
+        "excerpt": "If Domino's Pizza Inc reports Above -1% us same store sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXVG-26OCTLNGVOL",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "DOE’s monthly LNG report measures July export volumes and cargo counts at Plaquemines and Calcasieu Pass, providing direct partial Q3 observations that require reconciliation to the company’s reported LNG-volume definition. No company-announced Q3 report publication date was found in the checked issuer pages and wire searches.",
+      "data": [
+        {
+          "name": "DOE Natural Gas Imports and Exports Monthly, July 2026: terminal export volumes and cargos",
+          "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+          "citation": {
+            "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+            "locator": "page-007",
+            "excerpt": "Plaquemines, LA 100.8 104.9 70.0 -4% 44% 30 15 86% 38%"
+          },
+          "second_terminal_citation": {
+            "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+            "locator": "page-007",
+            "excerpt": "Cameron (Calcasieu\nPass), LA\n47.3 43.7 43.3 8% 9% 15 11 96% 0%"
+          },
+          "availability_citation": {
+            "url": "https://www.energy.gov/hgeo/articles/natural-gas-imports-and-exports-monthly-2026",
+            "locator": "item-0058",
+            "excerpt": "Natural Gas Imports and Exports Monthly July 2026.pdf September 22, 2026"
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/venture-global-reports-second-quarter-103000021.html",
+          "locator": "paragraph-0133",
+          "excerpt": "The company's first three projects, Calcasieu Pass, Plaquemines, and CP2, are located in Louisiana along the Gulf of America."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[2].contract_rules",
+        "excerpt": "If Venture Global, Inc. reports Above 440 lng volumes in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSCHW-26OCTACCTS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "Schwab’s August monthly operating report publishes active brokerage accounts, providing an observed Q3 month-end count before earnings. No explicit Q3 report publication date was verified; the located October 15 announcement describes a Fall Business Update webcast.",
+      "data": [
+        {
+          "name": "Schwab Monthly Activity Report for August 2026 (issuer Business Wire copy)",
+          "url": "https://uk.finance.yahoo.com/news/schwab-reports-monthly-activity-highlights-124500174.html",
+          "citation": {
+            "url": "https://uk.finance.yahoo.com/news/schwab-reports-monthly-activity-highlights-124500174.html",
+            "locator": "paragraph-0002",
+            "excerpt": "The Charles Schwab Corporation released its Monthly Activity Report today. Company highlights for the month of August 2026 include:"
+          },
+          "measurement_citation": {
+            "url": "https://uk.finance.yahoo.com/news/schwab-reports-monthly-activity-highlights-124500174.html",
+            "locator": "paragraph-0009",
+            "excerpt": "with 40.1 million active brokerage accounts, 5.9 million workplace plan participant accounts, 2.4 million banking accounts, and $13.41 trillion in client assets as of August 31, 2026."
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/schwab-announces-fall-business-124500390.html",
+          "locator": "paragraph-0002",
+          "excerpt": "The Charles Schwab Corporation announced today that it has scheduled a Fall Business Update for institutional investors on Thursday, October 15th."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[3].contract_rules",
+        "excerpt": "If Charles Schwab Corporation (The) reports Above 39900000 active brokerage accounts in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXUAL-26OCTPAX",
+      "report_date": "2026-10-20",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/united-to-hold-webcast-of-third-quarter-2026-financial-results-302891723.html",
+        "locator": "paragraph-0008",
+        "excerpt": "The company will issue its third-quarter results and outlook after market close on Tuesday, October 20."
+      },
+      "measurable": true,
+      "why": "BTS T-100 directly measures monthly passengers, with July 2026 released on October 9; this is partial Q3 coverage requiring carrier-perimeter reconciliation.",
+      "data": [
+        {
+          "name": "BTS T-100 Domestic Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+            "locator": "table-006/row-007/cell-002",
+            "excerpt": "Non-Stop Segment Passengers Transported"
+          }
+        },
+        {
+          "name": "BTS T-100 International Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+            "locator": "table-006/row-007/cell-002",
+            "excerpt": "Non-Stop Segment Passengers Transported"
+          }
+        },
+        {
+          "name": "BTS data-release history (July 2026 released October 9)",
+          "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+            "locator": "table-001/row-005/cell-003",
+            "excerpt": "10/9/2026: 7/2026 added"
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/united-to-hold-webcast-of-third-quarter-2026-financial-results-302891723.html",
+          "locator": "paragraph-0007",
+          "excerpt": "CHICAGO , Sep 30, 2026 /PRNewswire/ -- United will hold a conference call to discuss third-quarter 2026 financial results on Wednesday, October 21 at 9:30 a.m. CT/10:30 a.m. ET."
+        },
+        {
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "locator": "table-006/row-016/cell-002",
+          "excerpt": "A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[4].contract_rules",
+        "excerpt": "If United Airlines Holdings Inc. reports Above 47750000.0 passengers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXAXP-26OCTCARDS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of total cards-in-force was found; the accessible financial-results announcement concerns Q2 and points to supplemental quarterly data. The issuer announced an October 23 earnings call, but an explicit report publication date was not found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+          "locator": "paragraph-0002",
+          "excerpt": "NEW YORK--(BUSINESS WIRE)-- American Express Company (NYSE: AXP) today reported its second-quarter 2026 financial results. The earnings release and supplemental financial data are available on the company’s Investor Relations website at http://ir.americanexpress.com ."
+        },
+        {
+          "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Plans-Live-Audio-Webcast-of-Third-Quarter-2026-Earnings-Conference-Call/default.aspx",
+          "locator": "paragraph-0002",
+          "excerpt": "NEW YORK--(BUSINESS WIRE)-- American Express Company (NYSE: AXP) plans to host a live audio webcast of its earnings conference call at 8:30 a.m. (ET) on Friday, October 23, 2026, to discuss the company’s third-quarter 2026 financial results."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[5].contract_rules",
+        "excerpt": "If American Express Company reports Above 154500000.0 cards-in-force (total) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXVZ-26OCTNETADDS",
+      "report_date": "2026-10-26",
+      "report_citation": {
+        "url": "https://markets.businessinsider.com/news/stocks/verizon-to-report-third-quarter-earnings-october-26-2026-1036578251",
+        "locator": "paragraph-0001",
+        "excerpt": "NEW YORK, Sept. 28, 2026 (GLOBE NEWSWIRE) -- Verizon Communications Inc. (NYSE, Nasdaq: VZ) will report third-quarter 2026 earnings on Monday, October 26, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 postpaid phone net-additions measurement found; the observed additions read are explicitly second-quarter results (https://uk.finance.yahoo.com/news/verizon-delivers-record-2q26-results-110000788.html, paragraph-0018).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/verizon-delivers-record-2q26-results-110000788.html",
+          "locator": "paragraph-0018",
+          "excerpt": "In second-quarter 2026, Verizon reported total postpaid phone net additions of 184,000, with the best Consumer second-quarter postpaid phone net additions in five years."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[6].contract_rules",
+        "excerpt": "If Verizon Communications Inc reports Above 150000 postpaid phone net additions in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLMT-26OCTF35",
+      "report_date": "2026-10-22",
+      "report_citation": {
+        "url": "https://news.lockheedmartin.com/2026-10-01-Lockheed-Martin-Announces-Third-Quarter-2026-Earnings-Results-Webcast",
+        "locator": "paragraph-0001",
+        "excerpt": "Third quarter 2026 earnings results will be published prior to the market opening on Oct. 22."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of the specified figure was verified in the checked sources.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[7].contract_rules",
+        "excerpt": "If Lockheed Martin Corporation reports Above 20 f-35 aircraft deliveries in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXPM-26OCTZYNPCH",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter U.S. ZYN shipment measurement was found; the shipment disclosure located on the company investor page is explicitly attached to Q2 results, so it does not qualify for Q3. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.pmi.com/investor-relations/overview",
+          "locator": "paragraph-0048",
+          "excerpt": "Emmanuel Babeau, Group Chief Financial Officer for Philip Morris International, discusses the highlights of the Q2 2026 earnings report."
+        },
+        {
+          "url": "https://www.pmi.com/investor-relations/overview",
+          "locator": "paragraph-0055",
+          "excerpt": "ZYN shipments increased by 2% year-on-year to 2.9 billion pouches, including the initial shipments of new variants such as ZYN ULTRA. This first phase of our portfolio expansion is an exciting milestone."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[8].contract_rules",
+        "excerpt": "If Philip Morris International Inc reports Above 2800000000.0 zyn u.s. shipment volume (pouches) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXINTC-26OCTHEAD",
+      "report_date": "2026-10-29",
+      "report_citation": {
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "locator": "paragraph-0001",
+        "excerpt": "SANTA CLARA, Calif.--(BUSINESS WIRE)-- Intel Corporation today announced that it will report third-quarter financial results on Thursday, October 29, 2026, promptly after close of market. Intel will then hold an earnings conference call at 2 p.m. PDT that day to discuss the results."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 headcount measurement found; the employee table read describes June 27, 2026 and earlier quarter ends, and cannot measure the subsequent fiscal third quarter (https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results, table-006).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+          "locator": "table-006",
+          "excerpt": "Other information: (In Thousands; Unaudited) Jun 27, 2026 Mar 28, 2026 Jun 28, 2025 Employees Intel 1 77.6 78.5 96.4 Mobileye and other subsidiaries 4.7 4.7 5.0 Total Intel 82.3 83.2 101.4"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[9].contract_rules",
+        "excerpt": "If Intel Corporation reports Above 79000.0 headcount in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXAAL-26OCTPLF",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "BTS T-100 directly measures monthly load factor, with July 2026 released on October 9; this is partial Q3 coverage requiring carrier-perimeter reconciliation. The issuer announces an October 22 conference call, but does not state a report publication date in the read announcement.",
+      "data": [
+        {
+          "name": "BTS T-100 Domestic Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+            "locator": "table-006/row-011/cell-002",
+            "excerpt": "Load Factor: Ratio of Passenger Miles to Available Seat Miles"
+          }
+        },
+        {
+          "name": "BTS T-100 International Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+            "locator": "table-006/row-011/cell-002",
+            "excerpt": "Load Factor: Ratio of Passenger Miles to Available Seat Miles"
+          }
+        },
+        {
+          "name": "BTS data-release history (July 2026 released October 9)",
+          "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+            "locator": "table-001/row-005/cell-003",
+            "excerpt": "10/9/2026: 7/2026 added"
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://www.marketscreener.com/news/american-airlines-group-announces-webcast-of-third-quarter-2026-financial-results-ce785ddad989f023",
+          "locator": "paragraph-0003",
+          "excerpt": "FORT WORTH, Texas, Oct. 01, 2026 (GLOBE NEWSWIRE) -- American Airlines Group (NASDAQ: AAL) will webcast a live audio feed of its third-quarter 2026 financial results conference call Oct. 22 at 7:30 a.m. CT."
+        },
+        {
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "locator": "table-006/row-016/cell-002",
+          "excerpt": "A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[10].contract_rules",
+        "excerpt": "If American Airlines Group Inc. reports Above 83.5% passenger load factor in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWH-26OCTROOMS",
+      "report_date": "2026-10-21",
+      "report_citation": {
+        "url": "https://investor.wyndhamhotels.com/news-events/press-releases/detail/430/wyndham-hotels-resorts-to-report-third-quarter-2026",
+        "locator": "paragraph-0004",
+        "excerpt": "Wyndham Hotels & Resorts (NYSE: WH) announced today that it will report third quarter 2026 results on Wednesday, October 21, 2026 at approximately 4:30 p.m. ET."
+      },
+      "measurable": false,
+      "why": "The scheduling release contains an approximate room-count boilerplate without a Q3 measurement date; no qualifying dated in-quarter measurement of total rooms was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://investor.wyndhamhotels.com/news-events/press-releases/detail/430/wyndham-hotels-resorts-to-report-third-quarter-2026",
+          "locator": "paragraph-0007",
+          "excerpt": "Through its network of over 873,000 franchised and affiliated rooms appealing to the everyday traveler, Wyndham commands a leading presence in the economy and midscale segments of the lodging industry."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[11].contract_rules",
+        "excerpt": "If Wyndham Hotels & Resorts Inc. reports Above 876000 total rooms in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCMG-26OCTREST",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://ir.chipotle.com/2026-09-01-CHIPOTLE-MEXICAN-GRILL-TO-ANNOUNCE-THIRD-QUARTER-2026-RESULTS-ON-OCTOBER-28,-2026",
+        "locator": "paragraph-0003",
+        "excerpt": "A press release with third quarter financial results will be issued at approximately 4:10 p.m. ET on Wednesday, October 28, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter total-restaurant measurement was found; the September 29 update measures Chipotlanes, while its total-restaurant boilerplate remains dated June 30.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.chipotle.com/2026-09-29-CHIPOTLE-REACHES-1,500-CHIPOTLANES,-ADVANCING-NORTH-AMERICAN-GROWTH-STRATEGY",
+          "locator": "paragraph-0002",
+          "excerpt": "NEWPORT BEACH, Calif., Sept. 29, 2026 – Chipotle Mexican Grill (NYSE: CMG) announced it will open its 1,500th Chipotlane today, Tuesday, September 29, in Bradenton, Florida, advancing the company’s North American growth strategy. Chipotle has added 500 Chipotlanes in less than two years as the format remains central to its development goals."
+        },
+        {
+          "url": "https://ir.chipotle.com/2026-09-29-CHIPOTLE-REACHES-1,500-CHIPOTLANES,-ADVANCING-NORTH-AMERICAN-GROWTH-STRATEGY",
+          "locator": "paragraph-0010",
+          "excerpt": "There are over 4,200 restaurants as of June 30, 2026, in the United States, Canada, the United Kingdom, France, Germany, and the Middle East"
+        },
+        {
+          "url": "https://ir.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
+          "locator": "paragraph-0021",
+          "excerpt": "Chipotle will host a conference call on Wednesday, July 29, 2026, at 4:30 PM Eastern time to discuss second quarter 2026 financial results and provide a business update for the third quarter to date. In connection with the call, supplemental slides for the call will be available on the company's website at ir.chipotle.com/presentations."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[12].contract_rules",
+        "excerpt": "If Chipotle Mexican Grill Inc. reports Above 4250 total restaurant count in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCMG-26OCTCOMP",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://ir.chipotle.com/2026-09-01-CHIPOTLE-MEXICAN-GRILL-TO-ANNOUNCE-THIRD-QUARTER-2026-RESULTS-ON-OCTOBER-28,-2026",
+        "locator": "paragraph-0003",
+        "excerpt": "A press release with third quarter financial results will be issued at approximately 4:10 p.m. ET on Wednesday, October 28, 2026."
+      },
+      "measurable": false,
+      "why": "A second-half July sales-trend softening of about 200 basis points was publicly described, but no observed Q3 comparable-sales growth level was found; the +1% Q3 statement is explicitly a forecast, so this does not establish measurement of the contract figure.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.chipotle.com/2026-09-29-CHIPOTLE-REACHES-1,500-CHIPOTLANES,-ADVANCING-NORTH-AMERICAN-GROWTH-STRATEGY",
+          "locator": "paragraph-0002",
+          "excerpt": "NEWPORT BEACH, Calif., Sept. 29, 2026 – Chipotle Mexican Grill (NYSE: CMG) announced it will open its 1,500th Chipotlane today, Tuesday, September 29, in Bradenton, Florida, advancing the company’s North American growth strategy. Chipotle has added 500 Chipotlanes in less than two years as the format remains central to its development goals."
+        },
+        {
+          "url": "https://ir.chipotle.com/2026-09-29-CHIPOTLE-REACHES-1,500-CHIPOTLANES,-ADVANCING-NORTH-AMERICAN-GROWTH-STRATEGY",
+          "locator": "paragraph-0010",
+          "excerpt": "There are over 4,200 restaurants as of June 30, 2026, in the United States, Canada, the United Kingdom, France, Germany, and the Middle East"
+        },
+        {
+          "url": "https://ir.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
+          "locator": "paragraph-0021",
+          "excerpt": "Chipotle will host a conference call on Wednesday, July 29, 2026, at 4:30 PM Eastern time to discuss second quarter 2026 financial results and provide a business update for the third quarter to date. In connection with the call, supplemental slides for the call will be available on the company's website at ir.chipotle.com/presentations."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/chipotle-mexican-grill-inc-cmg-050352715.html",
+          "locator": "paragraph-0047",
+          "excerpt": "Q : Can you provide more color on the guide for positive low single-digit comps for 2026, including insights into Q3 and the recent softening? A : (Adam Rymer, CFO) Traffic improved throughout Q2 and momentum continued into the first half of July. In the second half of July, we saw a softening of about 200 basis points related to the industry-wide cyclospora issue. We anticipate Q3 comps will be around plus 1%, which assumes that 200 basis point impact continues. Based on year-to-date performance and our plans for Q4, we raised our full-year guidance to low single-digit range. (Scott Boatwright, CEO) To clarify, Chipotle is not involved in the cyclospora conversation; the products involved are not on our menu, and our lettuces are sourced from California."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/chipotle-mexican-grill-inc-cmg-050352715.html",
+          "locator": "paragraph-0022",
+          "excerpt": "Release Date: July 29, 2026"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html",
+          "locator": "paragraph-0008",
+          "excerpt": "Still, Chipotle said the cyclospora outbreak had about a 2 percentage point impact on sales in the second half of July, which it incorporated into its guidance."
+        },
+        {
+          "url": "https://ir.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
+          "locator": "item-0049",
+          "excerpt": "Comparable restaurant sales, or sales comps, and comparable restaurant transactions , represent the change in period-over-period total revenue or transactions for company-owned restaurants in operation for at least 13 full calendar months."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[13].contract_rules",
+        "excerpt": "If Chipotle Mexican Grill Inc. reports Above -1.0% comparable restaurant sales increase in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBA-26OCTDELIV",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://boeing.mediaroom.com/2026-09-30-Boeing-to-Release-Third-Quarter-Results-on-October-27",
+        "locator": "paragraph-0001",
+        "excerpt": "The Boeing Company [NYSE: BA] will release its financial results for the third quarter of 2026 on Tuesday, October 27."
+      },
+      "measurable": true,
+      "why": "Boeing publicly reported August commercial-airplane deliveries before its Q3 earnings release, providing a direct monthly observation of the contract figure. The monthly observation is partial quarter coverage, not a computed quarterly total.",
+      "data": [
+        {
+          "name": "Boeing August 2026 orders and deliveries (Dow Jones wire copy)",
+          "url": "https://www.marketscreener.com/news/boeing-delivers-51-planes-in-august-ce785bd8de8df627",
+          "citation": {
+            "url": "https://www.marketscreener.com/news/boeing-delivers-51-planes-in-august-ce785bd8de8df627",
+            "locator": "paragraph-0004",
+            "excerpt": "Boeing delivered 51 airplanes and booked 15 gross orders in August, the plane maker said Tuesday."
+          },
+          "date_citation": {
+            "url": "https://www.marketscreener.com/news/boeing-delivers-51-planes-in-august-ce785bd8de8df627",
+            "locator": "paragraph-0002",
+            "excerpt": "Published on 09/08/2026 at 11:15 am EDT"
+          }
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[14].contract_rules",
+        "excerpt": "If The Boeing Company reports Above 152 commercial deliveries in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLUV-26OCTSEATS",
+      "report_date": "2026-10-21",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/southwest-airlines-to-discuss-third-quarter-2026-financial-results-on-october-22-2026-302896600.html",
+        "locator": "paragraph-0007",
+        "excerpt": "Southwest Airlines Co . (NYSE: LUV ) will release its third quarter 2026 financial results after the market closes on Wednesday, October 21, 2026."
+      },
+      "measurable": true,
+      "why": "BTS T-100 directly measures monthly seats, with July 2026 released on October 9; this is partial Q3 coverage requiring carrier-perimeter reconciliation.",
+      "data": [
+        {
+          "name": "BTS T-100 Domestic Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+            "locator": "table-006",
+            "excerpt": "Seats Available Seats"
+          }
+        },
+        {
+          "name": "BTS T-100 International Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+            "locator": "table-006",
+            "excerpt": "Seats Available Seats"
+          }
+        },
+        {
+          "name": "BTS data-release history (July 2026 released October 9)",
+          "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+            "locator": "table-001/row-005/cell-003",
+            "excerpt": "10/9/2026: 7/2026 added"
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "locator": "table-006/row-016/cell-002",
+          "excerpt": "A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[15].contract_rules",
+        "excerpt": "If Southwest Airlines Company reports Above 56000000.0 seats flown in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLUV-26OCTFARE",
+      "report_date": "2026-10-21",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/southwest-airlines-to-discuss-third-quarter-2026-financial-results-on-october-22-2026-302896600.html",
+        "locator": "paragraph-0007",
+        "excerpt": "Southwest Airlines Co . (NYSE: LUV ) will release its third quarter 2026 financial results after the market closes on Wednesday, October 21, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying Q3 average-passenger-fare observation was found; the BTS fare survey has only Q2 2025 data in the current release history, while T-100 measures traffic and capacity rather than fares.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+          "locator": "table-012",
+          "excerpt": "DB1BTicket Q2/2025 View reporting carriers No releases in the last 180 days"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[16].contract_rules",
+        "excerpt": "If Southwest Airlines Company reports Above 185 average passenger fare in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXALK-26OCTPLF",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "BTS T-100 directly measures monthly load factor, with July 2026 released on October 9; this is partial Q3 coverage requiring carrier-perimeter reconciliation. The issuer announces an October 21 conference call, but does not state a report publication date in the read announcement.",
+      "data": [
+        {
+          "name": "BTS T-100 Domestic Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+            "locator": "table-006/row-011/cell-002",
+            "excerpt": "Load Factor: Ratio of Passenger Miles to Available Seat Miles"
+          }
+        },
+        {
+          "name": "BTS T-100 International Segment monthly traffic and capacity",
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJE",
+            "locator": "table-006/row-011/cell-002",
+            "excerpt": "Load Factor: Ratio of Passenger Miles to Available Seat Miles"
+          }
+        },
+        {
+          "name": "BTS data-release history (July 2026 released October 9)",
+          "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+          "citation": {
+            "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+            "locator": "table-001/row-005/cell-003",
+            "excerpt": "10/9/2026: 7/2026 added"
+          }
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://news.alaskaair.com/company/alaska-air-group-announces-webcast-of-third-quarter-2026-financial-results/",
+          "locator": "paragraph-0007",
+          "excerpt": "Alaska Air Group Inc. will hold its quarterly conference call to discuss 2026 third quarter financial results on Wednesday, Oct. 21, 2026."
+        },
+        {
+          "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+          "locator": "table-006/row-016/cell-002",
+          "excerpt": "A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[17].contract_rules",
+        "excerpt": "If Alaska Air Group Inc. reports Above 82.0% passenger load factor in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSNAP-26OCTDAU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding. The issuer announced a November 4 earnings call, but an explicit report publication date was not found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/snap-inc-announces-date-third-201000267.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SANTA MONICA, Calif., October 08, 2026 --( BUSINESS WIRE )--Snap Inc. (NYSE: SNAP) will hold its quarterly conference call to discuss third quarter 2026 financial results on Wednesday, November 4, 2026 at 2:00 p.m. Pacific Time (5:00 p.m. Eastern Time)."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[18].contract_rules",
+        "excerpt": "If Snap Inc. reports Above 486000000 global daily active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCAKE-26OCTCOMP",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/cheesecake-factory-webcast-third-quarter-201500049.html",
+        "locator": "paragraph-0002",
+        "excerpt": "The Cheesecake Factory Incorporated (NASDAQ: CAKE) today announced it will release third quarter fiscal 2026 financial results after market close on Tuesday, October 27, 2026."
+      },
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202607281615BIZWIRE_USPRX____20260728_BW584286-1",
+          "locator": "paragraph-0001",
+          "excerpt": "CALABASAS HILLS, Calif. --(BUSINESS WIRE)--Jul. 28, 2026-- The Cheesecake Factory Incorporated (NASDAQ: CAKE) today reported financial results for the second quarter of fiscal 2026, which ended on June 30, 2026 ."
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202607281615BIZWIRE_USPRX____20260728_BW584286-1",
+          "locator": "paragraph-0004",
+          "excerpt": "Comparable restaurant sales at The Cheesecake Factory restaurants increased 5.8% year-over-year in the second quarter of fiscal 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[19].contract_rules",
+        "excerpt": "If The Cheesecake Factory Inc. reports Above 3.5% comparable restaurant sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXGOOG-26OCTCLICKS",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
+        "locator": "paragraph-0004",
+        "excerpt": "The live webcast of the earnings conference call can be accessed here . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at abc.xyz/investor on October 28, 2026 to view the earnings release before the conference call."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
+          "locator": "paragraph-0004",
+          "excerpt": "The live webcast of the earnings conference call can be accessed here . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at abc.xyz/investor on October 28, 2026 to view the earnings release before the conference call."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[20].contract_rules",
+        "excerpt": "If Alphabet Inc. reports Above 8% google search paid clicks change in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMAR-26OCTROOMS",
+      "report_date": "2026-11-02",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/marriott-international-announces-release-date-for-third-quarter-2026-earnings-302901545.html",
+        "locator": "paragraph-0007",
+        "excerpt": "Marriott International, Inc. (Nasdaq: MAR ) will report third quarter 2026 earnings results on Monday, November 2, 2026, at approximately 7:00 a.m. Eastern Time (ET)."
+      },
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/marriott-international-announces-release-date-for-third-quarter-2026-earnings-302901545.html",
+          "locator": "paragraph-0010",
+          "excerpt": "with over 10,000 properties in 148 countries and territories, as of June 30, 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[21].contract_rules",
+        "excerpt": "If Marriott International reports Above 1820000.0 total rooms in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXFSLR-26OCTMWSOLD",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of total module volume sold was found; the official investor archive and RSS feeds were blocked, so this is an access-limited negative finding. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[22].contract_rules",
+        "excerpt": "If First Solar Inc. reports Above 3700 MW module volume sold in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCVNA-26OCTSALES",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://investors.carvana.com/rss/news-releases.xml",
+        "locator": "json",
+        "excerpt": "Carvana to Report Third Quarter 2026 Results and Host Quarterly Conference Call on Oct. 28"
+      },
+      "measurable": false,
+      "why": "The cited issuer release reports Q2 retail units and gives a forward-looking Q3 expectation; no qualifying public measurement of Q3 retail vehicle unit sales was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/carvana-announces-record-second-quarter-200500200.html",
+          "locator": "paragraph-0009",
+          "excerpt": "In Q2 2026, Carvana sold 197,325 retail units (+38% YoY) for total revenue of $7.376 billion (+52% YoY), both all-time quarterly records. This growth was paired with record Q2 profitability, including:"
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/carvana-announces-record-second-quarter-200500200.html",
+          "locator": "paragraph-0005",
+          "excerpt": "Expects a sequential increase in retail units sold in Q3 and Adjusted EBITDA 1 of $2.7 - $3.0 billion for the full year 2026"
+        },
+        {
+          "url": "https://investors.carvana.com/rss/news-releases.xml",
+          "locator": "json",
+          "excerpt": "<pubDate>Wed, 30 Sep 2026 13:00:00 GMT</pubDate>"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[23].contract_rules",
+        "excerpt": "If Carvana Co. reports Above 200000 retail vehicle unit sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMO-26OCTCIGSHIP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter company cigarette-shipment measurement was found; the accessible company shipment definitions and operating figures are in the Q2 results release. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/altria-reports-2026-second-quarter-110000218.html",
+          "locator": "paragraph-0002",
+          "excerpt": "RICHMOND, Va., July 30, 2026 --( BUSINESS WIRE )--Altria Group, Inc. (NYSE: MO) today reports our 2026 second-quarter and first-half business results and narrows guidance for 2026 full-year adjusted diluted earnings per share (EPS)."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/altria-reports-2026-second-quarter-110000218.html",
+          "locator": "paragraph-0392",
+          "excerpt": "1 Domestic cigarettes shipment volume includes Marlboro; Other premium brands, such as Virginia Slims and Parliament; and Discount brands, which include L&M and Basic. Domestic cigarettes volume includes units sold as well as promotional units sold for distribution in the U.S. and excludes units sold for distribution to Puerto Rico, U.S. Territories to overseas military and by Philip Morris Duty Free Inc., none of which, individually or in the aggregate, is material to our smokeable products segment."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[24].contract_rules",
+        "excerpt": "If Altria Group Inc. reports Above 14000000000.0 cigarette shipments in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXETSY-26OCTGMS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Etsy marketplace GMS measurement found; the company results document read covers the quarter ended June 30, rather than Q3 (https://investors.etsy.com/news-events/press-releases/detail/225/etsy-inc-reports-second-quarter-2026-results, paragraph-0005). No Q3 publication-date announcement was found in the readable issuer feed or the news searches as of October 12.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://investors.etsy.com/news-events/press-releases/detail/225/etsy-inc-reports-second-quarter-2026-results",
+          "locator": "paragraph-0005",
+          "excerpt": "BROOKLYN, N.Y. , Aug. 5, 2026 /PRNewswire/ -- Etsy, Inc. (NYSE: ETSY), which owns and operates the Etsy marketplace, the global destination for unique and creative goods, today announced results for its second quarter ended June 30, 2026. These financial results are available within Etsy's second quarter 2026 Shareholder Letter, which can be found on the company's Investor Relations website."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[25].contract_rules",
+        "excerpt": "If Etsy, Inc. reports Above 2500000000 etsy marketplace gms in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXEBAY-26OCTGMV",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[26].contract_rules",
+        "excerpt": "If eBay Inc. reports Above 22000000000.0 gross merchandise volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXNCLH-26OCTPAX",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of total passengers carried was found in the company release feed and accessible releases; the checked releases do not supply an aggregate Q3 passenger measurement. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.nclhltd.com/investors/news-events/press-releases/rss",
+          "locator": "json",
+          "excerpt": "<title>Norwegian Cruise Line Holdings Ltd. (NCLH) Press Releases</title>"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[27].contract_rules",
+        "excerpt": "If Norwegian Cruise Line Holdings Ltd. reports Above 810000 passengers carried in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXAMZN-26OCTEMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding. No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[28].contract_rules",
+        "excerpt": "If Amazon.com Inc. reports Above 1540000.0 employees (full-time & part-time, excl. contractors/temps) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSPOT-26OCTPREMSUBS",
+      "report_date": "2026-10-22",
+      "report_citation": {
+        "url": "https://finance.yahoo.com/media-advertising/articles/spotify-technology-announce-results-third-100000804.html",
+        "locator": "paragraph-0002",
+        "excerpt": "NEW YORK, September 24, 2026 --( BUSINESS WIRE )--Spotify Technology S.A. (NYSE: SPOT) will post its third quarter 2026 results and deck to shareholders on Thursday, October 22, 2026 before market open."
+      },
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+          "locator": "paragraph-0002",
+          "excerpt": "Today, we announced our Second Quarter 2026 earnings, and with them a milestone no audio streaming service has ever reached: 300 million Premium Subscribers. In Q2, our revenue growth accelerated, gross margin hit an all-time record, and we continued to ship features that deepen how fans discover, create, and connect on Spotify, while supporting artists, creators, authors, and partners."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[29].contract_rules",
+        "excerpt": "If Spotify Technology S.A. reports Above 300000000 premium subscribers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSPOT-26OCTMAU",
+      "report_date": "2026-10-22",
+      "report_citation": {
+        "url": "https://finance.yahoo.com/media-advertising/articles/spotify-technology-announce-results-third-100000804.html",
+        "locator": "paragraph-0002",
+        "excerpt": "NEW YORK, September 24, 2026 --( BUSINESS WIRE )--Spotify Technology S.A. (NYSE: SPOT) will post its third quarter 2026 results and deck to shareholders on Thursday, October 22, 2026 before market open."
+      },
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+          "locator": "paragraph-0002",
+          "excerpt": "Today, we announced our Second Quarter 2026 earnings, and with them a milestone no audio streaming service has ever reached: 300 million Premium Subscribers. In Q2, our revenue growth accelerated, gross margin hit an all-time record, and we continued to ship features that deepen how fans discover, create, and connect on Spotify, while supporting artists, creators, authors, and partners."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[30].contract_rules",
+        "excerpt": "If Spotify Technology S.A. reports Above 784000000 monthly active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMELI-26OCTGMV",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter GMV measurement was found; the accessible company announcement concerns the Q2 report rather than Q3 operating measurements. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/full?dockey=600-202607291817BIZWIRE_USPRX____20260729_BW894348-1",
+          "locator": "paragraph-0001",
+          "excerpt": "MONTEVIDEO, Uruguay --(BUSINESS WIRE)--Jul. 29, 2026-- MercadoLibre , Inc. (Nasdaq: MELI) ( http://www.mercadolibre.com ) announces that it intends to release financial results for its second fiscal quarter ending June 30, 2026 , on August 5, 2026 ."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[31].contract_rules",
+        "excerpt": "If MercadoLibre, Inc. reports Above 21500000000.0 gross merchandise volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMELI-26OCTFINMAU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter fintech monthly-active-user measurement was found; the accessible company announcement concerns the Q2 report rather than Q3 operating measurements. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/full?dockey=600-202607291817BIZWIRE_USPRX____20260729_BW894348-1",
+          "locator": "paragraph-0001",
+          "excerpt": "MONTEVIDEO, Uruguay --(BUSINESS WIRE)--Jul. 29, 2026-- MercadoLibre , Inc. (Nasdaq: MELI) ( http://www.mercadolibre.com ) announces that it intends to release financial results for its second fiscal quarter ending June 30, 2026 , on August 5, 2026 ."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[32].contract_rules",
+        "excerpt": "If MercadoLibre, Inc. reports Above 91000000.0 fintech monthly active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRDDT-26OCTDAU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 DAUq measurement found; the observed user figure is in the June-30-quarter release, and the definition requires daily identified uniques averaged over the period (https://uk.finance.yahoo.com/news/reddit-reports-second-quarter-2026-200700746.html, paragraph-0008 and paragraph-0126). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/reddit-reports-second-quarter-2026-200700746.html",
+          "locator": "paragraph-0008",
+          "excerpt": "SAN FRANCISCO, July 30, 2026 --( BUSINESS WIRE )--Reddit, Inc. (NYSE: RDDT) today announced financial results for the quarter ended June 30, 2026. Reddit's complete financial results and management commentary can be found in its shareholder letter on Reddit's Investor Relations website at https://investor.redditinc.com ."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/reddit-reports-second-quarter-2026-200700746.html",
+          "locator": "paragraph-0126",
+          "excerpt": "We define a daily active unique (\"DAUq\") as a user whom we can identify with a unique identifier who has visited a page on the Reddit website, www.reddit.com , or opened a Reddit application at least once during a 24-hour period. Average DAUq for a particular period is calculated by adding the number of DAUq on each day of that period and dividing that sum by the number of days in that period."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[33].contract_rules",
+        "excerpt": "If Reddit Inc. reports Above 132000000 daily active uniques in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXNP-26OCTPIF",
+      "report_date": "2026-10-20",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/neptune-insurance-holdings-announce-third-182700120.html",
+        "locator": "paragraph-0002",
+        "excerpt": "ST. PETERSBURG, Fla., October 09, 2026 --( BUSINESS WIRE )--Neptune Insurance Holdings Inc. (\"Neptune\" or the \"Company\") (NYSE: NP), the parent company of Neptune Flood Incorporated, today announced that it will report its financial results for the third quarter ended September 30, 2026, after the market closes on October 20, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 policies-in-force measurement found; the policies milestone discovered is dated May 6 and therefore precedes Q3 (https://uk.finance.yahoo.com/news/neptune-flood-surpasses-300-000-203500930.html, paragraph-0003).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/neptune-flood-surpasses-300-000-203500930.html",
+          "locator": "paragraph-0003",
+          "excerpt": "ST. PETERSBURG, Fla., May 06, 2026 --( BUSINESS WIRE )--Neptune Flood, the largest private flood insurance provider in the United States, today announced that it has surpassed 300,000 policies in force and $400 million in premium in force. This milestone marks a significant step forward in expanding the reach of private flood insurance and strengthening the resilience of communities across the country."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[34].contract_rules",
+        "excerpt": "If Neptune Insurance Holdings Inc. reports Above 330000 policies in force in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMETA-26OCTIMPR",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[35].contract_rules",
+        "excerpt": "If Meta Platforms Inc. reports Above 8% ad impressions growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMETA-26OCTHEAD",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[36].contract_rules",
+        "excerpt": "If Meta Platforms Inc. reports Above 67000 headcount in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMETA-26OCTDAP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[37].contract_rules",
+        "excerpt": "If Meta Platforms Inc. reports Above 3610000000.0 family daily active people in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSOFI-26OCTMEM",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/sofi-schedules-conference-call-to-discuss-q3-2026-results-ce785adddc8ff324",
+        "locator": "paragraph-0003",
+        "excerpt": "SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced plans to host a conference call to discuss financial and operating results for the third quarter of 2026 on Tuesday, October 27, 2026, at 8 a.m. Eastern Time. SoFi also plans to release its third quarter 2026 results on the investor relations section of its website at https://investors.sofi.com at approximately 7 a.m. Eastern Time on Tuesday, October 27, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter membership observation was found; September 29 boilerplate repeats the 15.8 million members already reported for Q2, so it is not treated as a new Q3 measurement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.marketscreener.com/news/sofi-schedules-conference-call-to-discuss-q3-2026-results-ce785adddc8ff324",
+          "locator": "paragraph-0009",
+          "excerpt": "15.8 million members trust SoFi to borrow, save, spend, invest, and protect their money and buy, sell and hold their crypto"
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202607290700BIZWIRE_USPRX____20260729_BW569583-1",
+          "locator": "paragraph-0237",
+          "excerpt": "SoFi added a record 1.1 million members in the second quarter of 2026, bringing total members to 15.8 million, up 35% from 11.7 million at the end of the same prior year period."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[38].contract_rules",
+        "excerpt": "If SoFi Technologies, Inc. reports Above 16700000 members in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRBLX-26OCTHOURS",
+      "report_date": "2026-10-29",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/roblox-report-third-quarter-2026-130000142.html",
+        "locator": "paragraph-0002",
+        "excerpt": "SAN MATEO, Calif., October 08, 2026 --( BUSINESS WIRE )--Roblox Corporation (NYSE: RBLX) today announced that it will report its third quarter 2026 financial results after the market close on Thursday, October 29, 2026. Roblox will host a conference call to discuss the results at 1:30 p.m. PST / 4:30 p.m. EST the same day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/roblox-report-third-quarter-2026-130000142.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SAN MATEO, Calif., October 08, 2026 --( BUSINESS WIRE )--Roblox Corporation (NYSE: RBLX) today announced that it will report its third quarter 2026 financial results after the market close on Thursday, October 29, 2026. Roblox will host a conference call to discuss the results at 1:30 p.m. PST / 4:30 p.m. EST the same day."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[39].contract_rules",
+        "excerpt": "If Roblox Corporation reports Above 32000000000 hours engaged in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRBLX-26OCTDAU",
+      "report_date": "2026-10-29",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/roblox-report-third-quarter-2026-130000142.html",
+        "locator": "paragraph-0002",
+        "excerpt": "SAN MATEO, Calif., October 08, 2026 --( BUSINESS WIRE )--Roblox Corporation (NYSE: RBLX) today announced that it will report its third quarter 2026 financial results after the market close on Thursday, October 29, 2026. Roblox will host a conference call to discuss the results at 1:30 p.m. PST / 4:30 p.m. EST the same day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/roblox-report-third-quarter-2026-130000142.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SAN MATEO, Calif., October 08, 2026 --( BUSINESS WIRE )--Roblox Corporation (NYSE: RBLX) today announced that it will report its third quarter 2026 financial results after the market close on Thursday, October 29, 2026. Roblox will host a conference call to discuss the results at 1:30 p.m. PST / 4:30 p.m. EST the same day."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[40].contract_rules",
+        "excerpt": "If Roblox Corporation reports Above 126000000 daily active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXHIMS-26NOVSUBS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter subscriber measurement was found; the official IR archive and feeds were blocked and the attempted wire announcement supplied no matching citable text, so this is an access-limited negative finding. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[41].contract_rules",
+        "excerpt": "If Hims & Hers Health, Inc. reports Above 2950000 subscribers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXGOOG-26NOVHEAD",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
+        "locator": "paragraph-0004",
+        "excerpt": "The live webcast of the earnings conference call can be accessed here . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at abc.xyz/investor on October 28, 2026 to view the earnings release before the conference call."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
+          "locator": "paragraph-0004",
+          "excerpt": "The live webcast of the earnings conference call can be accessed here . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at abc.xyz/investor on October 28, 2026 to view the earnings release before the conference call."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[42].contract_rules",
+        "excerpt": "If Alphabet Inc. reports Above 197000 headcount in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXPLTR-26NOVCUST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter aggregate customer-count measurement was found; the accessible company operating release covers the quarter ended June 30 rather than Q3. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/palantir-reports-q2-2026-u-200500706.html",
+          "locator": "paragraph-0002",
+          "excerpt": "MIAMI, August 03, 2026 --( BUSINESS WIRE )--Palantir Technologies Inc. (NASDAQ:PLTR) today announced financial results for the second quarter ended June 30, 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[43].contract_rules",
+        "excerpt": "If Palantir Technologies Inc. reports Above 1060 total customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCOINBASE-26NOVMTU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding. No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[44].contract_rules",
+        "excerpt": "If Coinbase Global Inc. reports Above 6500000.0 monthly transacting users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXHOOD-26NOVGOLDSUBS",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026-ce785ddadb8cf120",
+        "locator": "paragraph-0003",
+        "excerpt": "Today, Robinhood Markets, Inc. (“Robinhood”) (NASDAQ: HOOD) announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close."
+      },
+      "measurable": false,
+      "why": "No qualifying in-quarter Gold-subscriber observation was found; the checked August monthly report measures funded customers and event contracts, without a Gold-subscriber measurement in the listed operating table.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+          "locator": "table-002",
+          "excerpt": "Funded Customer Growth (M) Funded Customers 1 28.6 28.5 - 26.7 +7%"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[45].contract_rules",
+        "excerpt": "If Robinhood Markets Inc. reports Above 4800000.0 gold subs in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXHOOD-26NOVFUNDED",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026-ce785ddadb8cf120",
+        "locator": "paragraph-0003",
+        "excerpt": "Today, Robinhood Markets, Inc. (“Robinhood”) (NASDAQ: HOOD) announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close."
+      },
+      "measurable": true,
+      "why": "Robinhood’s August operating release measures funded customers and includes July comparisons, so observed Q3 data are public before the report. The latest-quarter operating data are preliminary and may differ from final quarterly results.",
+      "data": [
+        {
+          "name": "Robinhood August 2026 monthly operating data (issuer GlobeNewswire copy)",
+          "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+          "citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "table-001",
+            "excerpt": "Funded Customers at the end of August were 28.6 million"
+          },
+          "date_citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "table-001",
+            "excerpt": "MENLO PARK, Calif., Sept. 10, 2026 (GLOBE NEWSWIRE)"
+          },
+          "limitations_citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "paragraph-0007",
+            "excerpt": "The information in this release is unaudited and the information for the months in the most recent fiscal quarter is preliminary, based on Robinhood's estimates, and subject to completion of financial closing procedures."
+          }
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[46].contract_rules",
+        "excerpt": "If Robinhood Markets Inc. reports Above 28500000 funded customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXHOOD-26NOVECVOL",
+      "report_date": "2026-10-27",
+      "report_citation": {
+        "url": "https://www.marketscreener.com/news/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026-ce785ddadb8cf120",
+        "locator": "paragraph-0003",
+        "excerpt": "Today, Robinhood Markets, Inc. (“Robinhood”) (NASDAQ: HOOD) announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close."
+      },
+      "measurable": true,
+      "why": "Robinhood’s August operating release measures event contracts traded and includes July comparisons, so observed Q3 data are public before the report. The latest-quarter operating data are preliminary and may differ from final quarterly results.",
+      "data": [
+        {
+          "name": "Robinhood August 2026 monthly operating data (issuer GlobeNewswire copy)",
+          "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+          "citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "table-001",
+            "excerpt": "Event Contracts Traded were 4.7 billion"
+          },
+          "date_citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "table-001",
+            "excerpt": "MENLO PARK, Calif., Sept. 10, 2026 (GLOBE NEWSWIRE)"
+          },
+          "limitations_citation": {
+            "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+            "locator": "paragraph-0007",
+            "excerpt": "The information in this release is unaudited and the information for the months in the most recent fiscal quarter is preliminary, based on Robinhood's estimates, and subject to completion of financial closing procedures."
+          }
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[47].contract_rules",
+        "excerpt": "If Robinhood Markets Inc. reports Above 10000000000 event contracts total trading volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCHYM-26NOVACTMEM",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/chime-reports-second-quarter-2026-200500284.html",
+          "locator": "paragraph-0005",
+          "excerpt": "SAN FRANCISCO, August 05, 2026 --( BUSINESS WIRE )--Chime® (Nasdaq: CHYM) today reported financial results for the quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/chime-reports-second-quarter-2026-200500284.html",
+          "locator": "paragraph-0016",
+          "excerpt": "Active Members grew 20% year over year to 10.4 million. Over the last year, we added 1.7 million net new Active Members, more than any consecutive 12-month period in our history. In Q2, we added approximately 200,000 net new Active Members quarter over quarter, twice as many as we typically add in seasonally slower second quarters."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[48].contract_rules",
+        "excerpt": "If Chime Financial, Inc. reports Above 10600000 active members in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXYUM-26NOVTBSSS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Taco Bell same-store-sales measurement was found; the accessible company brand sales table belongs to the Q2 results release. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/yum-brands-reports-second-quarter-110000087.html",
+          "locator": "paragraph-0004",
+          "excerpt": "LOUISVILLE, Ky., July 30, 2026 --( BUSINESS WIRE )--Yum! Brands, Inc. (NYSE: YUM) today reported results for the second quarter ended June 30, 2026. Second-quarter GAAP EPS was $3.08 and second-quarter EPS excluding Special Items was $1.62."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/yum-brands-reports-second-quarter-110000087.html",
+          "locator": "table-001",
+          "excerpt": "Reported Results % Change System Sales Ex F/X Same-Store Sales Units GAAP Operating Profit Core Operating Profit 1 KFC Division +6 +2 +7 +13 +9 Taco Bell Division +9 +7 +3 +19 +19 Pizza Hut Division (2) (1) +1 (12) (14) Worldwide +5 +3 +5 +5 +5"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[49].contract_rules",
+        "excerpt": "If Yum! Brands Inc. reports Above -9% taco bell same-store sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXYUM-26NOVKFCSSS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter KFC same-store-sales measurement was found; the accessible company brand sales table belongs to the Q2 results release. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/yum-brands-reports-second-quarter-110000087.html",
+          "locator": "paragraph-0004",
+          "excerpt": "LOUISVILLE, Ky., July 30, 2026 --( BUSINESS WIRE )--Yum! Brands, Inc. (NYSE: YUM) today reported results for the second quarter ended June 30, 2026. Second-quarter GAAP EPS was $3.08 and second-quarter EPS excluding Special Items was $1.62."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/yum-brands-reports-second-quarter-110000087.html",
+          "locator": "table-001",
+          "excerpt": "Reported Results % Change System Sales Ex F/X Same-Store Sales Units GAAP Operating Profit Core Operating Profit 1 KFC Division +6 +2 +7 +13 +9 Taco Bell Division +9 +7 +3 +19 +19 Pizza Hut Division (2) (1) +1 (12) (14) Worldwide +5 +3 +5 +5 +5"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[50].contract_rules",
+        "excerpt": "If Yum! Brands Inc. reports Above -1% kfc same-store sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSPCX-26NOVSUBS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 report publication date was found in the checked sources. The located Starlink subscriber observation explicitly comes from Q2 earnings, so it is not an in-quarter Q3 measurement; no qualifying new observation was verified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.pcmag.com/networking/166548/starlink-hits-12-million-subscribers-v3-satellites-headed-to-operational",
+          "locator": "paragraph-0004",
+          "excerpt": "On Tuesday, SpaceX published Q2 earnings for the April to June period, showing Starlink has grown to 12 million paid subscriptions."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[51].contract_rules",
+        "excerpt": "If SpaceX reports Above 12500000.0 starlink active subscribers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMCD-26NOVREST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 exact systemwide restaurant-count observation found; the company results release read covers Q2 and its general profile only gives a broad locations count (https://uk.finance.yahoo.com/news/mcdonalds-reports-second-quarter-2026-110000687.html, paragraph-0005 and paragraph-0215). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/mcdonalds-reports-second-quarter-2026-110000687.html",
+          "locator": "paragraph-0005",
+          "excerpt": "CHICAGO, Aug. 4, 2026 /PRNewswire/ -- McDonald's Corporation today announced results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/mcdonalds-reports-second-quarter-2026-110000687.html",
+          "locator": "paragraph-0215",
+          "excerpt": "McDonald's is the world's leading global foodservice retailer with over 45,000 locations in over 100 countries. Approximately 95% of McDonald's restaurants worldwide are owned and operated by independent local business owners."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[52].contract_rules",
+        "excerpt": "If McDonald's Corporation reports Above 46300 total systemwide restaurants in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMCD-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 global comparable-sales measurement found; management comments describing July/August as slightly negative apply to the US business, rather than the global contract figure (https://finance.yahoo.com/markets/stocks/articles/mcd-stock-heads-worst-month-040748529.html, paragraph-0008). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mcd-stock-heads-worst-month-040748529.html",
+          "locator": "paragraph-0008",
+          "excerpt": "CFO Ian Borden told investors on Wednesday that U.S. sales were \"slightly negative\" in both July and August. \"We expect September will be positive,\" he said. \"But I think because of that slower start to the beginning of the quarter, I think we expect the U.S. business will be slightly negative for Q3.\""
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[53].contract_rules",
+        "excerpt": "If McDonald's Corporation reports Above 0% global comparable sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBROS-26NOVSSS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[54].contract_rules",
+        "excerpt": "If Dutch Bros Inc. reports Above 3.5% same-shop sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBROS-26NOVSHOPS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[55].contract_rules",
+        "excerpt": "If Dutch Bros Inc. reports Above 1250 total shops in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMTCH-26NOVPAYERS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter total-payer measurement was found; the official IR archive and RSS feed were blocked, so this is an access-limited negative finding. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[56].contract_rules",
+        "excerpt": "If Match Group, Inc. reports Above 12600000.0 total payers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCART-26NOVGTV",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 GTV measurement found; the company GTV table covers the three months ended June 30 and its definition includes both Marketplace and Enterprise orders and customer fees (https://www.finanznachrichten.de/nachrichten-2026-08/69245468-maplebear-inc-dba-instacart-instacart-announces-second-quarter-2026-financial-results-008.htm, table-002 and item-0026). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69245468-maplebear-inc-dba-instacart-instacart-announces-second-quarter-2026-financial-results-008.htm",
+          "locator": "table-002",
+          "excerpt": "Three Months Ended June 30, 2025 2026 % Change (in millions, except percentages) GTV $ 9,081 $ 10,351 14 % Orders 82.7 90.3 9 % Total revenue $ 914 $ 1,043 14 % GAAP gross profit $ 678 $ 751 11 % GAAP gross margin 74 % 72 % GAAP gross profit as a percent of GTV 7.5 % 7.3 % GAAP net income $ 116 $ 111 (4) % GAAP net income as a percent of total revenue 13 % 11 % GAAP net income as a percent of GTV 1.3 % 1.1 % Adjusted EBITDA (1) $ 262 $ 313 19 % Adjusted EBITDA margin (1) 29 % 30 % Adjusted EBITDA as a percent of GTV (1) 2.9 % 3.0 % Net cash provided by operating activities $ 203 $ 493 143 % Free cash flow (1) $ 187 $ 480 156 %"
+        },
+        {
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69245468-maplebear-inc-dba-instacart-instacart-announces-second-quarter-2026-financial-results-008.htm",
+          "locator": "item-0026",
+          "excerpt": "Gross Transaction Value (GTV): We define GTV as the value of the products sold through Instacart, including applicable taxes, deposits and other local fees, customer tips, which go directly to shoppers, customer fees, which include flat subscription fees related to Instacart+ that are charged monthly or annually, and other fees. GTV consists of orders including those completed through Instacart Marketplace or services that are part of the Instacart Enterprise platform. We believe that GTV indicates the health of our business, including our ability to drive revenue and profits, and the value we provide to our constituents."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[57].contract_rules",
+        "excerpt": "If Instacart reports Above 10300000000 gross transaction value in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRACE-26NOVSHIP",
+      "report_date": "2026-11-03",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/2026-corporate-calendar-114100035.html",
+        "locator": "paragraph-0004",
+        "excerpt": "3 November 2026 - Group results for 3rd quarter 2026"
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of the specified figure was verified in the checked sources.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[58].contract_rules",
+        "excerpt": "If Ferrari N.V. reports Above 3225 total number of car shipments in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCDE-26NOVGOLD",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[59].contract_rules",
+        "excerpt": "If Coeur Mining, Inc. reports Above 180000 gold production in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXKVYO-26NOVCUST50K",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[60].contract_rules",
+        "excerpt": "If Klaviyo Inc. reports Above 4675 customers with over $50k arr in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXZETA-26NOVSSC",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter super-scaled-customer measurement was found; the located definition measures customers with at least $1 million in trailing-twelve-month revenue at quarter end, and the accessible count is a Q2 disclosure. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/zeta-global-reports-20th-consecutive-200500206.html",
+          "locator": "paragraph-0008",
+          "excerpt": "NEW YORK, August 04, 2026 --( BUSINESS WIRE )--Zeta Global (NYSE: ZETA), the intelligent AI infrastructure company, today announced financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/zeta-global-reports-20th-consecutive-200500206.html",
+          "locator": "paragraph-0037",
+          "excerpt": "Super-Scaled Customers : We define super-scaled customers as customers from which we generated at least $1,000,000 in revenue on a trailing twelve-month basis. We calculate the number of super-scaled customers at the end of each quarter and on an annual basis as the number of customers billed during each applicable period. We believe the super-scaled customers measure is both an important contributor to our revenue growth and an indicator to investors of our measurable success."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[61].contract_rules",
+        "excerpt": "If Zeta Global Holdings Corp. reports Above 200 super-scaled customers (  $1m) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXUBER-26NOVTRIPS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter observation of this exact contract figure was found in the reviewed company documents and targeted news searches; blocked primary IR pages limit the confidence of this negative finding. The issuer announced a November 4 earnings call, but an explicit report publication date was not found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/uber-announces-date-third-quarter-203000155.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SAN FRANCISCO, October 05, 2026 --( BUSINESS WIRE )--Uber Technologies, Inc. (NYSE: UBER) will hold its quarterly conference call to discuss its third quarter 2026 financial results on Wednesday, November 4th at 5:00 a.m. Pacific Time (8:00 a.m. Eastern Time)."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[62].contract_rules",
+        "excerpt": "If Uber Technologies Inc. reports Above 3950000000.0 total trips in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXYOU-26NOVMEM",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.clearme.com/news-events/press-releases/detail/194/clear-announces-second-quarter-2026-financial-results",
+          "locator": "item-0068",
+          "excerpt": "Total CLEAR Members grew to 43.5 million, up 30.0% year-over-year and Active CLEAR+ Members grew to 8.3 million, up 15.2% year-over-year, as of June 30, 2026"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[63].contract_rules",
+        "excerpt": "If Clear Secure, Inc. reports Above 8400000.0 active clear+ members in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDUOL-26NOVPAIDSUBS",
+      "report_date": "2026-11-03",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/duolingo-announce-third-quarter-2026-120000610.html",
+        "locator": "paragraph-0002",
+        "excerpt": "PITTSBURGH, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Duolingo, Inc. (Nasdaq: DUOL), the world's leading mobile learning platform, will announce its results for the third quarter ending September 30, 2026, following the close of the U.S. market on Tuesday, November 3, 2026. The Company will host a video webcast at 5:00 p.m. ET on that day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter paid-subscriber measurement was found; the accessible October 8 company announcement supplies the Q3 reporting schedule rather than operating observations.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/duolingo-announce-third-quarter-2026-120000610.html",
+          "locator": "paragraph-0002",
+          "excerpt": "PITTSBURGH, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Duolingo, Inc. (Nasdaq: DUOL), the world's leading mobile learning platform, will announce its results for the third quarter ending September 30, 2026, following the close of the U.S. market on Tuesday, November 3, 2026. The Company will host a video webcast at 5:00 p.m. ET on that day."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[64].contract_rules",
+        "excerpt": "If Duolingo Inc. reports Above 12700000.0 paid subscribers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDUOL-26NOVDAU",
+      "report_date": "2026-11-03",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/duolingo-announce-third-quarter-2026-120000610.html",
+        "locator": "paragraph-0002",
+        "excerpt": "PITTSBURGH, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Duolingo, Inc. (Nasdaq: DUOL), the world's leading mobile learning platform, will announce its results for the third quarter ending September 30, 2026, following the close of the U.S. market on Tuesday, November 3, 2026. The Company will host a video webcast at 5:00 p.m. ET on that day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter daily-active-user measurement was found; the accessible October 8 company announcement supplies the Q3 reporting schedule rather than operating observations.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/duolingo-announce-third-quarter-2026-120000610.html",
+          "locator": "paragraph-0002",
+          "excerpt": "PITTSBURGH, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Duolingo, Inc. (Nasdaq: DUOL), the world's leading mobile learning platform, will announce its results for the third quarter ending September 30, 2026, following the close of the U.S. market on Tuesday, November 3, 2026. The Company will host a video webcast at 5:00 p.m. ET on that day."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[65].contract_rules",
+        "excerpt": "If Duolingo Inc. reports Above 59000000.0 daily active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMNST-26NOVCASES",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 case-sales measurement found; the report read covers the three and six months ended June 30, and the metric is energy-drink case sales in 192-ounce equivalents (https://uk.finance.yahoo.com/news/monster-beverage-reports-2026-second-201000983.html, paragraph-0007 and paragraph-0165). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/monster-beverage-reports-2026-second-201000983.html",
+          "locator": "paragraph-0007",
+          "excerpt": "CORONA, Calif., Aug. 06, 2026 (GLOBE NEWSWIRE) -- Monster Beverage Corporation (NASDAQ: MNST) today reported financial results for the three- and six-months ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/monster-beverage-reports-2026-second-201000983.html",
+          "locator": "paragraph-0165",
+          "excerpt": "Energy drink case sales (in thousands) (in 192-ounce case equivalents)"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[66].contract_rules",
+        "excerpt": "If Monster Beverage Corporation reports Above 265000000 total case sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXABNB-26NOVNEB",
+      "report_date": "2026-11-05",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/airbnb-to-announce-third-quarter-2026-results-302895691.html",
+        "locator": "paragraph-0007",
+        "excerpt": "Airbnb, Inc. (NASDAQ: ABNB ) today announced that the company's third quarter 2026 financial results will be released after market close on November 5, 2026."
+      },
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[67].contract_rules",
+        "excerpt": "If Airbnb Inc. reports Above 138000000 nights & experiences booked in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSG-26NOVMARGIN",
+      "report_date": "2026-11-05",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/sweetgreen-announce-third-quarter-2026-130000886.html",
+        "locator": "paragraph-0002",
+        "excerpt": "LOS ANGELES, October 08, 2026 --( BUSINESS WIRE )--Sweetgreen, Inc. (NYSE: SG) will release financial results for the third quarter of 2026 after the market close on Thursday, November 5, 2026. On that day, the company will host a webcast at 1:30 p.m. Pacific Time (4:30 p.m. Eastern Time) to discuss the company's business and financial results."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter fiscal-Q3 restaurant-level profit-margin measurement found; the measured margin read belongs to the fiscal quarter ended June 28, and traffic alone does not determine the defined profit-to-revenue ratio (https://uk.finance.yahoo.com/news/sweetgreen-inc-announces-second-quarter-200500506.html, paragraph-0002 and paragraph-0046).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/sweetgreen-inc-announces-second-quarter-200500506.html",
+          "locator": "paragraph-0002",
+          "excerpt": "LOS ANGELES, August 06, 2026 --( BUSINESS WIRE )--Sweetgreen, Inc. (NYSE: SG) (the \"Company\"), the mission-driven, next-generation restaurant and lifestyle brand that serves healthy food at scale, today announced financial results for its second fiscal quarter ended June 28, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sweetgreen-inc-announces-second-quarter-200500506.html",
+          "locator": "paragraph-0046",
+          "excerpt": "We define Restaurant-Level Profit as loss from operations adjusted to exclude general and administrative expense, depreciation and amortization, pre-opening costs, loss on disposal of property and equipment, and, in certain periods, impairment and closure costs and restructuring charges. Restaurant-Level Profit Margin is Restaurant-Level Profit as a percentage of revenue. As it excludes general and administrative expense, which is primarily attributable to our corporate headquarters, which we refer to as our Sweetgreen Support Center, we evaluate Restaurant-Level Profit and Restaurant-Level Profit Margin as a measure of profitability of our restaurants."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[68].contract_rules",
+        "excerpt": "If Sweetgreen Inc. reports Above 6% restaurant-level profit margin in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWEN-26NOVUSCOMP",
+      "report_date": "2026-11-05",
+      "report_citation": {
+        "url": "https://www.prnewswire.com/news-releases/the-wendys-company-to-report-third-quarter-2026-results-on-november-5-302901499.html",
+        "locator": "paragraph-0007",
+        "excerpt": "DUBLIN, Ohio , Oct. 8, 2026 /PRNewswire/ -- The Wendy's Company (Nasdaq: WEN ) will release its third quarter 2026 results before the market opens on Thursday, November 5."
+      },
+      "measurable": false,
+      "why": "The checked call summary describes July traffic qualitatively, rather than measuring Q3 US same-restaurant sales growth; no qualifying in-quarter measurement of the contract metric was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/wendys-co-wen-q2-2026-210337205.html",
+          "locator": "paragraph-0025",
+          "excerpt": "US traffic declined 12.5% in Q2, with negative double-digit traffic each period of the quarter, and July traffic remained consistent with Q2 trends."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[69].contract_rules",
+        "excerpt": "If Wendy's Company (The) reports Above -12% u.s. same-restaurant sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLYFT-26NOVRIDES",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter total-ride measurement was found; the accessible Q2 release defines rides across the multimodal platform and its reported ride count is historical, not a Q3 observation. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/lyft-reports-strong-q2-2026-200500625.html",
+          "locator": "paragraph-0003",
+          "excerpt": "SAN FRANCISCO, August 06, 2026 --( BUSINESS WIRE )--Lyft, Inc. (Nasdaq: LYFT) today announced financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/lyft-reports-strong-q2-2026-200500625.html",
+          "locator": "paragraph-0019",
+          "excerpt": "Rides accelerated sequentially to record levels, up 12% year over year to 262 million, with global strength across Freenow by Lyft in Europe, North American rideshare, and Lyft Urban Solutions."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/lyft-reports-strong-q2-2026-200500625.html",
+          "locator": "paragraph-0103",
+          "excerpt": "Rides represent the level of usage of our multimodal platform. Lyft defines Rides as the total number of rides completed on our multimodal platform that contribute to our revenue. These include any Rides taken through our Lyft App. If multiple riders take a private rideshare ride, including situations where one party picks up another party on the way to a destination, or splits the bill, we count this as a single rideshare ride. Each unique segment of a Shared Ride is considered a single Ride. For example, if two riders successfully match in Shared Ride mode and both complete their Rides, we count this as two Rides. We have largely shifted away from Shared Rides, and now only offer Shared Rides in limited markets. Lyft includes all Rides taken by riders via our Concierge offering, even though such riders may be excluded from the definition of Active Riders unless the ride is accessible in that rider's Lyft App."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[70].contract_rules",
+        "excerpt": "If Lyft Inc. reports Above 258000000 total rides in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXNET-26NOVCUST100K",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 count of customers over $100k ARR found; the company results document read covers the quarter ended June 30 and does not establish an observed Q3 cohort count (https://www.marketscreener.com/news/cloudflare-announces-second-quarter-2026-financial-results-ce7f50ddd18cf120, paragraph-0004). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.marketscreener.com/news/cloudflare-announces-second-quarter-2026-financial-results-ce7f50ddd18cf120",
+          "locator": "paragraph-0004",
+          "excerpt": "Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced financial results for its second quarter ended June 30, 2026."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[71].contract_rules",
+        "excerpt": "If Cloudflare Inc. reports Above 4850 paying customers with over $100k arr in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSHOP-26NOVGMV",
+      "report_date": "2026-11-03",
+      "report_citation": {
+        "url": "https://www.shopify.com/investors/press-releases/shopify-to-announce-third-quarter-2026-financial-results-november-5-2026",
+        "locator": "paragraph-0030",
+        "excerpt": "Internet, Everywhere, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Shopify Inc. (NASDAQ, TSX: SHOP) plans to announce financial results for the quarter ended September 30, 2026 before markets open on Tuesday, November 3, 2026."
+      },
+      "measurable": false,
+      "why": "The cited Census comparison concerns 2025 US ecommerce and Shopify’s US GMV excluding POS; it does not measure total Q3 2026 GMV, and no qualifying in-quarter measurement was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.shopify.com/investors",
+          "locator": "item-0073",
+          "excerpt": "2 The US ecommerce market is based on US Census Bureau data (Quarterly Retail E-Commerce Sales, not adjusted) for 2025. Shopify market share represents sales by Shopify merchants based on Shopify’s 2025 US GMV (excluding merchant sales made through POS)."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[72].contract_rules",
+        "excerpt": "If Shopify Inc. reports Above 110000000000 gross merchandise volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXNTRA-26NOVTESTS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter processed-test measurement was found; the accessible company processed-test volume is explicitly for Q2. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/natera-reports-second-quarter-2026-200500054.html",
+          "locator": "paragraph-0006",
+          "excerpt": "Processed approximately 1,043,900 tests in the second quarter of 2026, compared to approximately 853,100 tests in the second quarter of 2025, an increase of 22.4%."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[73].contract_rules",
+        "excerpt": "If Natera, Inc. reports Above 1025000 tests processed in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWING-26NOVREST",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/",
+        "locator": "paragraph-0002",
+        "excerpt": "DALLAS , Sept. 29, 2026 /PRNewswire/ — Wingstop Inc. (NASDAQ: WING) today announced that it will host a conference call and webcast to discuss its fiscal third quarter 2026 financial results on Wednesday, October 28, 2026 at 10:00 a.m. ET."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter fiscal-Q3 systemwide restaurant-count measurement found; the precise count read is dated June 27, while the September announcement only repeats a broad 'more than 3,000' description (https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/, paragraph-0054; https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/, paragraph-0007).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/",
+          "locator": "paragraph-0054",
+          "excerpt": "As of June 27, 2026, there were 3,255 Wingstop restaurants system-wide. This included 2,728 restaurants in the United States, of which 2,671 were franchised restaurants and 57 were company-owned, and 527 franchised restaurants were in international markets, including U.S. territories. During the second quarter 2026, there were 102 net system-wide Wingstop restaurant openings."
+        },
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/",
+          "locator": "paragraph-0007",
+          "excerpt": "About Wingstop Founded in 1994 and headquartered in Dallas, TX, Wingstop Inc. (NASDAQ: WING) operates and franchises more than 3,000 restaurants worldwide, with approximately 98% of the total restaurant count owned by brand partners. Generating over $5 billion in system-wide sales in fiscal 2025, Wingstop offers made-to-order, always fresh classic and boneless wings, tenders and chicken sandwiches in 12 bold, distinctive flavors, alongside signature sides and iconic housemade ranch and bleu cheese dips. Dedicated to Serving the World Flavor, Wingstop is the Official Chicken Partner of the NBA with a vision to become a Top 10 Global Restaurant Brand. Learn more at wingstop.com or follow @Wingstop on X, Instagram, Facebook and TikTok."
+        },
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/",
+          "locator": "paragraph-0004",
+          "excerpt": "A press release with fiscal third quarter 2026 financial results will be issued before the market opens that morning."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[74].contract_rules",
+        "excerpt": "If Wingstop Inc. reports Above 3280 total system-wide restaurants in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWING-26NOVDOMCOMP",
+      "report_date": "2026-10-28",
+      "report_citation": {
+        "url": "https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/",
+        "locator": "paragraph-0002",
+        "excerpt": "DALLAS , Sept. 29, 2026 /PRNewswire/ — Wingstop Inc. (NASDAQ: WING) today announced that it will host a conference call and webcast to discuss its fiscal third quarter 2026 financial results on Wednesday, October 28, 2026 at 10:00 a.m. ET."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of fiscal-Q3 domestic same-store sales growth found; the observed sales change read belongs to fiscal Q2, and generic restaurant traffic would not measure the defined same-store base (https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/, paragraph-0046 and paragraph-0059).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/",
+          "locator": "paragraph-0046",
+          "excerpt": "Total revenue for the second quarter 2026 increased to $185.6 million from $174.3 million in the prior second quarter. Royalty revenue, franchise fees and other increased $7.0 million, of which $11.2 million was due to net new franchise development and $0.8 million related to an increase in vendor rebates, partially offset by a decrease of $5.0 million due to a 7.5% decline in domestic same store sales contributed by lower transaction volumes, reflecting continued pressure on consumer spending. Advertising fees increased $2.6 million due to a 5.3% increase in system-wide sales in the second quarter 2026. Company-owned restaurant sales increased $1.7 million due to the three additional corporate stores opened or acquired since the prior year period."
+        },
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-reports-fiscal-second-quarter-financial-results-4/",
+          "locator": "paragraph-0059",
+          "excerpt": "Domestic same store sales reflects the change in year-over-year sales for the same store restaurant base. We define the same store restaurant base to include those restaurants open for at least 52 full weeks. This measure highlights the performance of existing restaurants, while excluding the impact of new restaurant openings and permanent closures. We review same store sales for domestic company-owned restaurants as well as system-wide domestic restaurants. Domestic same store sales growth is driven by increases in transactions and average transaction size. Transaction size increases are driven by price increases or favorable mix shift from either an increase in items purchased or shifts into higher priced items."
+        },
+        {
+          "url": "https://ir.wingstop.com/wingstop-inc-to-announce-fiscal-third-quarter-2026-financial-results-on-october-28-2026/",
+          "locator": "paragraph-0004",
+          "excerpt": "A press release with fiscal third quarter 2026 financial results will be issued before the market opens that morning."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[75].contract_rules",
+        "excerpt": "If Wingstop Inc. reports Above -8% domestic same store sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDASH-26NOVORDERS",
+      "report_date": "2026-11-04",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/doordash-announce-third-quarter-2026-130000752.html",
+        "locator": "paragraph-0002",
+        "excerpt": "SAN FRANCISCO, October 09, 2026 --( BUSINESS WIRE )--DoorDash, Inc. (NASDAQ: DASH) today announced that the company's third quarter 2026 financial results will be released after the U.S. financial markets close on Wednesday, November 4, 2026. The company's earnings press release will be made available on the DoorDash Investor Relations website at ir.doordash.com ."
+      },
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[76].contract_rules",
+        "excerpt": "If DoorDash Inc. reports Above 970000000 total orders in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXGRAB-26NOVMTU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public observation of Q3 MTUs was found; the company defines the quarterly metric as the average of its monthly unique transacting users and the accessible release covers Q2. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.grab.com/sg/press/others/grab-reports-record-second-quarter-2026-results-raises-full-year-guidance-and-announces-750-million-share-repurchase-program/",
+          "locator": "paragraph-0045",
+          "excerpt": "SINGAPORE, August 4, 2026 – Grab Holdings Limited (NASDAQ: GRAB) today announced unaudited financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://www.grab.com/sg/press/others/grab-reports-record-second-quarter-2026-results-raises-full-year-guidance-and-announces-750-million-share-repurchase-program/",
+          "locator": "paragraph-0131",
+          "excerpt": "Monthly Transacting User (MTUs) is defined as the monthly number of unique users who transact via Grab’s apps, where transact means to have successfully paid for or utilized any of Grab’s products or services (including lending and offline Jaya Grocer transactions where users record their Jaya Grocer loyalty points on the Grab app). MTUs over a quarterly or annual period are calculated based on the average of the MTUs for each month in the relevant period. MTUs is a metric by which Grab understands, evaluates and manages its business, and Grab’s management believes is necessary for investors to understand and evaluate its business."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[77].contract_rules",
+        "excerpt": "If Grab Holdings Limited reports Above 55000000.0 monthly transacting users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDAVE-26NOVORIG",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608051610PR_NEWS_USPRX____LA20148-1",
+          "locator": "paragraph-0006",
+          "excerpt": "LOS ANGELES , Aug. 5, 2026 /PRNewswire/ -- Dave Inc . (\"Dave\" or the \"Company\") (Nasdaq: DAVE), one of the nation's leading neobanks, today reported its financial results for the second quarter ended June 30, 2026 ."
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608051610PR_NEWS_USPRX____LA20148-1",
+          "locator": "paragraph-0002",
+          "excerpt": "28-DPD Rate Improves 14 Basis Points Y/Y to 2.12%, While ExtraCash Originations Grew 27% Y/Y to $2.3 Billion"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[78].contract_rules",
+        "excerpt": "If Dave Inc. reports Above 2300000000 extracash origination volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWK-26NOVCUST100K",
+      "report_date": "2026-11-05",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/workiva-sets-date-third-quarter-131500130.html",
+        "locator": "paragraph-0002",
+        "excerpt": "NEW YORK, October 06, 2026 --( BUSINESS WIRE )-- Workiva Inc. (NYSE:WK), a leading, audit-ready platform for trust, transparency, and accountability, today announced that it will release financial results for the third quarter ended September 30, 2026 following the close of the market on November 5, 2026. The company will host a conference call and a live webcast to discuss its financial results."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter count of customers over $100,000 ACV was found; the accessible exact customer band is dated June 30, 2026.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/workiva-announces-second-quarter-2026-200500440.html",
+          "locator": "paragraph-0019",
+          "excerpt": "Large Contracts: As of June 30, 2026, Workiva had 2,690 customers with an annual contract value (\"ACV\") of more than $100,000, up 20% from 2,241 customers at June 30, 2025. Workiva had 656 customers with an ACV of more than $300,000, up 34% from 488 customers in the second quarter of 2025. Workiva had 276 customers with an ACV of more than $500,000, up 33% from 208 customers in the second quarter of 2025."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[79].contract_rules",
+        "excerpt": "If Workiva Inc. reports Above 2760 customers with acv over $100k in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDDOG-26NOVCUST100K",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 customer-cohort measurement found; the cohort count read is dated June 30 and is defined from individual customers' ARR as of the last month of the quarter (https://uk.finance.yahoo.com/news/datadog-announces-second-quarter-2026-110000650.html, paragraph-0016 and paragraph-0054). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/datadog-announces-second-quarter-2026-110000650.html",
+          "locator": "paragraph-0016",
+          "excerpt": "As of June 30, 2026, we had about 4,720 customers with ARR of $100,000 or more, an increase of 23% from about 3,850 as of June 30, 2025."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/datadog-announces-second-quarter-2026-110000650.html",
+          "locator": "paragraph-0054",
+          "excerpt": "Datadog's number of customers with ARR of $100,000 or more is based on the ARR of each customer, as of the last month of the quarter."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[80].contract_rules",
+        "excerpt": "If Datadog, Inc. reports Above 4860 customers with arr over $100k in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRELY-26NOVACTIVECUST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[81].contract_rules",
+        "excerpt": "If Remitly Global, Inc. reports Above 10200000 active customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXPAY-26NOVTXN",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter transactions-processed observation was found; the company disclosure located is explicitly the Q2 transaction count. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/paymentus-reports-second-quarter-2026-200500737.html",
+          "locator": "paragraph-0014",
+          "excerpt": "The Company processed 213.4 million transactions during the second quarter of 2026, an increase of 21.4% year-over-year."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[82].contract_rules",
+        "excerpt": "If Paymentus Holdings Inc. reports Above 220000000 transactions processed in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXTLN-26NOVGEN",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "EIA-923 publishes monthly plant-level generation and currently includes July 2026, while NRC daily status reports observe the Susquehanna units; these provide partial Q3 operating measurements requiring fleet and ownership reconciliation. No company-announced Q3 report publication date was found in the checked issuer pages and wire searches.",
+      "data": [
+        {
+          "name": "EIA-923 monthly power-plant generation",
+          "url": "https://www.eia.gov/electricity/data/eia923/index.php",
+          "citation": {
+            "url": "https://www.eia.gov/electricity/data/eia923/index.php",
+            "locator": "paragraph-0002",
+            "excerpt": "The survey Form EIA-923 collects detailed electric power data -- monthly and annually -- on electricity generation, fuel consumption, fossil fuel stocks, and receipts at the power plant and prime mover level."
+          },
+          "availability_citation": {
+            "url": "https://www.eia.gov/electricity/data/eia923/index.php",
+            "locator": "table-001/row-002/cell-001",
+            "excerpt": "2026: EIA-923 July 2026"
+          }
+        },
+        {
+          "name": "NRC daily power-reactor status, September 30 2026",
+          "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026/20260930ps",
+          "citation": {
+            "url": "https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/2026/20260930ps",
+            "locator": "table-001",
+            "excerpt": "Susquehanna 1 0 Susquehanna 2 100"
+          },
+          "limitations": "Unit power status is an operational input, not metered net electrical generation."
+        }
+      ],
+      "evidence_citations": [
+        {
+          "url": "https://www.talenenergy.com/",
+          "locator": "paragraph-0010",
+          "excerpt": "Our fleet is anchored by the Susquehanna nuclear facility, the sixth largest nuclear-powered generation facility in the U.S."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[83].contract_rules",
+        "excerpt": "If Talen Energy Corporation reports Above 12.0 total generation (twh) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSEZL-26NOVGMV",
+      "report_date": "2026-11-04",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/sezzle-announce-third-quarter-2026-200200876.html",
+        "locator": "paragraph-0002",
+        "excerpt": "Minneapolis, MN, Oct. 08, 2026 (GLOBE NEWSWIRE) -- Sezzle Inc. (NASDAQ: SEZL ) ( Sezzle or Company ) // Sezzle will release its third quarter 2026 results after the market close on November 4, 2026. The Company will host a conference call and webcast at 5:00 p.m. ET that same day. The earnings presentation will be available shortly after market close via the Company's Investor Relations page . Investors are encouraged to submit questions in advance of the call by emailing investorrelations@sezzle.com ."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 GMV measurement found; the company GMV observation read is for the quarter ended June 30, so its August publication does not turn it into Q3 operating data (https://uk.finance.yahoo.com/news/sezzle-reports-second-quarter-2026-200100451.html, paragraph-0007 and paragraph-0010).",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/sezzle-reports-second-quarter-2026-200100451.html",
+          "locator": "paragraph-0007",
+          "excerpt": "MINNEAPOLIS, Aug. 06, 2026 (GLOBE NEWSWIRE) -- Sezzle Inc. (NASDAQ:SEZL) ( Sezzle or Company ) // Purpose-driven digital payment platform, Sezzle, is pleased to update the market on key financial metrics for the quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sezzle-reports-second-quarter-2026-200100451.html",
+          "locator": "paragraph-0010",
+          "excerpt": "Gross Merchandise Volume (GMV) grew 37.9% YoY to $1.3 billion. Strong Subscriber growth fueled by marketing investment and enhanced shopping features lifted average purchase frequency to a Company high of 7.2x from 6.1x in 2Q25."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[84].contract_rules",
+        "excerpt": "If Sezzle Inc. reports Above 1360000000 gross merchandise volume in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXTOST-26NOVLOC",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/toast-announces-second-quarter-2026-200500925.html",
+          "locator": "paragraph-0003",
+          "excerpt": "BOSTON, August 04, 2026 --( BUSINESS WIRE )--Toast (NYSE: TOST), the global technology platform built for restaurants and retail businesses, today reported financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/toast-announces-second-quarter-2026-200500925.html",
+          "locator": "paragraph-0007",
+          "excerpt": "Total Locations increased 22% year over year to approximately 180,000."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[85].contract_rules",
+        "excerpt": "If Toast, Inc. reports Above 178000 total number of locations in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBTSG-26NOVRX",
+      "report_date": "2026-10-30",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/brightspring-health-services-inc-announce-120500593.html",
+        "locator": "paragraph-0002",
+        "excerpt": "LOUISVILLE, Ky., Oct. 01, 2026 (GLOBE NEWSWIRE) -- BrightSpring Health Services, Inc. (\"BrightSpring\" or the \"Company\") (NASDAQ: BTSG) announced today that it plans to release its third quarter 2026 financial results on Friday, October 30, 2026, prior to the Company's earnings conference call, which will be held at 8:30 a.m. ET on the same day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter prescriptions-filled measurement was found; the accessible company boilerplate gives a broader daily customer/client/patient population, which does not match prescriptions filled.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/brightspring-health-services-inc-announce-120500593.html",
+          "locator": "paragraph-0004",
+          "excerpt": "About BrightSpring Health Services BrightSpring Health Services provides complementary home- and community-based health solutions for medically complex populations in need of specialized and/or chronic care. Through the Company's service lines, including pharmacy, home health care, and rehabilitation, we provide comprehensive and more integrated care and clinical solutions in all 50 states to over 485,000 customers, clients and patients daily. BrightSpring has consistently demonstrated strong and industry-leading quality metrics across its services lines, while improving the health and quality of life for high-need individuals and reducing overall healthcare system costs."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[86].contract_rules",
+        "excerpt": "If BrightSpring Health Services, Inc. reports Above 10650000 prescriptions filled in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBTSG-26NOVHHADC",
+      "report_date": "2026-10-30",
+      "report_citation": {
+        "url": "https://uk.finance.yahoo.com/news/brightspring-health-services-inc-announce-120500593.html",
+        "locator": "paragraph-0002",
+        "excerpt": "LOUISVILLE, Ky., Oct. 01, 2026 (GLOBE NEWSWIRE) -- BrightSpring Health Services, Inc. (\"BrightSpring\" or the \"Company\") (NASDAQ: BTSG) announced today that it plans to release its third quarter 2026 financial results on Friday, October 30, 2026, prior to the Company's earnings conference call, which will be held at 8:30 a.m. ET on the same day."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter home-health average-daily-census measurement was found; the accessible company boilerplate gives a broader daily customer/client/patient population without the required home-health segment.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/brightspring-health-services-inc-announce-120500593.html",
+          "locator": "paragraph-0004",
+          "excerpt": "About BrightSpring Health Services BrightSpring Health Services provides complementary home- and community-based health solutions for medically complex populations in need of specialized and/or chronic care. Through the Company's service lines, including pharmacy, home health care, and rehabilitation, we provide comprehensive and more integrated care and clinical solutions in all 50 states to over 485,000 customers, clients and patients daily. BrightSpring has consistently demonstrated strong and industry-leading quality metrics across its services lines, while improving the health and quality of life for high-need individuals and reducing overall healthcare system costs."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[87].contract_rules",
+        "excerpt": "If BrightSpring Health Services, Inc. reports Above 46800 home health average daily census in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDKNG-26NOVMUP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 report publication date was found in the checked issuer pages and wire searches. The read New Jersey tables provide brand sports-wagering gross revenue and state-level handle, not DraftKings’ consolidated unique payers or net-revenue-margin definition; no qualifying measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.nj.gov/oag/ge/docs/Financials/PressRelease2026/August2026.pdf",
+          "locator": "page-006",
+          "excerpt": "DraftKings Resorts 16,892,386       27,887,754         (39.4) 173,868,277          199,793,243          (13.0)"
+        },
+        {
+          "url": "https://www.nj.gov/oag/ge/docs/Financials/PressRelease2026/August2026.pdf",
+          "locator": "page-009",
+          "excerpt": "SPORTS WAGERING WIN SPORTS WAGERING HANDLE WIN PERCENTAGE"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[88].contract_rules",
+        "excerpt": "If DraftKings Inc. reports Above 3400000.0 average monthly unique payers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDKNG-26NOVMARGIN",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 report publication date was found in the checked issuer pages and wire searches. The read New Jersey tables provide brand sports-wagering gross revenue and state-level handle, not DraftKings’ consolidated unique payers or net-revenue-margin definition; no qualifying measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.nj.gov/oag/ge/docs/Financials/PressRelease2026/August2026.pdf",
+          "locator": "page-006",
+          "excerpt": "DraftKings Resorts 16,892,386       27,887,754         (39.4) 173,868,277          199,793,243          (13.0)"
+        },
+        {
+          "url": "https://www.nj.gov/oag/ge/docs/Financials/PressRelease2026/August2026.pdf",
+          "locator": "page-009",
+          "excerpt": "SPORTS WAGERING WIN SPORTS WAGERING HANDLE WIN PERCENTAGE"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[89].contract_rules",
+        "excerpt": "If DraftKings Inc. reports Above 5.5% sportsbook net revenue margin in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXMNDY-26NOVNDR",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 >$100k-ARR-cohort retention measurement found; the prior-quarter release gives that cohort's rate, and retention requires prior/current customer ARR rather than general software-demand data (https://markets.ft.com/data/announce/detail?dockey=600-202608100700BIZWIRE_USPRX____20260810_BW345213-1, item-0149 and paragraph-0021). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608100700BIZWIRE_USPRX____20260810_BW345213-1",
+          "locator": "item-0149",
+          "excerpt": "Net dollar retention rate for customers with more than $100,000 in ARR was 115%."
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608100700BIZWIRE_USPRX____20260810_BW345213-1",
+          "locator": "paragraph-0021",
+          "excerpt": "We calculate Net Dollar Retention Rate as of a period end by starting with the ARR from customers as of the 12 months prior to such period end (“Prior Period ARR”). We then calculate the ARR from these customers as of the current period end (“Current Period ARR”). The calculation of Current Period ARR includes any upsells, contraction and attrition. We then divide the total Current Period ARR by the total Prior Period ARR to arrive at the Net Dollar Retention Rate. For the trailing 12-month calculation, we take a weighted average of this calculation of our quarterly Net Dollar Retention Rate for the four quarters ending with the most recent quarter."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[90].contract_rules",
+        "excerpt": "If monday.com Ltd. reports Above 111% net dollar retention rate for the   $100k arr cohort in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXRKLB-26NOVLAUNCH",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "Issuer launch-success announcements publicly record actual Q3 vehicle launches with launch timestamps; matching Electron, HASTE and any other included vehicles to the settlement perimeter remains necessary. No company-announced Q3 earnings publication date was found in the checked issuer pages and wire searches.",
+      "data": [
+        {
+          "name": "Rocket Lab August mission-success announcement (issuer GlobeNewswire copy)",
+          "url": "https://uk.finance.yahoo.com/news/mission-success-rocket-lab-launches-145400292.html",
+          "citation": {
+            "url": "https://uk.finance.yahoo.com/news/mission-success-rocket-lab-launches-145400292.html",
+            "locator": "paragraph-0003",
+            "excerpt": "'The Lightning God Defends' mission launched from Rocket Lab Launch Complex 1 in New Zealand at 1:04 a.m. NZST on August 21, 2026, and deployed the next QPS-SAR satellite in iQPS' synthetic aperture radar (SAR) imaging constellation to a 575km low Earth orbit."
+          }
+        },
+        {
+          "name": "Rocket Lab September 19 mission-success announcement (issuer GlobeNewswire copy)",
+          "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-045200203.html",
+          "citation": {
+            "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-045200203.html",
+            "locator": "paragraph-0003",
+            "excerpt": "The 'Owl By The Dozen' mission launched from Rocket Lab Launch Complex 1 in New Zealand at 3:22pm NZST on September 19, 2026 and delivered the 12th StriX satellite directly into an exact 572km low Earth orbit for Synspective's Earth-monitoring constellation."
+          }
+        },
+        {
+          "name": "Rocket Lab September 26 mission-success announcement (issuer GlobeNewswire copy)",
+          "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-014300201.html",
+          "citation": {
+            "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-014300201.html",
+            "locator": "paragraph-0003",
+            "excerpt": "The 'Owlright Owlright Owlright' mission launched from Rocket Lab Launch Complex 1 in New Zealand at 12:39 p.m. NZST on 26 September 2026, delivering the 13th StriX satellite directly into a 559km low Earth orbit. The deployment expands Synspective's synthetic aperture radar (SAR) imaging constellation that provides high-resolution, all-weather, day-and-night imaging of the Earth's surface."
+          }
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[91].contract_rules",
+        "excerpt": "If Rocket Lab Corporation reports Above 4 vehicles launched in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXKLAR-26NOVCONS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/klarna-reports-second-quarter-2026-113400699.html",
+          "locator": "paragraph-0003",
+          "excerpt": "Klarna Group plc [NYSE: KLAR], the everyday finance network, today reported second quarter 2026 results. GMV reached $36.6 billion (+18% YoY), revenue $1.042 billion (+27% YoY), transaction margin dollars $446 million (+42% YoY), and adjusted operating income $91 million (+214% YoY)."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/klarna-reports-second-quarter-2026-113400699.html",
+          "locator": "paragraph-0016",
+          "excerpt": "Active consumers: 120 million (+8% YoY)"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[92].contract_rules",
+        "excerpt": "If Klarna Group PLC reports Above 121000000 active klarna consumers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXBULL-26NOVFUNDED",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "A public monthly funded-account series was found, but no July/August/September Q3 observation was located; the June count published July 15 measures June and therefore does not qualify as an in-quarter Q3 measurement (https://uk.finance.yahoo.com/news/webull-corporation-reports-june-2026-200000031.html, paragraph-0002 and paragraph-0004). No company-announced Q3 publication date was located; issuer-source access or rendering limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/webull-corporation-reports-june-2026-200000031.html",
+          "locator": "paragraph-0002",
+          "excerpt": "ST. PETERSBURG, Fla., July 15, 2026 /PRNewswire/ -- Webull Corporation (NASDAQ: BULL) today reported select monthly operating data for June 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/webull-corporation-reports-june-2026-200000031.html",
+          "locator": "paragraph-0004",
+          "excerpt": "Funded Accounts at the end of June were 5.1 million (unchanged from the end of May 2026, and up approximately 400 thousand year-over-year).[1]"
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/webull-corporation-reports-june-2026-200000031.html",
+          "locator": "paragraph-0241",
+          "excerpt": "\"Funded Accounts\" refers to Webull brokerage accounts into which the customer has made an initial deposit or money transfer, of any amount, whose account balance (which is measured as the fair value of assets in the customer's account less the amount due from the customer) has not dropped to or below zero for 45 consecutive calendar days as of the record date. Funded accounts reflect unique customers, and multiple funded accounts by a single customer are counted as one funded account. Growth in our funded accounts provides insight as to the effectiveness of our marketing efforts and our ability to acquire monetizable customers. Funded accounts are positively correlated with, but are not determinative, of customer assets, trading volumes, and revenue."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[93].contract_rules",
+        "excerpt": "If Webull CORP reports Above 5150000.0 funded accounts in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXETOR-26NOVFUNDED",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "An issuer-authored monthly release measures funded accounts for August 2026 before the Q3 report, with a definition of Funded Accounts and explicit rounding, acquisition and preliminary-data caveats. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; official IR page/feed checks were blocked.",
+      "data": [
+        {
+          "name": "eToro selected August 2026 monthly business metrics (issuer GlobeNewswire release, wire copy)",
+          "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+          "citation": {
+            "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+            "locator": "paragraph-0001",
+            "excerpt": "NEW YORK, Sept. 14, 2026 (GLOBE NEWSWIRE) -- eToro Group Ltd. (“etoro”, or the “Company”) (NASDAQ: ETOR), the trading and investing platform, is reporting the below selected monthly business metrics for August 2026."
+          },
+          "measurement_citation": {
+            "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+            "locator": "item-0002",
+            "excerpt": "Funded Accounts* were 4.36M, up 18% year-over-year."
+          },
+          "definition_citation": {
+            "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+            "locator": "paragraph-0010",
+            "excerpt": "Funded Accounts: Funded Accounts are users who have successfully completed the onboarding requirements, activated their account, deposited funds, executed at least one trade, and maintain a positive account balance. For Zengo and Bit2C users, Funded Accounts are defined as users with a positive account balance. Funded Accounts represent the most advanced stage of our user acquisition funnel and are the primary source of commission-generating activity."
+          },
+          "limitations_citations": [
+            {
+              "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+              "locator": "paragraph-0002",
+              "excerpt": "* Funded Accounts for August 2026 includes 110,000 from Zengo and Bit2C acquisitions. ** Metrics for August 2026 are estimated as of August 31, 2026. Numbers are rounded but percentages are based on unrounded numbers."
+            },
+            {
+              "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+              "locator": "paragraph-0003",
+              "excerpt": "The selected preliminary data presented above is based on currently available information, has not been audited or reviewed, is subject to update and should not be extrapolated for future periods. Final results and other business metrics for the full fiscal quarter will be available in our filings with the U.S. Securities and Exchange Commission (“SEC”) or otherwise publicly disclosed and might vary from the information in this press release."
+            }
+          ]
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[94].contract_rules",
+        "excerpt": "If eToro Group Ltd. reports Above 4150000.0000000005 funded accounts in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCRWV-26NOVPOWER",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[95].contract_rules",
+        "excerpt": "If CoreWeave, Inc. reports Above 3.8 contracted power capacity in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCRWV-26NOVCENTERS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[96].contract_rules",
+        "excerpt": "If CoreWeave, Inc. reports Above 53 data centers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLMND-26NOVCUST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter total-customer observation was found; the accessible investor page presents Q2 results and its customer snapshot without a new dated Q3 observation. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://www.lemonade.com/investor",
+          "locator": "paragraph-0003",
+          "excerpt": "Join our upcoming quarterly earnings call for Q2 2026 on July 29, 2026, at 8:00 AM ET. Register here ."
+        },
+        {
+          "url": "https://www.lemonade.com/investor",
+          "locator": "paragraph-0017",
+          "excerpt": "We just passed 3,000,000 customers."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[97].contract_rules",
+        "excerpt": "If Lemonade Inc. reports Above 3440000 total customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLIF-26NOVMAU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 global MAU measurement found; the latest company count read is explicitly as of June 30 (https://uk.finance.yahoo.com/news/life360-reports-record-q2-2026-200500023.html, paragraph-0543). A secondary report gives a date, but the required company announcement or wire copy could not be verified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/life360-reports-record-q2-2026-200500023.html",
+          "locator": "paragraph-0543",
+          "excerpt": "Life360, a family connection and safety company, keeps people close to the ones they love. The category-leading mobile app and hardware tracking devices empower members to stay connected to the people, pets, and things they care about most, with a range of services, including location sharing, safe driver reports, and crash detection with emergency dispatch. As a remote-first company based in the San Francisco Bay Area, Life360 serves approximately 102.4 million monthly active users (MAU), as of June 30, 2026, across more than 180 countries. Life360 delivers peace of mind and enhances everyday family life in all the moments that matter, big and small. For more information, please visit life360.com."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[98].contract_rules",
+        "excerpt": "If Life360, Inc. reports Above 104500000 global monthly active users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXGRND-26NOVAPU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[99].contract_rules",
+        "excerpt": "If Grindr Inc. reports Above 1400000 average paying users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSE-26NOVQPU",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Garena quarterly-paying-user measurement was found; the located figure is in the company Q2 release and does not measure Q3. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SINGAPORE, August 11, 2026 --( BUSINESS WIRE )--Sea Limited (NYSE: SE) (\"Sea\" or the \"Company\") today announced its financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0011",
+          "excerpt": "GMV was US$38.3 billion for the quarter, increasing by 28.4% year-on-year."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0028",
+          "excerpt": "Quarterly paying users were 68.1 million, up 10.2% year-on-year. Paying user ratio was 10.2%, as compared to 9.3% for the second quarter of 2025."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[100].contract_rules",
+        "excerpt": "If Sea Limited reports Above 69000000 garena quarterly paying users in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSE-26NOVGMV",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter Shopee GMV measurement was found; the located figure is in the company Q2 release and does not measure Q3. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0002",
+          "excerpt": "SINGAPORE, August 11, 2026 --( BUSINESS WIRE )--Sea Limited (NYSE: SE) (\"Sea\" or the \"Company\") today announced its financial results for the second quarter ended June 30, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0011",
+          "excerpt": "GMV was US$38.3 billion for the quarter, increasing by 28.4% year-on-year."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/sea-limited-reports-second-quarter-103000789.html",
+          "locator": "paragraph-0028",
+          "excerpt": "Quarterly paying users were 68.1 million, up 10.2% year-on-year. Paying user ratio was 10.2%, as compared to 9.3% for the second quarter of 2025."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[101].contract_rules",
+        "excerpt": "If Sea Limited reports Above 36000000000.0 shopee gmv in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCAVA-26NOVREST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "The September 23 issuer announcement observes a 500-restaurant footprint, providing a Q3 count with quarter-end and licensed-location coverage still requiring reconciliation. No company-announced Q3 report publication date was found in the reviewed sources; IR access limitations remain.",
+      "data": [
+        {
+          "name": "CAVA September 23, 2026 500-restaurant milestone",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609231600BIZWIRE_USPRX____20260923_BW562355-1",
+          "citation": {
+            "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609231600BIZWIRE_USPRX____20260923_BW562355-1",
+            "locator": "paragraph-0002",
+            "excerpt": "WASHINGTON --(BUSINESS WIRE)--Sep. 23, 2026-- CAVA (NYSE: CAVA), the category-defining Mediterranean fast-casual restaurant brand, today announced a significant achievement in the company’s continued national expansion as it commemorates its 500-restaurant footprint. CAVA is currently ahead of schedule and poised to surpass its goal of 1,000 restaurants by 2032."
+          },
+          "additional_citations": [
+            {
+              "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609231600BIZWIRE_USPRX____20260923_BW562355-1",
+              "locator": "paragraph-0005",
+              "excerpt": "CAVA marked the moment at its Minneapolis restaurant which opened today at 622 Washington Avenue SE , and ushers in the company’s entrance into Minnesota , bringing its fleet to 30 states and the District of Columbia . Fifteen years after opening its first fast-casual restaurant in 2011, CAVA enters its next chapter with strong new restaurant performance, continued expansion into new markets, and ongoing investment in menu innovation that expands the possibilities of Mediterranean cuisine for guests."
+            },
+            {
+              "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609231600BIZWIRE_USPRX____20260923_BW562355-1",
+              "locator": "paragraph-0006",
+              "excerpt": "Reaching 500 restaurants is a defining moment for CAVA and a reflection of how far we’ve come"
+            }
+          ],
+          "measurement_date": "2026-09-23",
+          "limitations": "Milestone brand footprint before fiscal quarter-end; reconcile licensed-airport coverage and subsequent openings/closures with the company settlement-count definition."
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[102].contract_rules",
+        "excerpt": "If CAVA Group Inc. reports Above 478 total restaurants in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXFIG-26NOVHIARR",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited operating figures are from the prior quarterly earnings release; no qualifying public measurement of the contract metric during Q3 2026 was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/figma-announces-second-quarter-2026-200500534.html",
+          "locator": "paragraph-0019",
+          "excerpt": "1,635 Paid Customers with more than $100,000 in ARR as of June 30, 2026, growing 46% year-over-year."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[103].contract_rules",
+        "excerpt": "If Figma, Inc. reports Above 1725 paid customers   $100k arr in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXSTUB-26NOVGMS",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public measurement of the contract metric during Q3 2026 was found in the checked sources. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[104].contract_rules",
+        "excerpt": "If StubHub Holdings, Inc. reports Above 2300000000 gross merchandise sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCTCQ-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[105].contract_rules",
+        "excerpt": "If Canadian Tire Corporation, Limited reports Above -1% consolidated comparable sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXEVLV-26NOVNEWCUST",
+      "report_date": "2026-11-10",
+      "report_citation": {
+        "url": "https://ir.evolvtechnology.com/news/press-releases/detail/292/evolv-technology-to-release-third-quarter-financial-results-on-november-10-2026",
+        "locator": "paragraph-0001",
+        "excerpt": "WALTHAM, Mass.--(BUSINESS WIRE)-- Evolv Technologies Holdings, Inc. (NASDAQ: EVLV), a leading security technology company pioneering AI-based solutions designed to help create safer experiences, today announced that the Company will release financial results for the third quarter of 2026 on Tuesday, November 10, 2026, after the market closes. Members of the Company’s management team plan to host a live webcast at 4:30 p.m. Eastern Time on that day to discuss the financial results as well as management’s outlook for the business. The conference call will be webcast live at http://ir.evolvtechnology.com ."
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter Q3 new-customer aggregate was found; the August 14 business update explicitly attributes its new-customer additions to Q2 rather than Q3.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.evolvtechnology.com/news/press-releases/detail/287/evolv-technology-expands-market-reach-and-deepens-customer-adoption-as-demand-for-ai-powered-security-remains-strong",
+          "locator": "paragraph-0007",
+          "excerpt": "During the second quarter of 2026, Evolv added 70 new customers, representing its strongest quarter for new customer additions in two years. Examples of new customers include the new Ryan Field at Northwestern University , pro soccer team Philadelphia Union , and The University of Washington . During the second quarter of 2026, approximately 60% of unit bookings came from existing customers, highlighting the Company's ability to both attract new organizations and deepen relationships with its installed base."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[106].contract_rules",
+        "excerpt": "If Evolv Technologies Holdings, Inc. reports Above 40 new customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXPBR-26NOVPROD",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "ANP’s monthly production bulletin and well-level data measure Brazilian oil/gas output by operator, with an August observation identifying Petrobras; equity shares, gas conversions and overseas coverage require reconciliation to the contract total. No explicit Q3 report publication date was found on the checked issuer pages or in the wire searches.",
+      "data": [
+        {
+          "name": "ANP monthly oil and natural gas production bulletin",
+          "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletins/boletim-mensal-da-producao-de-petroleo-e-gas-natural",
+          "citation": {
+            "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletins/boletim-mensal-da-producao-de-petroleo-e-gas-natural",
+            "locator": "paragraph-0001",
+            "excerpt": "O Boletim Mensal da Produção é publicado pela ANP desde setembro de 2010, com as principais informações sobre a produção de petróleo e gás no mês de referência."
+          },
+          "availability_citation": {
+            "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletins/boletim-mensal-da-producao-de-petroleo-e-gas-natural",
+            "locator": "item-0493",
+            "excerpt": "2026 Janeiro - Fevereiro - Março - Abril - Maio - Junho - Julho - Agosto"
+          }
+        },
+        {
+          "name": "ANP monthly oil and gas production by well and operator",
+          "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-poco",
+          "citation": {
+            "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-poco",
+            "locator": "paragraph-0002",
+            "excerpt": "Além dos volumes de produção de petróleo (em bbl/dia) e gás natural (em Mm³/dia) em cada poço, também constam informações sobre localização (campo, bacia, estado), titularidade (operador, nº contrato), período de referência (mês e ano), grau API, fração de destilados, percentuais de hidrocarbonetos, dentre outras."
+          }
+        },
+        {
+          "name": "Public account of ANP August 2026 Petrobras production observation",
+          "url": "https://www.hellenicshippingnews.com/brazil-data-august-crude-oil-natural-gas-output-tops-6-million-boe-d-for-first-time/",
+          "citation": {
+            "url": "https://www.hellenicshippingnews.com/brazil-data-august-crude-oil-natural-gas-output-tops-6-million-boe-d-for-first-time/",
+            "locator": "paragraph-0011",
+            "excerpt": "Petrobras was the country’s top oil and gas producer in August, with output of 2.756 million b/d and 134.8 million cu m/d, the ANP said."
+          },
+          "release_citation": {
+            "url": "https://www.hellenicshippingnews.com/brazil-data-august-crude-oil-natural-gas-output-tops-6-million-boe-d-for-first-time/",
+            "locator": "paragraph-0002",
+            "excerpt": "the National Petroleum Agency, or ANP, said Oct. 1."
+          }
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[107].contract_rules",
+        "excerpt": "If Petroleo Brasileiro S.A.- Petrobras reports Above 2950 total oil and gas production in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXNU-26NOVCUST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "A September 10 issuer announcement observes more than 140 million Latin American customers, providing a rounded Q3 count with geographic coverage still requiring reconciliation. No company-announced Q3 report publication date was found in the reviewed sources; IR access or rendering limitations remain.",
+      "data": [
+        {
+          "name": "September 10, 2026 company customer-base observation",
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609101221BIZWIRE_USPRX____20260910_BW943114-1",
+          "citation": {
+            "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609101221BIZWIRE_USPRX____20260910_BW943114-1",
+            "locator": "paragraph-0003",
+            "excerpt": "after proving this hypothesis with over 140 million fanatical customers in Latin America"
+          },
+          "date_citation": {
+            "url": "https://markets.ft.com/data/announce/detail?dockey=600-202609101221BIZWIRE_USPRX____20260910_BW943114-1",
+            "locator": "paragraph-0001",
+            "excerpt": "MIAMI --(BUSINESS WIRE)--Sep. 10, 2026--"
+          },
+          "measurement_date": "2026-09-10",
+          "coverage": "Latin America existing customer base",
+          "baseline_citation": {
+            "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608131740BIZWIRE_USPRX____20260813_BW187996-1",
+            "locator": "item-0141",
+            "excerpt": "Customer growth - Nu added approximately 4 million customers in Q2'26, reaching a total of 139 million customers globally."
+          },
+          "limitations": "Rounded lower bound for Latin America; the same release launches US operations, so global customer-definition coverage must be reconciled before an estimate."
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[108].contract_rules",
+        "excerpt": "If Nu Holdings Ltd. reports Above 142500000 customers in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXHD-26NOVTXN",
+      "report_date": "2026-11-17",
+      "report_citation": {
+        "url": "https://ir.homedepot.com/events-and-presentations",
+        "locator": "paragraph-0007",
+        "excerpt": "Tuesday, November 17, 2026 9:00 am ET"
+      },
+      "measurable": false,
+      "why": "No qualifying public in-quarter measurement of the specified figure was verified in the checked sources.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://ir.homedepot.com/events-and-presentations",
+          "locator": "paragraph-0006",
+          "excerpt": "Q3 2026 THE HOME DEPOT, INC. EARNINGS RELEASE"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[109].contract_rules",
+        "excerpt": "If Home Depot Inc. reports Above 380000000 customer transactions in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXWSM-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The cited release covers fiscal Q2 ended August 2, 2026, so it does not measure the contract’s fiscal Q3 comparable brand revenue growth; no qualifying in-quarter measurement was found. No Q3 2026 report-date announcement or wire copy was located as of 12 October 2026; the official IR page/feed checks were blocked or did not expose an announcement.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608260800BIZWIRE_USPRX____20260826_BW865160-1",
+          "locator": "paragraph-0002",
+          "excerpt": "SAN FRANCISCO --(BUSINESS WIRE)--Aug. 26, 2026-- Williams-Sonoma , Inc. (NYSE: WSM) today announced operating results for the second quarter ended August 2, 2026 versus the second quarter ended August 3, 2025 ."
+        },
+        {
+          "url": "https://markets.ft.com/data/announce/detail?dockey=600-202608260800BIZWIRE_USPRX____20260826_BW865160-1",
+          "locator": "paragraph-0001",
+          "excerpt": "Q2 comparable brand revenue +6.2% GAAP operating margin of 22.9%; non-GAAP operating margin of 17.3% GAAP diluted EPS of $2.84 ; non-GAAP diluted EPS of $2.10 Raises full-year 2026 outlook"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[110].contract_rules",
+        "excerpt": "If Williams-Sonoma, Inc. reports Above 3% total comparable brand revenue growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXLOW-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The issuer calendar gives a tentative November 18 Q3 earnings call, but no explicit report publication date was verified. No qualifying public in-quarter comparable-sales observation was found in the checked sources.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://corporate.lowes.com/investors/news-events/events-presentations",
+          "locator": "table-001",
+          "excerpt": "11/18/2026 Q3 2026 Lowe’s Companies, Inc. Earnings Conference Call (tentative)"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[111].contract_rules",
+        "excerpt": "If Lowe's Companies Inc. reports Above -2% comparable sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXTGT-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "The issuer events calendar lists November 18, but its mef-listed text does not identify an explicit Q3 report publication announcement. No qualifying public in-quarter comparable-sales observation was found.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://corporate.target.com/investors/events-presentations",
+          "locator": "paragraph-0001",
+          "excerpt": "Wednesday, November 18, 2026 8:00 - 9:00 a.m. ET"
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[112].contract_rules",
+        "excerpt": "If Target Corporation reports Above 0.0% comparable sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXFUTU-26NOVFUNDED",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[113].contract_rules",
+        "excerpt": "If Futu Holdings Limited reports Above 3950000.0 total funded accounts in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCAVA-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": true,
+      "why": "The August 11 call reports actual fiscal-Q3 same-restaurant-sales bands, including last-week mid-single-digit growth; these are partial observations requiring period reconciliation. No company-announced Q3 report publication date was found in the reviewed sources; IR access limitations remain.",
+      "data": [
+        {
+          "name": "Observed post-Q2 same-restaurant-sales bands stated on August 11, 2026 call",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+          "citation": {
+            "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+            "locator": "paragraph-0122",
+            "excerpt": "Tricia Tolivar: Yes. So it dipped initially to flat to positive and then each week sequentially got better and the last week was a mid-single-digit same restaurant sales."
+          },
+          "date_citation": {
+            "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+            "locator": "paragraph-0003",
+            "excerpt": "Tuesday, Aug. 11, 2026 at 5:00 p.m. ET"
+          },
+          "fiscal_period_citation": {
+            "url": "https://uk.finance.yahoo.com/news/cava-group-reports-second-quarter-201000123.html",
+            "locator": "paragraph-0005",
+            "excerpt": "WASHINGTON, August 11, 2026 --( BUSINESS WIRE )--CAVA Group, Inc. (NYSE: CAVA) (\"CAVA Group\" or the \"Company\"), the category-defining Mediterranean fast-casual restaurant brand that brings heart, health, and humanity to food, today announced financial results for its fiscal second quarter ended July 12, 2026."
+          },
+          "additional_citations": [
+            {
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+              "locator": "paragraph-0036",
+              "excerpt": "Earlier last month, concerns surrounding the Cyclospora outbreak impacted same restaurant sales. Those trends moderated meaningfully, though remained flat to positive."
+            },
+            {
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+              "locator": "paragraph-0037",
+              "excerpt": "Performance improved sequentially each week and most recently, as concerns around the broader impact of the Cyclospora outbreak has begun to ease, our same restaurant sales performance has recovered to mid-single digits."
+            }
+          ],
+          "limitations": "Management gives observed weekly bands, not exact percentages or the fiscal-Q3 average; transcript is a third-party reproduction of the company call."
+        }
+      ],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[114].contract_rules",
+        "excerpt": "If CAVA Group, Inc. reports Above 3% same restaurant sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDKS-26NOVCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No qualifying public in-quarter comparable-sales observation was found; the located company release covers fiscal Q2 ended August 1 and states that Foot Locker joins quarterly comparable sales only from fiscal Q4, so proforma consolidated sales are not substituted. No company-announced Q3 publication date was located as of October 12; issuer-source access limitations leave it unverified.",
+      "data": [],
+      "evidence_citations": [
+        {
+          "url": "https://uk.finance.yahoo.com/news/dicks-sporting-goods-inc-reports-110000740.html",
+          "locator": "paragraph-0015",
+          "excerpt": "PITTSBURGH, Aug. 25, 2026 /PRNewswire/ -- DICK'S Sporting Goods, Inc. (NYSE: DKS), a leading global sports retailer, today reported sales and earnings results for the second quarter ended August 1, 2026."
+        },
+        {
+          "url": "https://uk.finance.yahoo.com/news/dicks-sporting-goods-inc-reports-110000740.html",
+          "locator": "paragraph-0021",
+          "excerpt": "Comparable sales for the Foot Locker Business are represented on a proforma basis and are calculated as if Foot Locker had been acquired at the beginning of the periods presented. Foot Locker will not be included in quarterly comparable sales until the fourth quarter of fiscal 2026 and full year comparable sales in fiscal 2027."
+        }
+      ],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[115].contract_rules",
+        "excerpt": "If Dick's Sporting Goods Inc reports Above 0% comparable store sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXDG-26DECSSSG",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[116].contract_rules",
+        "excerpt": "If Dollar General Corporation reports Above 1% same-store sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXKR-26DECIDSALES",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[117].contract_rules",
+        "excerpt": "If The Kroger Co. reports Above -2.0% identical sales growth (excl. fuel) in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXULTA-26DECCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[118].contract_rules",
+        "excerpt": "If Ulta Beauty, Inc. reports Above 3.5% total comparable sales in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXVSXY-26DECCOMP",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[119].contract_rules",
+        "excerpt": "If Victoria's Secret & Co. reports Above 2% total comparable sales growth in Q3 2026, then the market resolves to Yes."
+      }
+    },
+    {
+      "ladder": "KXCHWY-26DECACTIVECUST",
+      "report_date": null,
+      "report_citation": null,
+      "measurable": false,
+      "why": "No company-announced Q3 2026 report publication date was located in the checked issuer sources and wire searches; some issuer pages were inaccessible. No qualifying public in-quarter measurement of the specified figure was verified.",
+      "data": [],
+      "evidence_citations": [],
+      "contract_citation": {
+        "path": "runs/replication/open-q3.json",
+        "locator": "ladders[120].contract_rules",
+        "excerpt": "If Chewy Inc. reports Above 21700000 active customers in Q3 2026, then the market resolves to Yes."
+      }
+    }
+  ]
+}

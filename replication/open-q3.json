@@ -1,0 +1,2424 @@
+{
+  "ladders": [
+    {
+      "ladder": "KXDPZ-26OCTSTORES",
+      "series": "KXDPZ",
+      "company_ticker": "DPZ",
+      "title": "Domino's total US stores in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-09T04:00:00Z",
+      "contract_rules": "If Domino's Pizza Inc reports Above 7240 total us stores in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        7240,
+        7250,
+        7260,
+        7265,
+        7270,
+        7280,
+        7290,
+        7300,
+        7310,
+        7320
+      ]
+    },
+    {
+      "ladder": "KXDPZ-26OCTSSSG",
+      "series": "KXDPZ",
+      "company_ticker": "DPZ",
+      "title": "Domino's US same store sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-09T04:00:00Z",
+      "contract_rules": "If Domino's Pizza Inc reports Above -1% us same store sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -1,
+        -0.5,
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5
+      ]
+    },
+    {
+      "ladder": "KXVG-26OCTLNGVOL",
+      "series": "KXVG",
+      "company_ticker": "VG",
+      "title": "Venture Global LNG volumes in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-12T04:00:00Z",
+      "contract_rules": "If Venture Global, Inc. reports Above 440 lng volumes in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        440,
+        460,
+        480,
+        500,
+        520
+      ]
+    },
+    {
+      "ladder": "KXSCHW-26OCTACCTS",
+      "series": "KXSCHW",
+      "company_ticker": "SCHW",
+      "title": "Charles Schwab active brokerage accounts in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-12T04:00:00Z",
+      "contract_rules": "If Charles Schwab Corporation (The) reports Above 39900000 active brokerage accounts in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        39900000,
+        40000000,
+        40100000,
+        40200000,
+        40300000,
+        40400000,
+        40500000,
+        40600000,
+        40700000,
+        40800000,
+        40900000,
+        41000000,
+        41100000,
+        41200000,
+        41300000
+      ]
+    },
+    {
+      "ladder": "KXUAL-26OCTPAX",
+      "series": "KXUAL",
+      "company_ticker": "UAL",
+      "title": "United Airlines passengers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-12T04:00:00Z",
+      "contract_rules": "If United Airlines Holdings Inc. reports Above 47750000.0 passengers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        47750000,
+        48000000,
+        48250000,
+        48500000,
+        48750000,
+        49000000,
+        49250000,
+        49500000,
+        49750000,
+        50000000,
+        50250000,
+        50500000,
+        50750000,
+        51000000,
+        51250000,
+        51500000,
+        51750000,
+        52000000,
+        52250000
+      ]
+    },
+    {
+      "ladder": "KXAXP-26OCTCARDS",
+      "series": "KXAXP",
+      "company_ticker": "AXP",
+      "title": "American Express cards-in-force in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-13T04:00:00Z",
+      "contract_rules": "If American Express Company reports Above 154500000.0 cards-in-force (total) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        154500000,
+        155000000,
+        155500000,
+        156000000,
+        156500000,
+        157000000,
+        157500000,
+        158000000,
+        158500000,
+        159000000
+      ]
+    },
+    {
+      "ladder": "KXVZ-26OCTNETADDS",
+      "series": "KXVZ",
+      "company_ticker": "VZ",
+      "title": "Verizon postpaid phone net additions in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-17T04:00:00Z",
+      "contract_rules": "If Verizon Communications Inc reports Above 150000 postpaid phone net additions in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        150000,
+        175000,
+        200000,
+        225000,
+        250000,
+        275000,
+        300000,
+        325000,
+        350000,
+        375000,
+        400000
+      ]
+    },
+    {
+      "ladder": "KXLMT-26OCTF35",
+      "series": "KXLMT",
+      "company_ticker": "LMT",
+      "title": "Lockheed Martin F-35 deliveries in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-17T04:00:00Z",
+      "contract_rules": "If Lockheed Martin Corporation reports Above 20 f-35 aircraft deliveries in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60
+      ]
+    },
+    {
+      "ladder": "KXPM-26OCTZYNPCH",
+      "series": "KXPM",
+      "company_ticker": "PM",
+      "title": "Zyn US shipment volume (pouches) in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-17T04:00:00Z",
+      "contract_rules": "If Philip Morris International Inc reports Above 2800000000.0 zyn u.s. shipment volume (pouches) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2800000000,
+        2900000000,
+        3000000000,
+        3100000000,
+        3200000000,
+        3300000000,
+        3400000000,
+        3500000000,
+        3600000000,
+        3700000000
+      ]
+    },
+    {
+      "ladder": "KXINTC-26OCTHEAD",
+      "series": "KXINTC",
+      "company_ticker": "INTC",
+      "title": "Intel headcount in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Intel Corporation reports Above 79000.0 headcount in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        79000,
+        79500,
+        80000,
+        80500,
+        81000,
+        81500,
+        82000,
+        82500,
+        83000,
+        83500
+      ]
+    },
+    {
+      "ladder": "KXAAL-26OCTPLF",
+      "series": "KXAAL",
+      "company_ticker": "AAL",
+      "title": "American Airlines passenger load factor in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If American Airlines Group Inc. reports Above 83.5% passenger load factor in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        83.5,
+        84,
+        84.5,
+        85,
+        85.5,
+        86,
+        86.5,
+        87,
+        87.5,
+        88
+      ]
+    },
+    {
+      "ladder": "KXWH-26OCTROOMS",
+      "series": "KXWH",
+      "company_ticker": "WH",
+      "title": "Wyndham Hotels total rooms in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Wyndham Hotels & Resorts Inc. reports Above 876000 total rooms in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        876000,
+        879000,
+        882000,
+        885000,
+        888000,
+        891000,
+        894000,
+        897000
+      ]
+    },
+    {
+      "ladder": "KXCMG-26OCTREST",
+      "series": "KXCMG",
+      "company_ticker": "CMG",
+      "title": "Chipotle total restaurant count in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Chipotle Mexican Grill Inc. reports Above 4250 total restaurant count in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4250,
+        4260,
+        4270,
+        4280,
+        4290,
+        4300,
+        4310,
+        4320
+      ]
+    },
+    {
+      "ladder": "KXCMG-26OCTCOMP",
+      "series": "KXCMG",
+      "company_ticker": "CMG",
+      "title": "Chipotle comparable restaurant sales increase in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Chipotle Mexican Grill Inc. reports Above -1.0% comparable restaurant sales increase in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "ladder": "KXBA-26OCTDELIV",
+      "series": "KXBA",
+      "company_ticker": "BA",
+      "title": "Boeing commercial deliveries in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If The Boeing Company reports Above 152 commercial deliveries in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        152,
+        154,
+        156,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192
+      ]
+    },
+    {
+      "ladder": "KXLUV-26OCTSEATS",
+      "series": "KXLUV",
+      "company_ticker": "LUV",
+      "title": "Southwest Airlines seats flown in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Southwest Airlines Company reports Above 56000000.0 seats flown in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        56000000,
+        56500000,
+        57000000,
+        57500000,
+        58000000,
+        58500000,
+        59000000,
+        59500000,
+        60000000,
+        60500000,
+        61000000,
+        61500000,
+        62000000
+      ]
+    },
+    {
+      "ladder": "KXLUV-26OCTFARE",
+      "series": "KXLUV",
+      "company_ticker": "LUV",
+      "title": "Southwest Airlines average passenger fare in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Southwest Airlines Company reports Above 185 average passenger fare in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        185,
+        190,
+        195,
+        200,
+        205,
+        210,
+        215,
+        220,
+        225,
+        230,
+        235,
+        240
+      ]
+    },
+    {
+      "ladder": "KXALK-26OCTPLF",
+      "series": "KXALK",
+      "company_ticker": "ALK",
+      "title": "Alaska Air passenger load factor in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-19T04:00:00Z",
+      "contract_rules": "If Alaska Air Group Inc. reports Above 82.0% passenger load factor in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        82,
+        82.5,
+        83,
+        83.5,
+        84,
+        84.5,
+        85,
+        85.5,
+        86,
+        86.5,
+        87
+      ]
+    },
+    {
+      "ladder": "KXSNAP-26OCTDAU",
+      "series": "KXSNAP",
+      "company_ticker": "SNAP",
+      "title": "Snap daily active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-24T04:00:00Z",
+      "contract_rules": "If Snap Inc. reports Above 486000000 global daily active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        486000000,
+        488000000,
+        490000000,
+        492000000,
+        494000000,
+        496000000,
+        498000000,
+        500000000,
+        502000000,
+        504000000,
+        506000000
+      ]
+    },
+    {
+      "ladder": "KXCAKE-26OCTCOMP",
+      "series": "KXCAKE",
+      "company_ticker": "CAKE",
+      "title": "The Cheesecake Factory comparable restaurant sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-24T04:00:00Z",
+      "contract_rules": "If The Cheesecake Factory Inc. reports Above 3.5% comparable restaurant sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9
+      ]
+    },
+    {
+      "ladder": "KXGOOG-26OCTCLICKS",
+      "series": "KXGOOG",
+      "company_ticker": "GOOG",
+      "title": "Google search paid clicks change in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-24T04:00:00Z",
+      "contract_rules": "If Alphabet Inc. reports Above 8% google search paid clicks change in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "ladder": "KXMAR-26OCTROOMS",
+      "series": "KXMAR",
+      "company_ticker": "MAR",
+      "title": "Marriott International total rooms in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Marriott International reports Above 1820000.0 total rooms in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1820000,
+        1825000,
+        1830000,
+        1835000,
+        1840000,
+        1845000,
+        1850000,
+        1855000
+      ]
+    },
+    {
+      "ladder": "KXFSLR-26OCTMWSOLD",
+      "series": "KXFSLR",
+      "company_ticker": "FSLR",
+      "title": "First Solar module volume sold in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If First Solar Inc. reports Above 3700 MW module volume sold in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3700,
+        3800,
+        3900,
+        4000,
+        4100,
+        4200,
+        4300,
+        4400,
+        4500,
+        4600,
+        4700,
+        4800,
+        4900,
+        5000,
+        5100,
+        5200,
+        5300,
+        5400
+      ]
+    },
+    {
+      "ladder": "KXCVNA-26OCTSALES",
+      "series": "KXCVNA",
+      "company_ticker": "CVNA",
+      "title": "Carvana retail vehicle unit sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Carvana Co. reports Above 200000 retail vehicle unit sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        200000,
+        205000,
+        210000,
+        215000,
+        220000,
+        225000
+      ]
+    },
+    {
+      "ladder": "KXMO-26OCTCIGSHIP",
+      "series": "KXMO",
+      "company_ticker": "MO",
+      "title": "Altria Group cigarette shipments in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Altria Group Inc. reports Above 14000000000.0 cigarette shipments in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        14000000000,
+        14250000000,
+        14500000000,
+        14750000000,
+        15000000000,
+        15250000000,
+        15500000000,
+        15750000000
+      ]
+    },
+    {
+      "ladder": "KXETSY-26OCTGMS",
+      "series": "KXETSY",
+      "company_ticker": "ETSY",
+      "title": "Etsy Gross Merchandise Sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Etsy, Inc. reports Above 2500000000 etsy marketplace gms in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2500000000,
+        2540000000,
+        2580000000,
+        2620000000,
+        2660000000
+      ]
+    },
+    {
+      "ladder": "KXEBAY-26OCTGMV",
+      "series": "KXEBAY",
+      "company_ticker": "EBAY",
+      "title": "eBay gross merchandise volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If eBay Inc. reports Above 22000000000.0 gross merchandise volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        22000000000,
+        22200000000,
+        22400000000,
+        22600000000,
+        22800000000,
+        23000000000,
+        23200000000,
+        23400000000
+      ]
+    },
+    {
+      "ladder": "KXNCLH-26OCTPAX",
+      "series": "KXNCLH",
+      "company_ticker": "NCLH",
+      "title": "Norwegian Cruise Line passengers carried in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Norwegian Cruise Line Holdings Ltd. reports Above 810000 passengers carried in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        810000,
+        820000,
+        830000,
+        840000,
+        850000,
+        860000,
+        870000,
+        880000,
+        890000,
+        900000,
+        910000,
+        920000,
+        930000
+      ]
+    },
+    {
+      "ladder": "KXAMZN-26OCTEMP",
+      "series": "KXAMZN",
+      "company_ticker": "AMZN",
+      "title": "Amazon headcount in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Amazon.com Inc. reports Above 1540000.0 employees (full-time & part-time, excl. contractors/temps) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1540000,
+        1560000,
+        1580000,
+        1600000,
+        1620000,
+        1640000,
+        1660000,
+        1680000
+      ]
+    },
+    {
+      "ladder": "KXSPOT-26OCTPREMSUBS",
+      "series": "KXSPOT",
+      "company_ticker": "SPOT",
+      "title": "Spotify premium subscribers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Spotify Technology S.A. reports Above 300000000 premium subscribers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        300000000,
+        302000000,
+        304000000,
+        306000000,
+        308000000,
+        310000000,
+        312000000
+      ]
+    },
+    {
+      "ladder": "KXSPOT-26OCTMAU",
+      "series": "KXSPOT",
+      "company_ticker": "SPOT",
+      "title": "Spotify monthly active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Spotify Technology S.A. reports Above 784000000 monthly active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        784000000,
+        786000000,
+        788000000,
+        790000000,
+        792000000,
+        794000000,
+        796000000,
+        798000000,
+        800000000,
+        802000000
+      ]
+    },
+    {
+      "ladder": "KXMELI-26OCTGMV",
+      "series": "KXMELI",
+      "company_ticker": "MELI",
+      "title": "MercadoLibre gross merchandise volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If MercadoLibre, Inc. reports Above 21500000000.0 gross merchandise volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        21500000000,
+        22000000000,
+        22500000000,
+        23000000000,
+        23500000000,
+        24000000000,
+        24500000000
+      ]
+    },
+    {
+      "ladder": "KXMELI-26OCTFINMAU",
+      "series": "KXMELI",
+      "company_ticker": "MELI",
+      "title": "MercadoLibre fintech monthly active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If MercadoLibre, Inc. reports Above 91000000.0 fintech monthly active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        91000000,
+        91500000,
+        92000000,
+        92500000,
+        93000000,
+        93500000,
+        94000000,
+        94500000,
+        95000000,
+        95500000,
+        96000000
+      ]
+    },
+    {
+      "ladder": "KXRDDT-26OCTDAU",
+      "series": "KXRDDT",
+      "company_ticker": "RDDT",
+      "title": "Reddit daily active uniques in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-25T04:00:00Z",
+      "contract_rules": "If Reddit Inc. reports Above 132000000 daily active uniques in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        132000000,
+        133000000,
+        134000000,
+        135000000,
+        136000000,
+        137000000,
+        138000000,
+        139000000,
+        140000000,
+        141000000,
+        142000000
+      ]
+    },
+    {
+      "ladder": "KXNP-26OCTPIF",
+      "series": "KXNP",
+      "company_ticker": "NP",
+      "title": "Neptune Insurance policies in force in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-26T04:00:00Z",
+      "contract_rules": "If Neptune Insurance Holdings Inc. reports Above 330000 policies in force in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        330000,
+        335000,
+        340000,
+        345000,
+        350000
+      ]
+    },
+    {
+      "ladder": "KXMETA-26OCTIMPR",
+      "series": "KXMETA",
+      "company_ticker": "META",
+      "title": "Meta ad impressions growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-26T04:00:00Z",
+      "contract_rules": "If Meta Platforms Inc. reports Above 8% ad impressions growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    {
+      "ladder": "KXMETA-26OCTHEAD",
+      "series": "KXMETA",
+      "company_ticker": "META",
+      "title": "Meta headcount in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-26T04:00:00Z",
+      "contract_rules": "If Meta Platforms Inc. reports Above 67000 headcount in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        67000,
+        68000,
+        69000,
+        70000,
+        71000,
+        72000,
+        73000,
+        74000,
+        75000,
+        76000,
+        77000
+      ]
+    },
+    {
+      "ladder": "KXMETA-26OCTDAP",
+      "series": "KXMETA",
+      "company_ticker": "META",
+      "title": "Meta family daily active people in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-26T04:00:00Z",
+      "contract_rules": "If Meta Platforms Inc. reports Above 3610000000.0 family daily active people in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3610000000,
+        3620000000,
+        3630000000,
+        3640000000,
+        3650000000,
+        3660000000,
+        3670000000,
+        3680000000,
+        3690000000,
+        3700000000,
+        3710000000,
+        3720000000
+      ]
+    },
+    {
+      "ladder": "KXSOFI-26OCTMEM",
+      "series": "KXSOFI",
+      "company_ticker": "SOFI",
+      "title": "SoFi members in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-27T04:00:00Z",
+      "contract_rules": "If SoFi Technologies, Inc. reports Above 16700000 members in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        16700000,
+        16800000,
+        16900000,
+        17000000,
+        17100000,
+        17200000,
+        17300000
+      ]
+    },
+    {
+      "ladder": "KXRBLX-26OCTHOURS",
+      "series": "KXRBLX",
+      "company_ticker": "RBLX",
+      "title": "Roblox hours engaged in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-27T04:00:00Z",
+      "contract_rules": "If Roblox Corporation reports Above 32000000000 hours engaged in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        32000000000,
+        33000000000,
+        34000000000,
+        35000000000,
+        36000000000,
+        37000000000,
+        38000000000,
+        39000000000,
+        40000000000,
+        41000000000,
+        42000000000
+      ]
+    },
+    {
+      "ladder": "KXRBLX-26OCTDAU",
+      "series": "KXRBLX",
+      "company_ticker": "RBLX",
+      "title": "Roblox daily active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-02-27T04:00:00Z",
+      "contract_rules": "If Roblox Corporation reports Above 126000000 daily active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        126000000,
+        130000000,
+        134000000,
+        138000000,
+        142000000,
+        146000000,
+        150000000,
+        154000000,
+        158000000,
+        162000000,
+        166000000
+      ]
+    },
+    {
+      "ladder": "KXHIMS-26NOVSUBS",
+      "series": "KXHIMS",
+      "company_ticker": "HIMS",
+      "title": "Hims subscribers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-03T05:00:00Z",
+      "contract_rules": "If Hims & Hers Health, Inc. reports Above 2950000 subscribers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2950000,
+        3000000,
+        3050000,
+        3100000,
+        3150000,
+        3200000,
+        3250000
+      ]
+    },
+    {
+      "ladder": "KXGOOG-26NOVHEAD",
+      "series": "KXGOOG",
+      "company_ticker": "GOOG",
+      "title": "Google headcount in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-03T05:00:00Z",
+      "contract_rules": "If Alphabet Inc. reports Above 197000 headcount in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        197000,
+        198000,
+        199000,
+        200000,
+        201000,
+        202000,
+        203000,
+        204000,
+        205000,
+        206000,
+        207000,
+        208000
+      ]
+    },
+    {
+      "ladder": "KXPLTR-26NOVCUST",
+      "series": "KXPLTR",
+      "company_ticker": "PLTR",
+      "title": "Palantir total customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-03T05:00:00Z",
+      "contract_rules": "If Palantir Technologies Inc. reports Above 1060 total customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1060,
+        1070,
+        1080,
+        1090,
+        1100,
+        1110,
+        1120,
+        1130,
+        1140,
+        1150
+      ]
+    },
+    {
+      "ladder": "KXCOINBASE-26NOVMTU",
+      "series": "KXCOINBASE",
+      "company_ticker": "COIN",
+      "title": "Coinbase monthly transacting users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Coinbase Global Inc. reports Above 6500000.0 monthly transacting users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        6500000,
+        7000000,
+        7500000,
+        8000000,
+        8500000,
+        9000000,
+        9500000
+      ]
+    },
+    {
+      "ladder": "KXHOOD-26NOVGOLDSUBS",
+      "series": "KXHOOD",
+      "company_ticker": "HOOD",
+      "title": "Robinhood gold subs in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Robinhood Markets Inc. reports Above 4800000.0 gold subs in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4800000,
+        4900000,
+        5000000,
+        5100000,
+        5200000,
+        5300000,
+        5400000,
+        5500000
+      ]
+    },
+    {
+      "ladder": "KXHOOD-26NOVFUNDED",
+      "series": "KXHOOD",
+      "company_ticker": "HOOD",
+      "title": "Robinhood funded customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Robinhood Markets Inc. reports Above 28500000 funded customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        28500000,
+        28600000,
+        28700000,
+        28800000,
+        28900000,
+        29000000,
+        29100000,
+        29200000,
+        29300000,
+        29400000,
+        29500000
+      ]
+    },
+    {
+      "ladder": "KXHOOD-26NOVECVOL",
+      "series": "KXHOOD",
+      "company_ticker": "HOOD",
+      "title": "Robinhood event contracts trading volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Robinhood Markets Inc. reports Above 10000000000 event contracts total trading volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        10000000000,
+        12000000000,
+        14000000000,
+        16000000000,
+        18000000000,
+        20000000000,
+        22000000000,
+        24000000000
+      ]
+    },
+    {
+      "ladder": "KXCHYM-26NOVACTMEM",
+      "series": "KXCHYM",
+      "company_ticker": "CHYM",
+      "title": "Chime active members in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Chime Financial, Inc. reports Above 10600000 active members in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        10600000,
+        10700000,
+        10800000,
+        10900000,
+        11000000
+      ]
+    },
+    {
+      "ladder": "KXYUM-26NOVTBSSS",
+      "series": "KXYUM",
+      "company_ticker": "YUM",
+      "title": "Taco Bell same-store sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Yum! Brands Inc. reports Above -9% taco bell same-store sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "ladder": "KXYUM-26NOVKFCSSS",
+      "series": "KXYUM",
+      "company_ticker": "YUM",
+      "title": "KFC same-store sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Yum! Brands Inc. reports Above -1% kfc same-store sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "ladder": "KXSPCX-26NOVSUBS",
+      "series": "KXSPCX",
+      "company_ticker": "SPCX",
+      "title": "Starlink active subscribers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If SpaceX reports Above 12500000.0 starlink active subscribers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        12500000,
+        13000000,
+        13500000,
+        14000000,
+        14500000,
+        15000000,
+        15500000,
+        16000000
+      ]
+    },
+    {
+      "ladder": "KXMCD-26NOVREST",
+      "series": "KXMCD",
+      "company_ticker": "MCD",
+      "title": "McDonald's Corporation total systemwide restaurants in Q3 2026",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If McDonald's Corporation reports Above 46300 total systemwide restaurants in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        46300,
+        46350,
+        46400,
+        46450,
+        46500,
+        46550,
+        46600,
+        46650,
+        46700
+      ]
+    },
+    {
+      "ladder": "KXMCD-26NOVCOMP",
+      "series": "KXMCD",
+      "company_ticker": "MCD",
+      "title": "McDonald's Corporation global comparable sales growth in Q3 2026",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If McDonald's Corporation reports Above 0% global comparable sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5
+      ]
+    },
+    {
+      "ladder": "KXBROS-26NOVSSS",
+      "series": "KXBROS",
+      "company_ticker": "BROS",
+      "title": "Dutch Bros same-shop sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Dutch Bros Inc. reports Above 3.5% same-shop sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6
+      ]
+    },
+    {
+      "ladder": "KXBROS-26NOVSHOPS",
+      "series": "KXBROS",
+      "company_ticker": "BROS",
+      "title": "Dutch Bros total shops in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Dutch Bros Inc. reports Above 1250 total shops in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1250,
+        1260,
+        1270,
+        1280,
+        1290
+      ]
+    },
+    {
+      "ladder": "KXMTCH-26NOVPAYERS",
+      "series": "KXMTCH",
+      "company_ticker": "MTCH",
+      "title": "Match total payers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Match Group, Inc. reports Above 12600000.0 total payers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        12600000,
+        12800000,
+        13000000,
+        13200000,
+        13400000,
+        13600000,
+        13800000,
+        14000000
+      ]
+    },
+    {
+      "ladder": "KXCART-26NOVGTV",
+      "series": "KXCART",
+      "company_ticker": "CART",
+      "title": "Instacart gross transaction value in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Instacart reports Above 10300000000 gross transaction value in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        10300000000,
+        10350000000,
+        10400000000,
+        10450000000,
+        10500000000,
+        10550000000,
+        10600000000,
+        10650000000,
+        10700000000
+      ]
+    },
+    {
+      "ladder": "KXRACE-26NOVSHIP",
+      "series": "KXRACE",
+      "company_ticker": "RACE",
+      "title": "Ferrari shipments in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Ferrari N.V. reports Above 3225 total number of car shipments in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3225,
+        3250,
+        3275,
+        3300,
+        3325,
+        3350,
+        3375,
+        3400,
+        3425,
+        3450,
+        3475,
+        3500,
+        3525,
+        3550,
+        3575,
+        3600
+      ]
+    },
+    {
+      "ladder": "KXCDE-26NOVGOLD",
+      "series": "KXCDE",
+      "company_ticker": "CDE",
+      "title": "Coeur Mining gold production in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Coeur Mining, Inc. reports Above 180000 gold production in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        180000,
+        190000,
+        200000,
+        210000,
+        220000,
+        230000
+      ]
+    },
+    {
+      "ladder": "KXKVYO-26NOVCUST50K",
+      "series": "KXKVYO",
+      "company_ticker": "KVYO",
+      "title": "Klaviyo customers over $50k ARR in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Klaviyo Inc. reports Above 4675 customers with over $50k arr in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4675,
+        4725,
+        4775,
+        4825,
+        4875
+      ]
+    },
+    {
+      "ladder": "KXZETA-26NOVSSC",
+      "series": "KXZETA",
+      "company_ticker": "ZETA",
+      "title": "Zeta super-scaled customers (>$1m) in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Zeta Global Holdings Corp. reports Above 200 super-scaled customers (  $1m) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218
+      ]
+    },
+    {
+      "ladder": "KXUBER-26NOVTRIPS",
+      "series": "KXUBER",
+      "company_ticker": "UBER",
+      "title": "Uber trips in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-04T05:00:00Z",
+      "contract_rules": "If Uber Technologies Inc. reports Above 3950000000.0 total trips in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3950000000,
+        4000000000,
+        4050000000,
+        4100000000,
+        4150000000.000001,
+        4200000000,
+        4250000000,
+        4300000000,
+        4350000000
+      ]
+    },
+    {
+      "ladder": "KXYOU-26NOVMEM",
+      "series": "KXYOU",
+      "company_ticker": "YOU",
+      "title": "Clear+ members in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Clear Secure, Inc. reports Above 8400000.0 active clear+ members in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        8400000,
+        8450000,
+        8500000,
+        8550000,
+        8600000,
+        8650000,
+        8700000
+      ]
+    },
+    {
+      "ladder": "KXDUOL-26NOVPAIDSUBS",
+      "series": "KXDUOL",
+      "company_ticker": "DUOL",
+      "title": "Duolingo paid subscribers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Duolingo Inc. reports Above 12700000.0 paid subscribers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        12700000,
+        12900000,
+        13100000,
+        13300000,
+        13500000,
+        13700000,
+        13900000
+      ]
+    },
+    {
+      "ladder": "KXDUOL-26NOVDAU",
+      "series": "KXDUOL",
+      "company_ticker": "DUOL",
+      "title": "Duolingo daily active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Duolingo Inc. reports Above 59000000.0 daily active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        59000000,
+        59500000,
+        60000000,
+        60500000,
+        61000000,
+        61500000,
+        62000000,
+        62500000,
+        63000000,
+        63500000,
+        64000000,
+        64500000,
+        65000000
+      ]
+    },
+    {
+      "ladder": "KXMNST-26NOVCASES",
+      "series": "KXMNST",
+      "company_ticker": "MNST",
+      "title": "Monster Beverage Corporation total case sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Monster Beverage Corporation reports Above 265000000 total case sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        265000000,
+        275000000,
+        285000000,
+        295000000,
+        305000000,
+        315000000,
+        325000000,
+        335000000
+      ]
+    },
+    {
+      "ladder": "KXABNB-26NOVNEB",
+      "series": "KXABNB",
+      "company_ticker": "ABNB",
+      "title": "Airbnb bookings in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Airbnb Inc. reports Above 138000000 nights & experiences booked in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        138000000,
+        140000000,
+        142000000,
+        144000000,
+        146000000,
+        148000000,
+        150000000,
+        152000000,
+        154000000,
+        156000000
+      ]
+    },
+    {
+      "ladder": "KXSG-26NOVMARGIN",
+      "series": "KXSG",
+      "company_ticker": "SG",
+      "title": "Sweetgreen restaurant-level profit margin in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Sweetgreen Inc. reports Above 6% restaurant-level profit margin in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "ladder": "KXWEN-26NOVUSCOMP",
+      "series": "KXWEN",
+      "company_ticker": "WEN",
+      "title": "Wendy's US same-restaurant sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Wendy's Company (The) reports Above -12% u.s. same-restaurant sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -12,
+        -10,
+        -8,
+        -6,
+        -4,
+        -2,
+        0
+      ]
+    },
+    {
+      "ladder": "KXLYFT-26NOVRIDES",
+      "series": "KXLYFT",
+      "company_ticker": "LYFT",
+      "title": "Lyft total rides in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Lyft Inc. reports Above 258000000 total rides in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        258000000,
+        260000000,
+        262000000,
+        264000000,
+        266000000,
+        268000000,
+        270000000,
+        272000000,
+        274000000,
+        276000000,
+        278000000
+      ]
+    },
+    {
+      "ladder": "KXNET-26NOVCUST100K",
+      "series": "KXNET",
+      "company_ticker": "NET",
+      "title": "Cloudflare customers over $100k ARR in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Cloudflare Inc. reports Above 4850 paying customers with over $100k arr in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4850,
+        4900,
+        4950,
+        5000,
+        5050
+      ]
+    },
+    {
+      "ladder": "KXSHOP-26NOVGMV",
+      "series": "KXSHOP",
+      "company_ticker": "SHOP",
+      "title": "Shopify gross merchandise volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Shopify Inc. reports Above 110000000000 gross merchandise volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        110000000000,
+        113000000000,
+        116000000000,
+        119000000000,
+        122000000000,
+        125000000000
+      ]
+    },
+    {
+      "ladder": "KXNTRA-26NOVTESTS",
+      "series": "KXNTRA",
+      "company_ticker": "NTRA",
+      "title": "Natera tests processed in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Natera, Inc. reports Above 1025000 tests processed in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1025000,
+        1050000,
+        1075000,
+        1100000,
+        1125000
+      ]
+    },
+    {
+      "ladder": "KXWING-26NOVREST",
+      "series": "KXWING",
+      "company_ticker": "WING",
+      "title": "Wingstop total restaurants in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Wingstop Inc. reports Above 3280 total system-wide restaurants in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3280,
+        3300,
+        3320,
+        3340,
+        3360,
+        3380,
+        3400,
+        3420
+      ]
+    },
+    {
+      "ladder": "KXWING-26NOVDOMCOMP",
+      "series": "KXWING",
+      "company_ticker": "WING",
+      "title": "Wingstop domestic same store sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Wingstop Inc. reports Above -8% domestic same store sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -8,
+        -6,
+        -4,
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "ladder": "KXDASH-26NOVORDERS",
+      "series": "KXDASH",
+      "company_ticker": "DASH",
+      "title": "DoorDash total orders in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If DoorDash Inc. reports Above 970000000 total orders in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        970000000,
+        980000000,
+        990000000,
+        1000000000,
+        1010000000,
+        1020000000,
+        1030000000,
+        1040000000,
+        1050000000,
+        1060000000
+      ]
+    },
+    {
+      "ladder": "KXGRAB-26NOVMTU",
+      "series": "KXGRAB",
+      "company_ticker": "GRAB",
+      "title": "Grab monthly transacting users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Grab Holdings Limited reports Above 55000000.0 monthly transacting users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        55000000,
+        55500000,
+        56000000,
+        56500000,
+        57000000,
+        57500000,
+        58000000,
+        58500000,
+        59000000,
+        59500000,
+        60000000,
+        60500000,
+        61000000
+      ]
+    },
+    {
+      "ladder": "KXDAVE-26NOVORIG",
+      "series": "KXDAVE",
+      "company_ticker": "DAVE",
+      "title": "Dave ExtraCash origination volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-05T05:00:00Z",
+      "contract_rules": "If Dave Inc. reports Above 2300000000 extracash origination volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2300000000,
+        2400000000,
+        2500000000,
+        2600000000,
+        2700000000
+      ]
+    },
+    {
+      "ladder": "KXWK-26NOVCUST100K",
+      "series": "KXWK",
+      "company_ticker": "WK",
+      "title": "Workiva customers over $100k ACV in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Workiva Inc. reports Above 2760 customers with acv over $100k in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2760,
+        2780,
+        2800,
+        2820,
+        2840,
+        2860
+      ]
+    },
+    {
+      "ladder": "KXDDOG-26NOVCUST100K",
+      "series": "KXDDOG",
+      "company_ticker": "DDOG",
+      "title": "Datadog customers over $100k ARR in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Datadog, Inc. reports Above 4860 customers with arr over $100k in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4860,
+        4880,
+        4900,
+        4920,
+        4940
+      ]
+    },
+    {
+      "ladder": "KXRELY-26NOVACTIVECUST",
+      "series": "KXRELY",
+      "company_ticker": "RELY",
+      "title": "Remitly active customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Remitly Global, Inc. reports Above 10200000 active customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        10200000,
+        10300000,
+        10400000,
+        10500000,
+        10600000,
+        10700000,
+        10800000
+      ]
+    },
+    {
+      "ladder": "KXPAY-26NOVTXN",
+      "series": "KXPAY",
+      "company_ticker": "PAY",
+      "title": "Paymentus transactions processed in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Paymentus Holdings Inc. reports Above 220000000 transactions processed in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        220000000,
+        222500000,
+        225000000,
+        227500000
+      ]
+    },
+    {
+      "ladder": "KXTLN-26NOVGEN",
+      "series": "KXTLN",
+      "company_ticker": "TLN",
+      "title": "Talen Energy TWh generation in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Talen Energy Corporation reports Above 12.0 total generation (twh) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18,
+        18.5,
+        19,
+        19.5,
+        20
+      ]
+    },
+    {
+      "ladder": "KXSEZL-26NOVGMV",
+      "series": "KXSEZL",
+      "company_ticker": "SEZL",
+      "title": "Sezzle gross merchandise volume in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Sezzle Inc. reports Above 1360000000 gross merchandise volume in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1360000000,
+        1380000000,
+        1400000000,
+        1420000000,
+        1440000000
+      ]
+    },
+    {
+      "ladder": "KXTOST-26NOVLOC",
+      "series": "KXTOST",
+      "company_ticker": "TOST",
+      "title": "Toast total locations in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If Toast, Inc. reports Above 178000 total number of locations in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        178000,
+        180000,
+        182000,
+        184000,
+        186000,
+        188000,
+        190000,
+        192000,
+        194000
+      ]
+    },
+    {
+      "ladder": "KXBTSG-26NOVRX",
+      "series": "KXBTSG",
+      "company_ticker": "BTSG",
+      "title": "BrightSpring Health prescriptions filled in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If BrightSpring Health Services, Inc. reports Above 10650000 prescriptions filled in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        10650000,
+        10750000,
+        10850000,
+        10950000,
+        11050000
+      ]
+    },
+    {
+      "ladder": "KXBTSG-26NOVHHADC",
+      "series": "KXBTSG",
+      "company_ticker": "BTSG",
+      "title": "BrightSpring Health home health average daily census in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If BrightSpring Health Services, Inc. reports Above 46800 home health average daily census in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        46800,
+        47000,
+        47200,
+        47400,
+        47600,
+        47800
+      ]
+    },
+    {
+      "ladder": "KXDKNG-26NOVMUP",
+      "series": "KXDKNG",
+      "company_ticker": "DKNG",
+      "title": "DraftKings average monthly unique payers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If DraftKings Inc. reports Above 3400000.0 average monthly unique payers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3400000,
+        3600000,
+        3800000,
+        4000000,
+        4200000,
+        4400000
+      ]
+    },
+    {
+      "ladder": "KXDKNG-26NOVMARGIN",
+      "series": "KXDKNG",
+      "company_ticker": "DKNG",
+      "title": "DraftKings sportsbook margin in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-06T05:00:00Z",
+      "contract_rules": "If DraftKings Inc. reports Above 5.5% sportsbook net revenue margin in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5
+      ]
+    },
+    {
+      "ladder": "KXMNDY-26NOVNDR",
+      "series": "KXMNDY",
+      "company_ticker": "MNDY",
+      "title": "Monday net dollar retention rate for the >$100k arr cohort in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-09T05:00:00Z",
+      "contract_rules": "If monday.com Ltd. reports Above 111% net dollar retention rate for the   $100k arr cohort in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ]
+    },
+    {
+      "ladder": "KXRKLB-26NOVLAUNCH",
+      "series": "KXRKLB",
+      "company_ticker": "RKLB",
+      "title": "Rocket Lab vehicles launched in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-09T05:00:00Z",
+      "contract_rules": "If Rocket Lab Corporation reports Above 4 vehicles launched in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "ladder": "KXKLAR-26NOVCONS",
+      "series": "KXKLAR",
+      "company_ticker": "KLAR",
+      "title": "Klarna active klarna consumers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Klarna Group PLC reports Above 121000000 active klarna consumers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        121000000,
+        122000000,
+        123000000,
+        124000000,
+        125000000,
+        126000000,
+        127000000,
+        128000000
+      ]
+    },
+    {
+      "ladder": "KXBULL-26NOVFUNDED",
+      "series": "KXBULL",
+      "company_ticker": "BULL",
+      "title": "Webull funded accounts in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Webull CORP reports Above 5150000.0 funded accounts in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        5150000,
+        5200000,
+        5250000,
+        5300000,
+        5350000,
+        5400000
+      ]
+    },
+    {
+      "ladder": "KXETOR-26NOVFUNDED",
+      "series": "KXETOR",
+      "company_ticker": "ETOR",
+      "title": "eToro funded accounts in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If eToro Group Ltd. reports Above 4150000.0000000005 funded accounts in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        4150000,
+        4200000,
+        4250000,
+        4300000,
+        4350000,
+        4400000,
+        4450000
+      ]
+    },
+    {
+      "ladder": "KXCRWV-26NOVPOWER",
+      "series": "KXCRWV",
+      "company_ticker": "CRWV",
+      "title": "CoreWeave power capacity in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If CoreWeave, Inc. reports Above 3.8 contracted power capacity in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3.8,
+        4,
+        4.2,
+        4.4,
+        4.6,
+        4.8
+      ]
+    },
+    {
+      "ladder": "KXCRWV-26NOVCENTERS",
+      "series": "KXCRWV",
+      "company_ticker": "CRWV",
+      "title": "CoreWeave data centers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If CoreWeave, Inc. reports Above 53 data centers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "ladder": "KXLMND-26NOVCUST",
+      "series": "KXLMND",
+      "company_ticker": "LMND",
+      "title": "Lemonade total customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Lemonade Inc. reports Above 3440000 total customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3440000,
+        3460000,
+        3480000,
+        3500000,
+        3520000,
+        3540000,
+        3560000,
+        3580000
+      ]
+    },
+    {
+      "ladder": "KXLIF-26NOVMAU",
+      "series": "KXLIF",
+      "company_ticker": "LIF",
+      "title": "Life360 monthly active users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Life360, Inc. reports Above 104500000 global monthly active users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        104500000,
+        105000000,
+        105500000,
+        106000000,
+        106500000,
+        107000000,
+        107500000,
+        108000000
+      ]
+    },
+    {
+      "ladder": "KXGRND-26NOVAPU",
+      "series": "KXGRND",
+      "company_ticker": "GRND",
+      "title": "Grindr average paying users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Grindr Inc. reports Above 1400000 average paying users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1400000,
+        1420000,
+        1440000,
+        1460000,
+        1480000,
+        1500000,
+        1520000,
+        1540000
+      ]
+    },
+    {
+      "ladder": "KXSE-26NOVQPU",
+      "series": "KXSE",
+      "company_ticker": "SE",
+      "title": "Sea Limited Garena paying users in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Sea Limited reports Above 69000000 garena quarterly paying users in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        69000000,
+        72000000,
+        75000000,
+        78000000,
+        81000000
+      ]
+    },
+    {
+      "ladder": "KXSE-26NOVGMV",
+      "series": "KXSE",
+      "company_ticker": "SE",
+      "title": "Sea Limited Shopee GMV in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If Sea Limited reports Above 36000000000.0 shopee gmv in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        36000000000,
+        36500000000,
+        37000000000,
+        37500000000,
+        38000000000,
+        38500000000,
+        39000000000,
+        39500000000,
+        40000000000,
+        40500000000,
+        41000000000,
+        41500000000,
+        42000000000,
+        42500000000,
+        43000000000
+      ]
+    },
+    {
+      "ladder": "KXCAVA-26NOVREST",
+      "series": "KXCAVA",
+      "company_ticker": "CAVA",
+      "title": "CAVA total restaurants in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-10T05:00:00Z",
+      "contract_rules": "If CAVA Group Inc. reports Above 478 total restaurants in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        478,
+        480,
+        482,
+        484,
+        486,
+        488,
+        490,
+        492,
+        494,
+        496,
+        498,
+        500,
+        502,
+        504,
+        506
+      ]
+    },
+    {
+      "ladder": "KXFIG-26NOVHIARR",
+      "series": "KXFIG",
+      "company_ticker": "FIG",
+      "title": "Figma paid customers >$100k arr in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-12T05:00:00Z",
+      "contract_rules": "If Figma, Inc. reports Above 1725 paid customers   $100k arr in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1725,
+        1750,
+        1775,
+        1800,
+        1825,
+        1850
+      ]
+    },
+    {
+      "ladder": "KXSTUB-26NOVGMS",
+      "series": "KXSTUB",
+      "company_ticker": "STUB",
+      "title": "StubHub gross merchandise sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-12T05:00:00Z",
+      "contract_rules": "If StubHub Holdings, Inc. reports Above 2300000000 gross merchandise sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2300000000,
+        2400000000,
+        2500000000,
+        2600000000,
+        2700000000
+      ]
+    },
+    {
+      "ladder": "KXCTCQ-26NOVCOMP",
+      "series": "KXCTCQ",
+      "company_ticker": "CTCQ",
+      "title": "Canadian Tire comparable sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-12T05:00:00Z",
+      "contract_rules": "If Canadian Tire Corporation, Limited reports Above -1% consolidated comparable sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -1,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "ladder": "KXEVLV-26NOVNEWCUST",
+      "series": "KXEVLV",
+      "company_ticker": "EVLV",
+      "title": "Evolv Technologies new customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-13T05:00:00Z",
+      "contract_rules": "If Evolv Technologies Holdings, Inc. reports Above 40 new customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        40,
+        50,
+        60,
+        70,
+        80
+      ]
+    },
+    {
+      "ladder": "KXPBR-26NOVPROD",
+      "series": "KXPBR",
+      "company_ticker": "PBR",
+      "title": "Petrobras total production (Mboed) in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-13T05:00:00Z",
+      "contract_rules": "If Petroleo Brasileiro S.A.- Petrobras reports Above 2950 total oil and gas production in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2950,
+        3000,
+        3050,
+        3100,
+        3150,
+        3200,
+        3250,
+        3300,
+        3350,
+        3400,
+        3450,
+        3500
+      ]
+    },
+    {
+      "ladder": "KXNU-26NOVCUST",
+      "series": "KXNU",
+      "company_ticker": "NU",
+      "title": "Nu Holdings customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-13T05:00:00Z",
+      "contract_rules": "If Nu Holdings Ltd. reports Above 142500000 customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        142500000,
+        143000000,
+        143500000,
+        144000000,
+        144500000
+      ]
+    },
+    {
+      "ladder": "KXHD-26NOVTXN",
+      "series": "KXHD",
+      "company_ticker": "HD",
+      "title": "Home Depot customer transactions in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-17T05:00:00Z",
+      "contract_rules": "If Home Depot Inc. reports Above 380000000 customer transactions in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        380000000,
+        385000000,
+        390000000,
+        395000000,
+        400000000,
+        405000000
+      ]
+    },
+    {
+      "ladder": "KXWSM-26NOVCOMP",
+      "series": "KXWSM",
+      "company_ticker": "WSM",
+      "title": "Williams-Sonoma brand growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-18T05:00:00Z",
+      "contract_rules": "If Williams-Sonoma, Inc. reports Above 3% total comparable brand revenue growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7
+      ]
+    },
+    {
+      "ladder": "KXLOW-26NOVCOMP",
+      "series": "KXLOW",
+      "company_ticker": "LOW",
+      "title": "Lowe's comparable sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-18T05:00:00Z",
+      "contract_rules": "If Lowe's Companies Inc. reports Above -2% comparable sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -2,
+        -1.5,
+        -1,
+        -0.5,
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ]
+    },
+    {
+      "ladder": "KXTGT-26NOVCOMP",
+      "series": "KXTGT",
+      "company_ticker": "TGT",
+      "title": "Target comparable sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-19T05:00:00Z",
+      "contract_rules": "If Target Corporation reports Above 0.0% comparable sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5
+      ]
+    },
+    {
+      "ladder": "KXFUTU-26NOVFUNDED",
+      "series": "KXFUTU",
+      "company_ticker": "FUTU",
+      "title": "Futu total funded accounts in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-19T05:00:00Z",
+      "contract_rules": "If Futu Holdings Limited reports Above 3950000.0 total funded accounts in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3950000,
+        4000000,
+        4050000,
+        4100000,
+        4150000,
+        4200000
+      ]
+    },
+    {
+      "ladder": "KXCAVA-26NOVCOMP",
+      "series": "KXCAVA",
+      "company_ticker": "CAVA",
+      "title": "CAVA same restaurant sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-20T05:00:00Z",
+      "contract_rules": "If CAVA Group, Inc. reports Above 3% same restaurant sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "ladder": "KXDKS-26NOVCOMP",
+      "series": "KXDKS",
+      "company_ticker": "DKS",
+      "title": "Dick's comparable sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-03-24T05:00:00Z",
+      "contract_rules": "If Dick's Sporting Goods Inc reports Above 0% comparable store sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "ladder": "KXDG-26DECSSSG",
+      "series": "KXDG",
+      "company_ticker": "DG",
+      "title": "Dollar General same-store sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-04-02T05:00:00Z",
+      "contract_rules": "If Dollar General Corporation reports Above 1% same-store sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5,
+        4,
+        4.5
+      ]
+    },
+    {
+      "ladder": "KXKR-26DECIDSALES",
+      "series": "KXKR",
+      "company_ticker": "KR",
+      "title": "Kroger sales growth (excl. fuel) in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-04-02T05:00:00Z",
+      "contract_rules": "If The Kroger Co. reports Above -2.0% identical sales growth (excl. fuel) in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        -2,
+        -1,
+        -0.5,
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+      ]
+    },
+    {
+      "ladder": "KXULTA-26DECCOMP",
+      "series": "KXULTA",
+      "company_ticker": "ULTA",
+      "title": "Ulta comparable sales in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-04-03T05:00:00Z",
+      "contract_rules": "If Ulta Beauty, Inc. reports Above 3.5% total comparable sales in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7.5
+      ]
+    },
+    {
+      "ladder": "KXVSXY-26DECCOMP",
+      "series": "KXVSXY",
+      "company_ticker": "VSXY",
+      "title": "Victoria's Secret comparable sales growth in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-04-03T05:00:00Z",
+      "contract_rules": "If Victoria's Secret & Co. reports Above 2% total comparable sales growth in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "ladder": "KXCHWY-26DECACTIVECUST",
+      "series": "KXCHWY",
+      "company_ticker": "CHWY",
+      "title": "Chewy active customers in Q3",
+      "period": "Q3 2026",
+      "venue_closes_at": "2027-04-08T05:00:00Z",
+      "contract_rules": "If Chewy Inc. reports Above 21700000 active customers in Q3 2026, then the market resolves to Yes.",
+      "thresholds": [
+        21700000,
+        21800000,
+        21825000,
+        21850000,
+        21875000,
+        21900000,
+        21925000,
+        21950000,
+        21975000,
+        22000000,
+        22100000
+      ]
+    }
+  ]
+}

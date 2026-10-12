@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+
+# Credentials: never commit them
+.env
+.env.*
+!.env.example
+
+# Live runs and provider data stay local
+runs/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/

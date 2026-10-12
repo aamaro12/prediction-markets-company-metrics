@@ -1,0 +1,76 @@
+{
+  "ladder": "KXCAVA-26NOVCOMP",
+  "report_date": "2026-11-10",
+  "filed_at": "2026-10-12T16:08:08+01:00",
+  "chances": [
+    {
+      "strike": 3,
+      "above": 0.80387817
+    },
+    {
+      "strike": 4,
+      "above": 0.57491005
+    },
+    {
+      "strike": 5,
+      "above": 0.31640419
+    },
+    {
+      "strike": 6,
+      "above": 0.12621968
+    },
+    {
+      "strike": 7,
+      "above": 0.03506183
+    },
+    {
+      "strike": 8,
+      "above": 0.00661017
+    },
+    {
+      "strike": 9,
+      "above": 0.00083201
+    },
+    {
+      "strike": 10,
+      "above": 6.917e-05
+    },
+    {
+      "strike": 11,
+      "above": 3.77e-06
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://uk.finance.yahoo.com/news/cava-group-reports-second-quarter-201000123.html",
+      "locator": "paragraph-0005",
+      "excerpt": "financial results for its fiscal second quarter ended July 12, 2026.",
+      "claim": "Q2 ends July 12, 2026; twelve subsequent weeks end October 4, 2026 (calendar calculation)."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/cava-group-reports-second-quarter-201000123.html",
+      "locator": "paragraph-0661",
+      "excerpt": "In a 52-week fiscal year, the first fiscal quarter contains sixteen weeks and the second, third, and fourth fiscal quarters each contain twelve weeks.",
+      "claim": "Fiscal third quarter contains twelve weeks; model period is July 13 through October 4, 2026."
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+      "locator": "paragraph-0003",
+      "excerpt": "Tuesday, Aug. 11, 2026 at 5:00 p.m. ET",
+      "claim": "Observed weekly sales-band statements were made August 11, within fiscal Q3."
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+      "locator": "paragraph-0122",
+      "excerpt": "Tricia Tolivar: Yes. So it dipped initially to flat to positive and then each week sequentially got better and the last week was a mid-single-digit same restaurant sales.",
+      "claim": "Partial fiscal-Q3 weekly observations: initially flat-to-positive, sequential recovery, latest observed week mid-single-digit; no exact weekly percentages or full-quarter average supplied."
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cava-cava-q2-2026-earnings-225841627.html",
+      "locator": "paragraph-0037",
+      "excerpt": "our same restaurant sales performance has recovered to mid-single digits.",
+      "claim": "Latest observed weekly band in checked later-period searches remains this August 11 statement; projection requires assumptions for the remaining quarter."
+    }
+  ],
+  "method": "I use fiscal Q3 July 13–October 4, twelve weeks after the cited July 12 Q2 end, and assume the August 11 comments summarize its first four completed weeks; initial flat-to-positive and latest mid-single-digit bands are subjective midpoints 1% and 5%, with a linear recovery averaging 3% across those four weeks. I assume the eight unobserved weeks average 5%, yielding (4*3+8*5)/12=4.333% and use a subjective normal quarterly standard deviation 1.5 percentage points for persistence, band interpretation, unequal sales weights and remaining-period uncertainty; this is a projection of observed weekly bands, not the full-year guidance. For a one-decimal reported percentage, P(reported > strike) uses a 0.05-point rounding correction; no later measured weekly band was verified in the checked sources, and report_date November 10 is expected/assumed rather than company-announced."
+}

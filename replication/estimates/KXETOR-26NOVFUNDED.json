@@ -1,0 +1,74 @@
+{
+  "ladder": "KXETOR-26NOVFUNDED",
+  "report_date": "2026-11-10",
+  "filed_at": "2026-10-12T15:08:08.709164+00:00",
+  "chances": [
+    {
+      "strike": 4150000,
+      "above": 0.97981778
+    },
+    {
+      "strike": 4200000,
+      "above": 0.93942924
+    },
+    {
+      "strike": 4250000,
+      "above": 0.85314094
+    },
+    {
+      "strike": 4300000,
+      "above": 0.70884031
+    },
+    {
+      "strike": 4350000,
+      "above": 0.51993881
+    },
+    {
+      "strike": 4400000,
+      "above": 0.32635522
+    },
+    {
+      "strike": 4450000,
+      "above": 0.17105613
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "paragraph-0001",
+      "excerpt": "is reporting the below selected monthly business metrics for August 2026.",
+      "claim": "The release measures August 2026 business metrics."
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "item-0002",
+      "excerpt": "Funded Accounts* were 4.36M, up 18% year-over-year.",
+      "claim": "August funded accounts were 4.36m, matching the contract's funded-accounts metric."
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "paragraph-0002",
+      "excerpt": "* Funded Accounts for August 2026 includes 110,000 from Zengo and Bit2C acquisitions. ** Metrics for August 2026 are estimated as of August 31, 2026. Numbers are rounded but percentages are based on unrounded numbers.",
+      "claim": "The August endpoint includes 110k acquired accounts and is estimated and rounded."
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "paragraph-0010",
+      "excerpt": "Funded Accounts: Funded Accounts are users who have successfully completed the onboarding requirements, activated their account, deposited funds, executed at least one trade, and maintain a positive account balance. For Zengo and Bit2C users, Funded Accounts are defined as users with a positive account balance.",
+      "claim": "The funded-account definition includes a positive-balance requirement, with a distinct rule for acquired Zengo and Bit2C users."
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "paragraph-0003",
+      "excerpt": "The selected preliminary data presented above is based on currently available information, has not been audited or reviewed, is subject to update and should not be extrapolated for future periods.",
+      "claim": "The company warns its monthly observations are preliminary and should not be extrapolated."
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/etoro-reports-selected-august-business-metrics-1036542680",
+      "locator": "paragraph-0003",
+      "excerpt": "Final results and other business metrics for the full fiscal quarter will be available in our filings with the U.S. Securities and Exchange Commission (\u201cSEC\u201d) or otherwise publicly disclosed and might vary from the information in this press release.",
+      "claim": "Final quarter metrics may differ from monthly preliminary data."
+    }
+  ],
+  "method": "Carry August's measured 4.36 million funded accounts forward as the September mean with no assumed net growth, and use a normal latent count with a subjective 100,000 standard deviation for the unobserved month, rounded inputs, preliminary revisions and the inclusion of 110,000 acquired accounts. This is an explicitly uncertain research projection despite the issuer's non-extrapolation warning, not an issuer forecast or a fitted interval; assume the quarterly figure rounds to the nearest 0.01 million and use P(latent count >= strike + 5,000) for strictly above. November 10, 2026 is an unverified expected report date used as a scheduling assumption, not a company announcement; refreshed issuer pages were blocked and the checked indexes/searches supplied no newer numeric measurement."
+}

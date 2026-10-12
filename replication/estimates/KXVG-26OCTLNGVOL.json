@@ -1,0 +1,78 @@
+{
+  "ladder": "KXVG-26OCTLNGVOL",
+  "report_date": "2026-11-10",
+  "filed_at": "2026-10-12T16:08:09.332434+01:00",
+  "chances": [
+    {
+      "strike": 440,
+      "above": 0.57767535
+    },
+    {
+      "strike": 460,
+      "above": 0.31892154
+    },
+    {
+      "strike": 480,
+      "above": 0.12768904
+    },
+    {
+      "strike": 500,
+      "above": 0.03561174
+    },
+    {
+      "strike": 520,
+      "above": 0.00674213
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+      "locator": "page-014",
+      "excerpt": "Cameron (Calcasieu\nPass), LA\n42.9 43.1 39.1 46.6 50.9 47.2 43.5 47.2 47.3 43.6 43.7 47.3",
+      "claim": "DOE monthly Calcasieu Pass exports in Bcf, August 2025 through July 2026; Apr/May/Jun/Jul 2026 are 47.3/43.6/43.7/47.3."
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+      "locator": "page-014",
+      "excerpt": "Plaquemines, LA 78.5 78.6 107.2 104.8 110.6 115.9 96.4 118.5 108.6 111.6 104.9 100.8",
+      "claim": "DOE monthly Plaquemines exports in the same order and Bcf units; Apr/May/Jun/Jul 2026 are 108.6/111.6/104.9/100.8."
+    },
+    {
+      "url": "https://www.energy.gov/sites/default/files/2026-09/Natural%20Gas%20Imports%20and%20Exports%20Monthly%20July%202026.pdf",
+      "locator": "page-014",
+      "excerpt": "U.S.-Produced LNG Exports by Point of Exit\nVolume (Bcf) 2025 2026",
+      "claim": "The monthly point-of-exit series uses volume in Bcf."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/venture-global-reports-second-quarter-103000021.html",
+      "locator": "paragraph-0027",
+      "excerpt": "Exported 127 cargos and sold 466.4 TBtu of liquefied natural gas (\"LNG\")",
+      "claim": "Reported Q2 sold LNG volume is 466.4 TBtu; this calibrates the Q2 DOE-volume bridge rather than treating Bcf as TBtu."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/venture-global-reports-second-quarter-103000021.html",
+      "locator": "paragraph-0002",
+      "excerpt": "August 11, 2026",
+      "claim": "The prior quarterly report date informs the explicitly expected November report-date assumption."
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/venture-global-reports-second-quarter-103000021.html",
+      "locator": "paragraph-0052",
+      "excerpt": "we remain on schedule to produce first LNG in the second half of 2027",
+      "claim": "CP2 is excluded from Q3 export projection because the issuer schedules its first LNG for 2027."
+    },
+    {
+      "url": "https://www.energy.gov/hgeo/articles/natural-gas-imports-and-exports-monthly-2026?as_of=20261012",
+      "locator": "item-0058",
+      "excerpt": "Natural Gas Imports and Exports Monthly July 2026.pdf September 22, 2026",
+      "claim": "Latest DOE monthly publication found on the current index is July, released September 22."
+    },
+    {
+      "url": "https://api.elections.kalshi.com/trade-api/v2/events/KXVG-26OCTLNGVOL",
+      "locator": "json",
+      "excerpt": "Will Venture Global, Inc. report Above 440 tbtu lng volumes in Q3 2026?",
+      "claim": "Venue contract title establishes TBtu threshold units and a strictly-above event."
+    }
+  ],
+  "method": "July DOE exports total 148.1 Bcf at Calcasieu Pass and Plaquemines; scaling the observed July daily rate over the 92-day quarter and multiplying by the empirical Q2 bridge (466.4 TBtu sold / 459.7 Bcf exported) gives a mean of 445.929 TBtu. I model reported volume with a normal distribution and subjective 30-TBtu standard deviation for unobserved August/September, commissioning changes, and an assumed stable export-to-sales/heating-value bridge; this uncertainty is not statistically fitted, and probabilities use an assumed 0.1-TBtu reporting step to handle strict exceedance. CP2 is excluded based on its stated 2027 first-LNG timing, and no later DOE monthly observation was located on the refreshed index. The report date of 2026-11-10 is expected, not announced, using a roughly three-month interval after the August 11 Q2 release."
+}

@@ -1,0 +1,28 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install the package and the pinned linter
+        run: python -m pip install . ruff==0.17.0
+      - name: Formatting and lint
+        run: |
+          ruff format --check src tests
+          ruff check src tests
+      - name: Offline tests
+        run: python -m unittest discover -s tests

@@ -1,0 +1,72 @@
+{
+  "ladder": "KXHOOD-26NOVECVOL",
+  "report_date": "2026-10-27",
+  "filed_at": "2026-10-12T15:08:08.802758+00:00",
+  "chances": [
+    {
+      "strike": 10000000000,
+      "above": 1.0
+    },
+    {
+      "strike": 12000000000,
+      "above": 0.99984966
+    },
+    {
+      "strike": 14000000000,
+      "above": 0.79345371
+    },
+    {
+      "strike": 16000000000,
+      "above": 0.27701594
+    },
+    {
+      "strike": 18000000000,
+      "above": 0.06163168
+    },
+    {
+      "strike": 20000000000,
+      "above": 0.01197522
+    },
+    {
+      "strike": 22000000000,
+      "above": 0.00230002
+    },
+    {
+      "strike": 24000000000,
+      "above": 0.00045795
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "table-001",
+      "excerpt": "Event Contracts Traded were 4.7 billion (down 23% from July 2026, up 15x year-over-year). ADVs were 152 million contracts",
+      "claim": "August event-contract volume is 4.7bn; displayed daily volume is 152m contracts."
+    },
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "table-002",
+      "excerpt": "August 2026 July 2026 M/M Change August 2025 Y/Y Change (M - in millions, B - in billions)",
+      "claim": "Table columns distinguish August and July 2026 and their volume units."
+    },
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "table-002",
+      "excerpt": "Event Contracts (B) 4.7 6.1 (23%) 0.3 +15x",
+      "claim": "July 2026 event contracts are 6.1bn; adding August's 4.7bn gives 10.8bn measured Q3 volume."
+    },
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "paragraph-0007",
+      "excerpt": "The information in this release is unaudited and the information for the months in the most recent fiscal quarter is preliminary, based on Robinhood's estimates, and subject to completion of financial closing procedures.",
+      "claim": "The observed Q3 monthly figures are preliminary and may be revised."
+    },
+    {
+      "url": "https://www.marketscreener.com/news/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026-ce785ddadb8cf120",
+      "locator": "paragraph-0003",
+      "excerpt": "announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close.",
+      "claim": "The company-announced Q3 release date is October 27, 2026."
+    }
+  ],
+  "method": "Sum the observed July 6.1 billion and August 4.7 billion contracts, then model the unobserved September volume as a positive lognormal with mean 4.7 x 30/31 = 4.548387 billion (unchanged August daily rate) and subjective coefficient of variation 35%, giving mean Q3 volume 15.348387 billion. The CV is not fitted, allows September activity to differ materially, and the script integrates independent uniform +/-0.05 billion errors for each preliminary observed month to represent assumed rounding and small revisions. Assume the reported quarterly volume rounds to the nearest 0.1 billion, so a strictly-above outcome uses a latent total at least strike + 0.05 billion; broader revisions are only a model limitation, and checked refreshed indexes, attempted September releases and searches supplied no newer numerical measurement."
+}

@@ -1,0 +1,78 @@
+{
+  "ladder": "KXHOOD-26NOVFUNDED",
+  "report_date": "2026-10-27",
+  "filed_at": "2026-10-12T15:08:08.893863+00:00",
+  "chances": [
+    {
+      "strike": 28500000,
+      "above": 0.87146285
+    },
+    {
+      "strike": 28600000,
+      "above": 0.67963081
+    },
+    {
+      "strike": 28700000,
+      "above": 0.42074029
+    },
+    {
+      "strike": 28800000,
+      "above": 0.19306234
+    },
+    {
+      "strike": 28900000,
+      "above": 0.06259687
+    },
+    {
+      "strike": 29000000,
+      "above": 0.01390345
+    },
+    {
+      "strike": 29100000,
+      "above": 0.0020741
+    },
+    {
+      "strike": 29200000,
+      "above": 0.00020518
+    },
+    {
+      "strike": 29300000,
+      "above": 1.335e-05
+    },
+    {
+      "strike": 29400000,
+      "above": 5.7e-07
+    },
+    {
+      "strike": 29500000,
+      "above": 2e-08
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "table-001",
+      "excerpt": "today reported select monthly operating data for August 2026. Funded Customers at the end of August were 28.6 million (up approximately 120 thousand from the end of July 2026, up approximately 1.90 million year-over-year).",
+      "claim": "August 2026 funded customers are 28.6m and August's net addition versus July is approximately 120k."
+    },
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "paragraph-0007",
+      "excerpt": "The information in this release is unaudited and the information for the months in the most recent fiscal quarter is preliminary, based on Robinhood's estimates, and subject to completion of financial closing procedures.",
+      "claim": "The observed Q3 monthly figures are preliminary and may be revised."
+    },
+    {
+      "url": "https://menafn.com/1111649368/Robinhood-Markets-Inc-Reports-August-2026-Operating-Data",
+      "locator": "paragraph-0004",
+      "excerpt": "Funded Customers do not include Trump Accounts.",
+      "claim": "The measured funded-customer series excludes Trump Accounts."
+    },
+    {
+      "url": "https://www.marketscreener.com/news/robinhood-markets-inc-to-announce-third-quarter-2026-results-on-october-27-2026-ce785ddadb8cf120",
+      "locator": "paragraph-0003",
+      "excerpt": "announced that it will release its third quarter 2026 financial results on Tuesday, October 27, 2026, after market close.",
+      "claim": "The company-announced Q3 release date is October 27, 2026."
+    }
+  ],
+  "method": "Add the observed approximately 120,000 July-to-August increase to August's 28.6 million funded customers to project the unobserved September endpoint at 28.72 million, then use a normal latent count with subjective standard deviation 150,000. This standard deviation is not fitted and covers uncertain September net additions, the rounded August observation and preliminary-data revisions; assume quarterly reporting rounds to the nearest 0.1 million and calculate P(latent count >= strike + 50,000) for strictly above. Refreshed issuer indexes and attempted September releases were blocked and the checked searches yielded no newer numerical measurement, so September growth remains a projection."
+}

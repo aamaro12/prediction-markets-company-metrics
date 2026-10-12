@@ -1,0 +1,170 @@
+{
+  "ladder": "KXUAL-26OCTPAX",
+  "report_date": "2026-10-20",
+  "filed_at": "2026-10-12T15:08:09.254924+00:00",
+  "chances": [
+    {
+      "strike": 47750000,
+      "above": 0.97732826
+    },
+    {
+      "strike": 48000000,
+      "above": 0.96873827
+    },
+    {
+      "strike": 48250000,
+      "above": 0.95761685
+    },
+    {
+      "strike": 48500000,
+      "above": 0.94349268
+    },
+    {
+      "strike": 48750000,
+      "above": 0.92589717
+    },
+    {
+      "strike": 49000000,
+      "above": 0.90439529
+    },
+    {
+      "strike": 49250000,
+      "above": 0.87862097
+    },
+    {
+      "strike": 49500000,
+      "above": 0.84831464
+    },
+    {
+      "strike": 49750000,
+      "above": 0.81335913
+    },
+    {
+      "strike": 50000000,
+      "above": 0.7738103
+    },
+    {
+      "strike": 50250000,
+      "above": 0.72991807
+    },
+    {
+      "strike": 50500000,
+      "above": 0.68213463
+    },
+    {
+      "strike": 50750000,
+      "above": 0.63110728
+    },
+    {
+      "strike": 51000000,
+      "above": 0.57765522
+    },
+    {
+      "strike": 51250000,
+      "above": 0.52273125
+    },
+    {
+      "strike": 51500000,
+      "above": 0.46737138
+    },
+    {
+      "strike": 51750000,
+      "above": 0.4126365
+    },
+    {
+      "strike": 52000000,
+      "above": 0.35955183
+    },
+    {
+      "strike": 52250000,
+      "above": 0.30904967
+    }
+  ],
+  "inputs": [
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-003",
+      "excerpt": "United Air Lines (UA) Scheduled Services Only BTS Data as of 10/12/2026",
+      "claim": "Selected UA operating-carrier scheduled-services proxy, acquired via visible public POST form."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/united-airlines-continues-to-win-brand-loyal-customers-as-q3-profit-and-q4-outlook-both-exceed-wall-street-expectations-302585413.html",
+      "locator": "table-003",
+      "excerpt": "Three Months Ended September 30, % Increase/ (Decrease) Nine Months Ended September 30, % Increase/ (Decrease) 2025 2024 2025 2024",
+      "claim": "Prior-period operating-statistics column order: Q3 2025 then Q3 2024."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/united-airlines-continues-to-win-brand-loyal-customers-as-q3-profit-and-q4-outlook-both-exceed-wall-street-expectations-302585413.html",
+      "locator": "table-003",
+      "excerpt": "Passengers (thousands) (a) 48,382 45,559 6.2 135,374 129,259 4.7",
+      "claim": "Issuer reported Q3 2025 passenger total 48,382,000 and comparative Q3 2024 total 45,559,000, rather than certificate-only traffic."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/united-airlines-continues-to-win-brand-loyal-customers-as-q3-profit-and-q4-outlook-both-exceed-wall-street-expectations-302585413.html",
+      "locator": "table-004",
+      "excerpt": "(a) The number of revenue passengers measured by each flight segment flown.",
+      "claim": "Issuer target counts revenue passengers by flight segment, not unique people or seats."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+      "locator": "table-006/row-007/cell-002",
+      "excerpt": "Non-Stop Segment Passengers Transported",
+      "claim": "BTS segment passenger measure aligns conceptually with the issuer segment count, subject to revenue/nonrevenue and reporting perimeter differences."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FIM",
+      "locator": "table-006/row-016/cell-002",
+      "excerpt": "A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.",
+      "claim": "A certificate is not automatically the contract company/group, so use a historical reporting bridge rather than asserting equality."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/ReleaseInfo.asp",
+      "locator": "table-001/row-005/cell-003",
+      "excerpt": "10/9/2026: 7/2026 added 4/2026 updated",
+      "claim": "July is the latest released T-100 domestic-segment month; no current August/September measurement is claimed."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2026; Number of Passengers: 10768",
+      "claim": "UA July 2026 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2025; Number of Passengers: 10145",
+      "claim": "UA July 2025 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: August 2025; Number of Passengers: 9722",
+      "claim": "UA August 2025 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: September 2025; Number of Passengers: 9195",
+      "claim": "UA September 2025 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: July 2024; Number of Passengers: 9483",
+      "claim": "UA July 2024 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: August 2024; Number of Passengers: 9331",
+      "claim": "UA August 2024 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    },
+    {
+      "url": "https://www.transtats.bts.gov/carriers.asp?mef_form_post=1&Carrier=UA&End_YearMonth=24319",
+      "locator": "table-001",
+      "excerpt": "Date: September 2024; Number of Passengers: 8633",
+      "claim": "UA September 2024 passenger chart measurement; used as a dimensionless same-carrier growth proxy and for historical bridge comparison."
+    }
+  ],
+  "method": "Project the issuer's Q3 2025 reported segment-revenue-passenger total 48,382,000 by the latest in-quarter UA July passenger ratio 10,768/10,145 to obtain a Q3 2026 mean of 51,353,117 passengers. The certificate-only BTS chart Q3 sums 29,062 in 2025 and 27,447 in 2024 map to issuer totals 48,382 and 45,559 thousand with historical bridge factors 1.66479 and1.65989; preserving that bridge anchors the forecast to the contract's issuer perimeter while avoiding direct summation of regional certificates that may serve several groups. Assume a Normal predictive distribution with this mean and judgemental SD 1,800,000 passengers for missing August/September observations, regional/group mix, revenue-passenger definition differences, and changes in the reporting bridge; July is the latest released month and the SD is deliberately not claimed as empirically estimated. For each strictly-above threshold, use the Normal survival probability at strike plus 500 passengers as a continuity correction for the issuer's thousand-passenger reporting grid."
+}

@@ -1,0 +1,74 @@
+{
+  "events": 120,
+  "accuracy": {
+    "n": 138,
+    "median_gap_share": 0.012011840082909779,
+    "with_spread": 125,
+    "inside_spread": 71
+  },
+  "primary": {
+    "n": 120,
+    "dates": 69,
+    "beats": 68,
+    "misses": 52,
+    "difference": 0.03793193941768906,
+    "low": -0.00412300377885336,
+    "high": 0.08026192923091902,
+    "se": 0.021809135280874612,
+    "detectable": 0.06106557878644891
+  },
+  "secondary": {
+    "two_sessions": {
+      "n": 120,
+      "dates": 69,
+      "beats": 68,
+      "misses": 52,
+      "difference": 0.04188346983937861,
+      "low": -0.005471651603700253,
+      "high": 0.08869363372670598,
+      "se": 0.024254927983471692,
+      "detectable": 0.06791379835372073
+    },
+    "direction": {
+      "beats": 68,
+      "beats_up": 31,
+      "misses": 52,
+      "misses_down": 30
+    },
+    "spread_and_move": {
+      "n": 107,
+      "rank_correlation": -0.09087168635749134
+    }
+  },
+  "exploratory": {
+    "drift_20": {
+      "n": 117,
+      "dates": 67,
+      "beats": 65,
+      "misses": 52,
+      "difference": -0.008643725715074723,
+      "low": -0.058462086212944686,
+      "high": 0.046539441765156384,
+      "se": 0.026643681163538234,
+      "detectable": 0.07460230725790705
+    },
+    "drift_60": {
+      "n": 50,
+      "dates": 40,
+      "beats": 31,
+      "misses": 19,
+      "difference": 0.07047772826756432,
+      "low": -0.04281030219412815,
+      "high": 0.20328613326505804,
+      "se": 0.06300476803516347,
+      "detectable": 0.17641335049845772
+    },
+    "slope": {
+      "n": 107,
+      "slope": 0.016476222405968254,
+      "low": -0.01074170528886979,
+      "high": 0.051669173792463614
+    }
+  },
+  "conclusion": "no measurable difference"
+}
